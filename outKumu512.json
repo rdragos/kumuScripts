@@ -1,0 +1,1337 @@
+{
+  "elements": [
+    {
+      "abstract": "As this paper puts forward the notion of “Oblivious Transfers” and is a well-known and frequently cited paper, I felt I should typeset the manuscript, and here is the result. While typesetting, I tried to stick to the original manuscript as much as possible. However, there were some cases, such as a few typos or punctuation marks, which were changed. As in many papers on cryptography, Alice and Bob play the role of participants of the given cryptographic protocols. For the sake of readability, Alice’s and Bob’s messages were printed in red and blue ink, respectively. This work was carefully proofread by my colleague Y. Sobhdel (sobhdel@ce.sharif.edu). Thanks also to H. M. Moghaddam for mentioning a minor mistake in an earlier version. That said, I will be thankful if you inform me of any possible mistakes.",
+      "authors": [
+        "Michael O. Rabin"
+      ],
+      "id": "772cdcc8a67cc878b39409230cbf2488a1117e62",
+      "label": "Rabin81",
+      "s2Url": "https://semanticscholar.org/paper/772cdcc8a67cc878b39409230cbf2488a1117e62",
+      "title": "How To Exchange Secrets with Oblivious Transfer",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 1981,
+      "numInCitations": 957
+    },
+    {
+      "abstract": "In this paper we describe simple identification and signature schemes which enable any user to prove his identity and the authenticity of his messages to any other user without shared or public keys. The schemes are provably secure against any known or chosen message attack if factoring is difficult, and typical implementations require only 1% to 4% of the number of modular multiplications required by the RSA scheme. Due to their simplicity, security and speed, these schemes are ideally suited for microprocessor-based devices such as smart cards, personal computers, and remote control systems.",
+      "authors": [
+        "Amos Fiat",
+        "Adi Shamir"
+      ],
+      "id": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "label": "FiatShamir86",
+      "s2Url": "https://semanticscholar.org/paper/b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "title": "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
+      "venue": "CRYPTO",
+      "year": 1986,
+      "numInCitations": 2087
+    },
+    {
+      "abstract": "Keeping confidential who sends which messages, in a world where any physical transmission can be traced to its origin, seems impossible. The solution presented here is unconditionally or cryptographically secure, depending on whether it is based on one-time-use keys or on public keys, respectively. It can be adapted to address efficiently a wide variety of practical considerations.",
+      "authors": [
+        "David Chaum"
+      ],
+      "id": "10d0ee23caea21b78b50b366c355bf2cfa0b6cf5",
+      "label": "Chaum88",
+      "s2Url": "https://semanticscholar.org/paper/10d0ee23caea21b78b50b366c355bf2cfa0b6cf5",
+      "title": "The dining cryptographers problem: Unconditional sender and recipient untraceability",
+      "venue": "Journal of Cryptology",
+      "year": 1988,
+      "numInCitations": 1076
+    },
+    {
+      "abstract": "In a society oriented cryptography it is better to have a public key for the company (organization) than having one for each individual employee [Des88]. Certainly in emergency situations, power is shared in many organizations. Solutions to this problem were presented [Des88], based on [GMW87], but are completely impractical and interactive. In this paper practical non-interactive public key systems are proposed which allow the reuse of the shared secret key since the key is not revealed either to insiders or to outsiders.",
+      "authors": [
+        "Yvo Desmedt",
+        "Yair Frankel"
+      ],
+      "id": "bdccfcb9e908460052b799d0ccf6a21e92225e35",
+      "label": "DesmedtFrankel89",
+      "s2Url": "https://semanticscholar.org/paper/bdccfcb9e908460052b799d0ccf6a21e92225e35",
+      "title": "Threshold Cryptosystems",
+      "venue": "CRYPTO",
+      "year": 1989,
+      "numInCitations": 563
+    },
+    {
+      "abstract": "In this paper the generality and wide applicability of Zero-knowledge proofs, a notion introduced by Goldwasser, Micali, and Rackoff is demonstrated. These are probabilistic and interactive proofs that, for the members of a language, efficiently demonstrate membership in the language without conveying any additional knowledge. All previously known zero-knowledge proofs were only for number-theoretic languages in NP fl CONP. Under the assumption that secure encryption functions exist or by using \"physical means for hiding information, '' it is shown that all languages in NP have zero-knowledge proofs. Loosely speaking, it is possible to demonstrate that a CNF formula is satisfiable without revealing any other property of the formula, in particular, without yielding neither a satis@ing assignment nor properties such as whether there is a satisfying assignment in which xl = X3 etc. It is also demonstrated that zero-knowledge proofs exist \"outside the domain of cryptography and number theory. \" Using no assumptions. it is shown that both graph isomorphism and graph nonisomor- phism have zero-knowledge interactive proofs. The mere existence of an interactive proof for graph nonisomorphism is interesting, since graph nonisomorphism is not known to be in NP and hence no efficient proofs were known before for demonstrating that two graphs are not isomorphic.",
+      "authors": [
+        "Oded Goldreich",
+        "Silvio Micali",
+        "Avi Wigderson"
+      ],
+      "id": "eba8a236ca3afa59bba5c86b12611d00eea6e5ba",
+      "label": "GMW+91",
+      "s2Url": "https://semanticscholar.org/paper/eba8a236ca3afa59bba5c86b12611d00eea6e5ba",
+      "title": "Proofs that yield nothing but their validity or all languages in NP have zero-knowledge proof systems",
+      "venue": "JACM",
+      "year": 1991,
+      "numInCitations": 873
+    },
+    {
+      "abstract": "Software protection is one of the most important issues concerning computer practice. There exist many heuristics and ad-hoc methods for protection, but the problem as a whole has not received the theoretical treatment it deserves. In this paper, we provide theoretical treatment of software protection. We reduce the problem of software protection to the problem of efficient simulation on oblivious RAM.\nA machine is oblivious if thhe sequence in which it accesses memory locations is equivalent for any two inputs with the same running time. For example, an oblivious Turing Machine is one for which the movement of the heads on the tapes is identical for each computation. (Thus, the movement is independent of the actual input.) What is the slowdown in the running time of a machine, if it is required to be oblivious? In 1979, Pippenger and Fischer showed how a two-tape oblivious Turing Machine can simulate, on-line, a one-tape Turing Machine, with a logarithmic slowdown in the running time. We show an analogous result for the random-access machine (RAM) model of computation. In particular, we show how to do an on-line simulation of an arbitrary RAM by a probabilistic oblivious RAM with a polylogaithmic slowdown in the running time. On the other hand, we show that a logarithmic slowdown is a lower bound.",
+      "authors": [
+        "Rafail Ostrovsky"
+      ],
+      "id": "86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "label": "Ostrovsky92",
+      "s2Url": "https://semanticscholar.org/paper/86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "title": "Software protection and simulation on oblivious RAMs",
+      "venue": "JACM",
+      "year": 1992,
+      "numInCitations": 1047
+    },
+    {
+      "abstract": "In this paper we consider a new type of cryptographic scheme, which can decode concealed images without any cryptographic computations. The scheme is perfectly secure and very easy to implement. We extend it into a visual variant of the k out of n secret sharing problem, in which a dealer provides a transparency to each one of the n users; any k of them can see the image by stacking their transparencies, but any k-1 of them gain no information about it.",
+      "authors": [
+        "Moni Naor",
+        "Adi Shamir"
+      ],
+      "id": "3eb633f032e5f70d7e0e415948ebd9dc5cf0399d",
+      "label": "NaorShamir94",
+      "s2Url": "https://semanticscholar.org/paper/3eb633f032e5f70d7e0e415948ebd9dc5cf0399d",
+      "title": "Visual Cryptography",
+      "venue": "EUROCRYPT",
+      "year": 1994,
+      "numInCitations": 1082
+    },
+    {
+      "abstract": "Suppose we are given a proof of knowledge P in which a prover demonstrates that he knows a solution to a given problem instance. Suppose also that we have a secret sharing scheme S on n participants. Then under certain assumptions on P and S, we show how to transform P into a witness indistinguishable protocol, in which the prover demonstrates knowledge of the solution to some subset of n problem instances out of a collection of subsets denned by S. For example, using a threshold scheme, the prover can show that he knows at least d out of n solutions without revealing which d instances are involved. If the instances axe independently generated, we get a witness hiding protocol, even if P did not have this property. Our results can be used to efficiently implement general forms of group oriented identification and signatures. Our transformation produces a protocol with the same number of rounds as P and communication complexity n times that of P. Our results use no unproven complexity assumptions.",
+      "authors": [
+        "Ronald Cramer",
+        "Ivan Damgård",
+        "Berry Schoenmakers"
+      ],
+      "id": "2c1e94e5dea3cac89dda43b90333c40c61f670c0",
+      "label": "CDS+94",
+      "s2Url": "https://semanticscholar.org/paper/2c1e94e5dea3cac89dda43b90333c40c61f670c0",
+      "title": "Proofs of Partial Knowledge and Simplified Design of Witness Hiding Protocols",
+      "venue": "CRYPTO",
+      "year": 1994,
+      "numInCitations": 726
+    },
+    {
+      "abstract": "We describe an RSA-based signing scheme which combines essentially optimal efficiency with attractive security properties. Signing takes one RSA decryption plus some hashing, verification takes one RSA encryption plus some hashing, and the size of the signature is the size of the modulus. Assuming the underlying hash functions are ideal, our schemes are not only provably secure, but are so in a tight way-- an ability to forge signatures with a certain amount of computational resources implies the ability to invert RSA (on the same size modulus) with about the same computational effort. Furthermore, we provide a second scheme which maintains all of the above features and in addition provides message recovery. These ideas extend to provide schemes for Rabin signatures with analogous properties; in particular their security can be tightly related to the hardness of factoring.",
+      "authors": [
+        "Mihir Bellare",
+        "Phillip Rogaway"
+      ],
+      "id": "36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
+      "label": "BellareRogaway96",
+      "s2Url": "https://semanticscholar.org/paper/36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
+      "title": "The Exact Security of Digital Signatures - HOw to Sign with RSA and Rabin",
+      "venue": "EUROCRYPT",
+      "year": 1996,
+      "numInCitations": 610
+    },
+    {
+      "abstract": "First, we introduce the notion of divertibility as a protocol property as opposed to the existing notion as a language property (see Okamoto, Ohta [OO90]). We give a definition of protocol divertibility that applies to arbitrary 2-party protocols and is compatible with Okamoto and Ohta's definition in the case of interactive zero-knowledge proofs. Other important examples falling under the new definition are blind signature protocols. We propose a sufficiency criterion for divertibility that is satisfied by many existing protocols and which, surprisingly, generalizes to cover several protocols not normally associated with divertibility (e.g., Diffie-Hellman key exchange). Next, we introduce atomic proxy cryptography, in which an atomic proxy function, in conjunction with a public proxy key, converts ciphertexts (messages or signatures) for one key into ciphertexts for another. Proxy keys, once generated, may be made public and proxy functions applied in untrusted environments. We present atomic proxy functions for discrete-log-based encryption, identification, and signature schemes. It is not clear whether atomic proxy functions exist in general for all public-key cryptosystems. Finally, we discuss the relationship between divertibility and proxy cryptography.",
+      "authors": [
+        "Matt Blaze",
+        "Gerrit Bleumer",
+        "Martin Strauss"
+      ],
+      "id": "ff2695513e7e0f49a0a484818c19b6346e076172",
+      "label": "BBS+98",
+      "s2Url": "https://semanticscholar.org/paper/ff2695513e7e0f49a0a484818c19b6346e076172",
+      "title": "Divertible Protocols and Atomic Proxy Cryptography",
+      "venue": "EUROCRYPT",
+      "year": 1998,
+      "numInCitations": 798
+    },
+    {
+      "abstract": "Abstract. We present general definitions of security for multiparty cryptographic protocols, with focus on the task of evaluating a probabilistic function of the parties' inputs. We show that, with respect to these definitions, security is preserved under a natural composition operation. The definitions follow the general paradigm of known definitions; yet some substantial modifications and simplifications are introduced. The composition operation is the natural ``subroutine substitution'' operation, formalized by Micali and Rogaway. We consider several standard settings for multiparty protocols, including the cases of eavesdropping, Byzantine, nonadaptive and adaptive adversaries, as well as the information-theoretic and the computational models. In particular, in the computational model we provide the first definition of security of protocols that is shown to be preserved under composition.",
+      "authors": [
+        "Ran Canetti"
+      ],
+      "id": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
+      "label": "Canetti98",
+      "s2Url": "https://semanticscholar.org/paper/9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
+      "title": "Security and Composition of Multiparty Cryptographic Protocols",
+      "venue": "Journal of Cryptology",
+      "year": 1998,
+      "numInCitations": 803
+    },
+    {
+      "abstract": "This paper presents a generic conversion from weak asymmetric and symmetric encryption schemes to an asymmetric encryption scheme that is chosen-ciphertext secure in the random oracle model. Our conversion is the first generic transformation from an arbitrary one-way asymmetric encryption scheme to a chosen-ciphertext secure asymmetric encryption scheme in the random oracle model.",
+      "authors": [
+        "Eiichiro Fujisaki",
+        "Tatsuaki Okamoto"
+      ],
+      "id": "cd9ae7c817ff251124cc723db7f3bae0b757bef6",
+      "label": "FujisakiOkamoto99",
+      "s2Url": "https://semanticscholar.org/paper/cd9ae7c817ff251124cc723db7f3bae0b757bef6",
+      "title": "Secure Integration of Asymmetric and Symmetric Encryption Schemes",
+      "venue": "Journal of Cryptology",
+      "year": 1999,
+      "numInCitations": 629
+    },
+    {
+      "abstract": "We propose a novel paradigm for defining security of cryptographic protocols, called universally composable security. The salient property of universally composable definitions of security is that they guarantee security even when a secure protocol is composed of an arbitrary set of protocols, or more generally when the protocol is used as a component of an arbitrary system. This is an essential property for maintaining security of cryptographic protocols in complex and unpredictable environments such as the Internet. In particular, universally composable definitions guarantee security even when an unbounded number of protocol instances are executed concurrently in an adversarially controlled manner, they guarantee non-malleability with respect to arbitrary protocols, and more. We show how to formulate universally composable definitions of security for practically any cryptographic task. Furthermore, we demonstrate that practically any such definition can be realized using known techniques, as long as only a minority of the participants are corrupted. We then proceed to formulate universally composable definitions of a wide array of cryptographic tasks, including authenticated and secure communication, key-exchange, public-key encryption, signature, commitment, oblivious transfer, zero knowledge and more. We also make initial steps towards studying the realizability of the proposed definitions in various settings.",
+      "authors": [
+        "Ran Canetti"
+      ],
+      "id": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
+      "label": "Canetti00",
+      "s2Url": "https://semanticscholar.org/paper/44dc896ec1d1abf65a88a8f076515d26b54c6047",
+      "title": "Universally composable security: a new paradigm for cryptographic protocols",
+      "venue": "Proceedings 2001 IEEE International Conference on Cluster Computing",
+      "year": 2000,
+      "numInCitations": 1880
+    },
+    {
+      "abstract": "In this paper we introduce the concept of privacy preserving data mining. In our model, two parties owning confidential databases wish to run a data mining algorithm on the union of their databases, without revealing any unnecessary information. This problem has many practical and important applications, such as in medical research with confidential patient records. \n \nData mining algorithms are usually complex, especially as the size of the input is measured in megabytes, if not gigabytes. A generic secure multi-party computation solution, based on evaluation of a circuit computing the algorithm on the entire input, is therefore of no practical use. We focus on the problem of decision tree learning and use ID3, a popular and widely used algorithm for this problem. We present a solution that is considerably more efficient than generic solutions. It demands very few rounds of communication and reasonable bandwidth. In our solution, each party performs by itself a computation of the same order as computing the ID3 algorithm for its own database. The results are then combined using efficient cryptographic protocols, whose overhead is only logarithmic in the number of transactions in the databases. We feel that our result is a substantial contribution, demonstrating that secure multi-party computation can be made practical, even for complex problems and large inputs.",
+      "authors": [
+        "Yehuda Lindell",
+        "Benny Pinkas"
+      ],
+      "id": "9a1d75a5c79e603ab7ceecc4bb07ee736e402c18",
+      "label": "LindellPinkas00",
+      "s2Url": "https://semanticscholar.org/paper/9a1d75a5c79e603ab7ceecc4bb07ee736e402c18",
+      "title": "Privacy Preserving Data Mining",
+      "venue": "CRYPTO",
+      "year": 2000,
+      "numInCitations": 1268
+    },
+    {
+      "abstract": "In this paper we formalize the notion of a ring signature, which makes it possible to specify a set of possible signers without revealing which member actually produced the signature. Unlike group signatures, ring signatures have no group managers, no setup procedures, no revocation procedures, and no coordination: any user can choose any set of possible signers that includes himself, and sign any message by using his secret key and the others' public keys, without getting their approval or assistance. Ring signatures provide an elegant way to leak authoritative secrets in an anonymous way, to sign casual email in a way which can only be verified by its intended recipient, and to solve other problems in multiparty computations. The main contribution of this paper is a new construction of such signatures which is unconditionally signer-ambiguous, provably secure in the random oracle model, and exceptionally efficient: adding each ring member increases the cost of signing or verifying by a single modular multiplication and a single symmetric encryption.",
+      "authors": [
+        "Ronald L. Rivest",
+        "Adi Shamir",
+        "Yael Tauman Kalai"
+      ],
+      "id": "bf7267a08fa0347f825b2c3cefc85f13f1ce772e",
+      "label": "RSK+01",
+      "s2Url": "https://semanticscholar.org/paper/bf7267a08fa0347f825b2c3cefc85f13f1ce772e",
+      "title": "How to Leak a Secret",
+      "venue": "ASIACRYPT",
+      "year": 2001,
+      "numInCitations": 834
+    },
+    {
+      "abstract": "One of the main challenges of securing multicast communicationis source authentication,or enabling receivers of multicast data to verify that the received data originated with the claimed source and was not modified enroute. The problem becomes more complex in common settings where other receivers of the data are not trusted, and where lost packets are not retransmitted. Several source authentication schemes for multicast have been suggested in the past, but none of these schemes is satisfactorily efficient in all prominent parameters. We recently proposed a very efficient scheme, TESLA, that is based on initial loose time synchronization between the sender and the receivers, followed by delayed release of keys by the sender. This paper proposes several substantial modifications and improvements to TESLA. One modification allows receivers to authenticate most packets as soon as they arrive (whereas TESLArequires buffering packets at the receiver side, and provides delayed authentication only). Other modifications improve the scalability of the scheme, reduce the space overhead for multiple instances, increase its resistance to denial-of-service attacks, and more.",
+      "authors": [
+        "Adrian Perrig",
+        "Ran Canetti",
+        "Dawn Xiaodong Song",
+        "J. Doug Tygar"
+      ],
+      "id": "6d1f292dcb0aa92d96b955229d7d3f500dde908b",
+      "label": "PCS+01",
+      "s2Url": "https://semanticscholar.org/paper/6d1f292dcb0aa92d96b955229d7d3f500dde908b",
+      "title": "Efficient and Secure Source Authentication for Multicast",
+      "venue": "NDSS",
+      "year": 2001,
+      "numInCitations": 537
+    },
+    {
+      "abstract": "A credential system is a system in which users can obtain credentials from organizations and demonstrate possession of these credentials. Such a system is anonymous when transactions carried out by the same user cannot be linked. An anonymous credential system is of significant practical relevance because it is the best means of providing privacy for users. In this paper we propose a practical anonymous credential system that is based on the strong RSA assumption and the decisional Diffie-Hellman assumption modulo a safe prime product and is considerably superior to existing ones: (1) We give the first practical solution that allows a user to unlinkably demonstrate possession of a credential as many times as necessary without involving the issuing organization. (2) To prevent misuse of anonymity, our scheme is the first to offer optional anonymity revocation for particular transactions. (3) Our scheme offers separability: all organizations can choose their cryptographic keys independently of each other. Moreover, we suggest more effective means of preventing users from sharing their credentials, by introducing all-or-nothing sharing: a user who allows a friend to use one of her credentials once, gives him the ability to use all of her credentials, i.e., taking over her identity. This is implemented by a new primitive, called circular encryption, which is of independent interest, and can be realized from any semantically secure cryptosystem in the random oracle model.",
+      "authors": [
+        "Jan Camenisch",
+        "Anna Lysyanskaya"
+      ],
+      "id": "582f54c4f2a588fb2d8b83a398dbeee4d8577373",
+      "label": "CamenischLysyanskaya01",
+      "s2Url": "https://semanticscholar.org/paper/582f54c4f2a588fb2d8b83a398dbeee4d8577373",
+      "title": "An Efficient System for Non-transferable Anonymous Credentials with Optional Anonymity Revocation",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2001,
+      "numInCitations": 583
+    },
+    {
+      "abstract": "We introduce the notion of a dynamic accumulator. An accumulator scheme allows one to hash a large set of inputs into one short value, such that there is a short proof that a given input was incorporated into this value. A dynamic accumulator allows one to dynamically add and delete a value, such that the cost of an add or delete is independent of the number of accumulated values. We provide a construction of a dynamic accumulator and an efficient zero-knowledge proof of knowledge of an accumulated value. We prove their security under the strong RSA assumption. We then show that our construction of dynamic accumulators enables efficient revocation of anonymous credentials, and membership revocation for recent group signature and identity escrow schemes.",
+      "authors": [
+        "Jan Camenisch",
+        "Anna Lysyanskaya"
+      ],
+      "id": "54526178a9d3f860072b78717eab01e49209a4ba",
+      "label": "CamenischLysyanskaya02",
+      "s2Url": "https://semanticscholar.org/paper/54526178a9d3f860072b78717eab01e49209a4ba",
+      "title": "Dynamic Accumulators and Application to Efficient Revocation of Anonymous Credentials",
+      "venue": "CRYPTO",
+      "year": 2002,
+      "numInCitations": 523
+    },
+    {
+      "abstract": "An aggregate signature scheme is a digital signature that supports aggregation: Given n signatures on n distinct messages from n distinct users, it is possible to aggregate all these signatures into a single short signature. This single signature (and the n original messages) will convince the verifier that the n users did indeed sign the n original messages (i.e., user i signed message Mi for i = 1, . . . , n). In this paper we introduce the concept of an aggregate signature, present security models for such signatures, and give several applications for aggregate signatures. We construct an efficient aggregate signature from a recent short signature scheme based on bilinear maps due to Boneh, Lynn, and Shacham. Aggregate signatures are useful for reducing the size of certificate chains (by aggregating all signatures in the chain) and for reducing message size in secure routing protocols such as SBGP. We also show that aggregate signatures give rise to verifiably encrypted signatures. Such signatures enable the verifier to test that a given ciphertext C is the encryption of a signature on a given message M. Verifiably encrypted signatures are used in contract-signing protocols. Finally, we show that similar ideas can be used to extend the short signature scheme to give simple ring signatures.",
+      "authors": [
+        "Dan Boneh",
+        "Craig Gentry",
+        "Ben Lynn",
+        "Hovav Shacham"
+      ],
+      "id": "dab56166e49905226ded911a135f239f27de97bc",
+      "label": "BGL+02",
+      "s2Url": "https://semanticscholar.org/paper/dab56166e49905226ded911a135f239f27de97bc",
+      "title": "Aggregate and Verifiably Encrypted Signatures from Bilinear Maps",
+      "venue": "EUROCRYPT",
+      "year": 2002,
+      "numInCitations": 1105
+    },
+    {
+      "abstract": "Although people have hidden secrets in plain sight-now called steganography-throughout the ages, the recent growth in computational power and technology has propelled it to the forefront of today's security techniques. Essentially, the information-hiding process in a steganographic system starts by identifying a cover medium's redundant bits (those that can be modified without destroying that medium's integrity). The embedding process creates a stego medium by replacing these redundant bits with data from the hidden message. This article discusses existing steganographic systems and presents recent research in detecting them via statistical steganalysis. Here, we present recent research and discuss the practical application of detection algorithms and the mechanisms for getting around them.",
+      "authors": [
+        "Niels Provos",
+        "Peter Honeyman"
+      ],
+      "id": "75f182a2393c785543c089ffd5cff3ef71fa44c7",
+      "label": "ProvosHoneyman03",
+      "s2Url": "https://semanticscholar.org/paper/75f182a2393c785543c089ffd5cff3ef71fa44c7",
+      "title": "Hide and Seek: An Introduction to Steganography",
+      "venue": "IEEE Security & Privacy",
+      "year": 2003,
+      "numInCitations": 798
+    },
+    {
+      "abstract": "We study the problem of searching on data that is encrypted using a public key system. Consider user Bob who sends email to user Alice encrypted under Alice’s public key. An email gateway wants to test whether the email contains the keyword “urgent” so that it could route the email accordingly. Alice, on the other hand does not wish to give the gateway the ability to decrypt all her messages. We define and construct a mechanism that enables Alice to provide a key to the gateway that enables the gateway to test whether the word “urgent” is a keyword in the email without learning anything else about the email. We refer to this mechanism as Public Key Encryption with keyword Search. As another example, consider a mail server that stores various messages publicly encrypted for Alice by others. Using our mechanism Alice can send the mail server a key that will enable the server to identify all messages containing some specific keyword, but learn nothing else. We define the concept of public key encryption with keyword search and give several constructions.",
+      "authors": [
+        "Dan Boneh",
+        "Giovanni Di Crescenzo",
+        "Rafail Ostrovsky",
+        "Giuseppe Persiano"
+      ],
+      "id": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "label": "BCO+03",
+      "s2Url": "https://semanticscholar.org/paper/afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "title": "Public Key Encryption with Keyword Search",
+      "venue": "EUROCRYPT",
+      "year": 2003,
+      "numInCitations": 1806
+    },
+    {
+      "abstract": "Cryptographic computations are often carried out on insecure devices for which the threat of key exposure represents a serious and realistic concern. In an effort to mitigate the damage caused by exposure of secret data (e.g., keys) stored on such devices, the paradigm of forward security was introduced. In a forward-secure scheme, secret keys are updated at regular periods of time; furthermore, exposure of a secret key corresponding to a given time period does not enable an adversary to \"break\" the scheme (in the appropriate sense) for any prior time period. A number of constructions of forward-secure digital signature schemes, key-exchange protocols, and symmetric-key schemes are known. \n \nWe present the first constructions of a (non-interactive) forward-secure public-key encryption scheme. Our main construction achieves security against chosen plaintext attacks under the decisional bilinear Diffie-Hellman assumption in the standard model. It is practical, and all complexity parameters grow at most logarithmically with the total number of time periods. The scheme can also be extended to achieve security against chosen ciphertext attacks.",
+      "authors": [
+        "Ran Canetti",
+        "Shai Halevi",
+        "Jonathan Katz"
+      ],
+      "id": "90574069af02306cd80c046b78e3e27f653f6837",
+      "label": "CHK+03",
+      "s2Url": "https://semanticscholar.org/paper/90574069af02306cd80c046b78e3e27f653f6837",
+      "title": "A Forward-Secure Public-Key Encryption Scheme",
+      "venue": "EUROCRYPT",
+      "year": 2003,
+      "numInCitations": 580
+    },
+    {
+      "abstract": "We consider the problem of computing the intersection of private datasets of two parties, where the datasets contain lists of elements taken from a large domain. This problem has many applications for online collaboration. We present protocols, based on the use of homomorphic encryption and balanced hashing, for both semi-honest and malicious environments. For lists of length k, we obtain O(k) communication overhead and O(k ln ln k) computation. The protocol for the semi-honest environment is secure in the standard model, while the protocol for the malicious environment is secure in the random oracle model. We also consider the problem of approximating the size of the intersection, show a linear lower-bound for the communication overhead of solving this problem, and provide a suitable secure protocol. Lastly, we investigate other variants of the matching problem, including extending the protocol to the multi-party setting as well as considering the problem of approximate matching.",
+      "authors": [
+        "Michael J. Freedman",
+        "Kobbi Nissim",
+        "Benny Pinkas"
+      ],
+      "id": "dc0a25d09061c4d19975f2d05890b3b56d416fed",
+      "label": "FNP+04",
+      "s2Url": "https://semanticscholar.org/paper/dc0a25d09061c4d19975f2d05890b3b56d416fed",
+      "title": "Efficient Private Matching and Set Intersection",
+      "venue": "EUROCRYPT",
+      "year": 2004,
+      "numInCitations": 789
+    },
+    {
+      "abstract": "We present the first efficient Identity-Based Encryption (IBE) scheme that is fully secure without random oracles. We first present our IBE construction and reduce the security of our scheme to the decisional Bilinear Diffie-Hellman (BDH) problem. Additionally, we show that our techniques can be used to build a new signature scheme that is secure under the computational Diffie-Hellman assumption without random oracles.",
+      "authors": [
+        "Brent Waters"
+      ],
+      "id": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "label": "Waters04",
+      "s2Url": "https://semanticscholar.org/paper/efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "title": "Efficient Identity-Based Encryption Without Random Oracles",
+      "venue": "EUROCRYPT",
+      "year": 2004,
+      "numInCitations": 1111
+    },
+    {
+      "abstract": "We propose a new and efficient signature scheme that is provably secure in the plain model. The security of our scheme is based on a discrete-logarithm-based assumption put forth by Lysyanskaya, Rivest, Sahai, and Wolf (LRSW) who also showed that it holds for generic groups and is independent of the decisional Diffie-Hellman assumption. We prove security of our scheme under the LRSW assumption for groups with bilinear maps. We then show how our scheme can be used to construct efficient anonymous credential systems as well as group signature and identity escrow schemes. To this end, we provide efficient protocols that allow one to prove in zero-knowledge the knowledge of a signature on a committed (or encrypted) message and to obtain a signature on a committed message.",
+      "authors": [
+        "Jan Camenisch",
+        "Anna Lysyanskaya"
+      ],
+      "id": "8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
+      "label": "CamenischLysyanskaya04",
+      "s2Url": "https://semanticscholar.org/paper/8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
+      "title": "Signature Schemes and Anonymous Credentials from Bilinear Maps",
+      "venue": "CRYPTO",
+      "year": 2004,
+      "numInCitations": 560
+    },
+    {
+      "abstract": "We consider the following problem: a user $\\mathcal{U}$ wants to store his files in an encrypted form on a remote file server $\\mathcal{S}$. Later the user $\\mathcal{U}$ wants to efficiently retrieve some of the encrypted files containing (or indexed by) specific keywords, keeping the keywords themselves secret and not jeopardizing the security of the remotely stored files. For example, a user may want to store old e-mail messages encrypted on a server managed by Yahoo or another large vendor, and later retrieve certain messages while travelling with a mobile device. \n \nIn this paper, we offer solutions for this problem under well-defined security requirements. Our schemes are efficient in the sense that no public-key cryptosystem is involved. Indeed, our approach is independent of the encryption method chosen for the remote files. They are also incremental, in that $\\mathcal{U}$ can submit new files which are secure against previous queries but still searchable against future queries.",
+      "authors": [
+        "Yan-Cheng Chang",
+        "Michael Mitzenmacher"
+      ],
+      "id": "77d0d8f3365612c9675723d3f8822b28214cea7a",
+      "label": "ChangMitzenmacher04",
+      "s2Url": "https://semanticscholar.org/paper/77d0d8f3365612c9675723d3f8822b28214cea7a",
+      "title": "Privacy Preserving Keyword Searches on Remote Encrypted Data",
+      "venue": "ACNS",
+      "year": 2004,
+      "numInCitations": 741
+    },
+    {
+      "abstract": "Forgery and counterfeiting are emerging as serious security risks in low-cost pervasive computing devices. These devices lack the computational, storage, power, and communication resources necessary for most cryptographic authentication schemes. Surprisingly, low-cost pervasive devices like Radio Frequency Identification (RFID) tags share similar capabilities with another weak computing device: people. \n \nThese similarities motivate the adoption of techniques from human-computer security to the pervasive computing setting. This paper analyzes a particular human-to-computer authentication protocol designed by Hopper and Blum (HB), and shows it to be practical for low-cost pervasive devices. We offer an improved, concrete proof of security for the HB protocol against passive adversaries. \n \nThis paper also offers a new, augmented version of the HB protocol, named HB+, that is secure against active adversaries. The HB+ protocol is a novel, symmetric authentication protocol with a simple, low-cost implementation. We prove the security of the HB+ protocol against active adversaries based on the hardness of the Learning Parity with Noise (LPN) problem.",
+      "authors": [
+        "Ari Juels",
+        "Stephen A. Weis"
+      ],
+      "id": "6900f82508020fac97c98b60d0e264839df767b5",
+      "label": "JuelsWeis05",
+      "s2Url": "https://semanticscholar.org/paper/6900f82508020fac97c98b60d0e264839df767b5",
+      "title": "Authenticating Pervasive Devices with Human Protocols",
+      "venue": "CRYPTO",
+      "year": 2005,
+      "numInCitations": 530
+    },
+    {
+      "abstract": "We describe two new public key broadcast encryption systems for stateless receivers. Both systems are fully secure against any number of colluders. In our first construction both ciphertexts and private keys are of constant size (only two group elements), for any subset of receivers. The public key size in this system is linear in the total number of receivers. Our second system is a generalization of the first that provides a tradeoff between ciphertext size and public key size. For example, we achieve a collusion resistant broadcast system for n users where both ciphertexts and public keys are of size $O(\\sqrt{N})$ for any subset of receivers. We discuss several applications of these systems.",
+      "authors": [
+        "Dan Boneh",
+        "Craig Gentry",
+        "Brent Waters"
+      ],
+      "id": "93a6a50dd24de94ad8bd5b21f64f0e98a5f298ed",
+      "label": "BGW+05",
+      "s2Url": "https://semanticscholar.org/paper/93a6a50dd24de94ad8bd5b21f64f0e98a5f298ed",
+      "title": "Collusion Resistant Broadcast Encryption with Short Ciphertexts and Private Keys",
+      "venue": "CRYPTO",
+      "year": 2005,
+      "numInCitations": 686
+    },
+    {
+      "abstract": "We continue a line of research initiated in [10, 11] on privacy-preserving statistical databases. Consider a trusted server that holds a database of sensitive information. Given a query function f mapping databases to reals, the so-called true answer is the result of applying f to the database. To protect privacy, the true answer is perturbed by the addition of random noise generated according to a carefully chosen distribution, and this response, the true answer plus noise, is returned to the user. Previous work focused on the case of noisy sums, in which f = Σ i g(x i ), where x i denotes the ith row of the database and g maps database rows to [0,1]. We extend the study to general functions f, proving that privacy can be preserved by calibrating the standard deviation of the noise according to the sensitivity of the function f. Roughly speaking, this is the amount that any single argument to f can change its output. The new analysis shows that for several particular applications substantially less noise is needed than was previously understood to be the case. The first step is a very clean characterization of privacy in terms of indistinguishability of transcripts. Additionally, we obtain separation results showing the increased value of interactive sanitization mechanisms over non-interactive.",
+      "authors": [
+        "Cynthia Dwork",
+        "Frank McSherry",
+        "Kobbi Nissim",
+        "Adam D. Smith"
+      ],
+      "id": "e4ce10063cd25447dcde75c2d9ce327446ced952",
+      "label": "DMN+06",
+      "s2Url": "https://semanticscholar.org/paper/e4ce10063cd25447dcde75c2d9ce327446ced952",
+      "title": "Calibrating Noise to Sensitivity in Private Data Analysis",
+      "venue": "TCC",
+      "year": 2006,
+      "numInCitations": 2599
+    },
+    {
+      "abstract": "We construct public-key systems that support comparison queries (x ≥ a) on encrypted data as well as more general queries such as subset queries (x∈ S). Furthermore, these systems support arbitrary conjunctive queries (P1 ∧ ... ∧ Pl) without leaking information on individual conjuncts. We present a general framework for constructing and analyzing public-key systems supporting queries on encrypted data.",
+      "authors": [
+        "Dan Boneh",
+        "Brent Waters"
+      ],
+      "id": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
+      "label": "BonehWaters06",
+      "s2Url": "https://semanticscholar.org/paper/f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
+      "title": "Conjunctive, Subset, and Range Queries on Encrypted Data",
+      "venue": "TCC",
+      "year": 2006,
+      "numInCitations": 869
+    },
+    {
+      "abstract": "We present as-strong-as-possible definitions of privacy, and constructions achieving them, for public-key encryption schemes where the encryption algorithm is deterministic. We obtain as a consequence database encryption methods that permit fast (i.e. sub-linear, and in fact logarithmic, time) search while provably providing privacy that is as strong as possible subject to this fast search constraint. One of our constructs, called RSA-DOAEP, has the added feature of being length preserving, so that it is the first example of a public-key cipher. We generalize this to obtain a notion of efficiently-searchable encryption schemes which permit more flexible privacy to search-time trade-offs via a technique called bucketization. Our results answer much-asked questions in the database community and provide foundations for work done there.",
+      "authors": [
+        "Mihir Bellare",
+        "Alexandra Boldyreva",
+        "Adam O'Neill"
+      ],
+      "id": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
+      "label": "BBO+06",
+      "s2Url": "https://semanticscholar.org/paper/f722bf03d76056cdc2b227e1f2b54d690c42e435",
+      "title": "Deterministic and Efficiently Searchable Encryption",
+      "venue": "CRYPTO",
+      "year": 2006,
+      "numInCitations": 520
+    },
+    {
+      "abstract": "As more sensitive data is shared and stored by third-party sites on the Internet, there will be a need to encrypt data stored at these sites. One drawback of encrypting data, is that it can be selectively shared only at a coarse-grained level (i.e., giving another party your private key). We develop a new cryptosystem for fine-grained sharing of encrypted data that we call Key-Policy Attribute-Based Encryption (KP-ABE). In our cryptosystem, ciphertexts are labeled with sets of attributes and private keys are associated with access structures that control which ciphertexts a user is able to decrypt. We demonstrate the applicability of our construction to sharing of audit-log information and broadcast encryption. Our construction supports delegation of private keys which subsumesHierarchical Identity-Based Encryption (HIBE).",
+      "authors": [
+        "Vipul Goyal",
+        "Omkant Pandey",
+        "Amit Sahai",
+        "Brent Waters"
+      ],
+      "id": "422876e542daadefe3371091a65c5671185796e2",
+      "label": "GPS+06",
+      "s2Url": "https://semanticscholar.org/paper/422876e542daadefe3371091a65c5671185796e2",
+      "title": "Attribute-based encryption for fine-grained access control of encrypted data",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2006,
+      "numInCitations": 3010
+    },
+    {
+      "abstract": "In this work we provide efficient distributed protocols for generating shares of random noise, secure against malicious participants. The purpose of the noise generation is to create a distributed implementation of the privacy-preserving statistical databases described in recent papers [14,4,13]. In these databases, privacy is obtained by perturbing the true answer to a database query by the addition of a small amount of Gaussian or exponentially distributed random noise. The computational power of even a simple form of these databases, when the query is just of the form ∑if(di), that is, the sum over all rows i in the database of a function f applied to the data in row i, has been demonstrated in [4]. A distributed implementation eliminates the need for a trusted database administrator. \n \nThe results for noise generation are of independent interest. The generation of Gaussian noise introduces a technique for distributing shares of many unbiased coins with fewer executions of verifiable secret sharing than would be needed using previous approaches (reduced by a factor of n). The generation of exponentially distributed noise uses two shallow circuits: one for generating many arbitrarily but identically biased coins at an amortized cost of two unbiased random bits apiece, independent of the bias, and the other to combine bits of appropriate biases to obtain an exponential distribution.",
+      "authors": [
+        "Cynthia Dwork",
+        "Krishnaram Kenthapadi",
+        "Frank McSherry",
+        "Ilya Mironov",
+        "Moni Naor"
+      ],
+      "id": "1808b64aec21863489f0fe66f250890a3ac2b843",
+      "label": "DKM+06",
+      "s2Url": "https://semanticscholar.org/paper/1808b64aec21863489f0fe66f250890a3ac2b843",
+      "title": "Our Data, Ourselves: Privacy Via Distributed Noise Generation",
+      "venue": "EUROCRYPT",
+      "year": 2006,
+      "numInCitations": 732
+    },
+    {
+      "abstract": "A process for recovering brominated acenaphthylene and its condensate in the form of powder, comprising dropping a solution of brominated acenaphthylene and its condensate produced from acenaphthene by reactions of bromination, condensation and dehydrobromination into hot water containing a carboxylic acid ester of polyoxyalkylene sorbitan, while the solvent is being distilled off, to recover the brominated acenaphthylene and its condensate in the form of powder dispersed in water.",
+      "authors": [
+        "Jens Groth",
+        "Amit Sahai"
+      ],
+      "id": "8cea7934a05b8cd906a89c206bee2df2e84c5629",
+      "label": "GrothSahai07",
+      "s2Url": "https://semanticscholar.org/paper/8cea7934a05b8cd906a89c206bee2df2e84c5629",
+      "title": "Efficient Non-interactive Proof Systems for Bilinear Groups",
+      "venue": "EUROCRYPT",
+      "year": 2007,
+      "numInCitations": 555
+    },
+    {
+      "abstract": "We introduce a model for provable data possession (PDP) that allows a client that has stored data at an untrusted server to verify that the server possesses the original data without retrieving it. The model generates probabilistic proofs of possession by sampling random sets of blocks from the server, which drastically reduces I/O costs. The client maintains a constant amount of metadata to verify the proof. The challenge/response protocol transmits a small, constant amount of data, which minimizes network communication. Thus, the PDP model for remote data checking supports large data sets in widely-distributed storage system.\n We present two provably-secure PDP schemes that are more efficient than previous solutions, even when compared with schemes that achieve weaker guarantees. In particular, the overhead at the server is low (or even constant), as opposed to linear in the size of the data. Experiments using our implementation verify the practicality of PDP and reveal that the performance of PDP is bounded by disk I/O and not by cryptographic computation.",
+      "authors": [
+        "Giuseppe Ateniese",
+        "Randal C. Burns",
+        "Reza Curtmola",
+        "Joseph Herring",
+        "Lea Kissner",
+        "Zachary N. J. Peterson",
+        "Dawn Xiaodong Song"
+      ],
+      "id": "67708229c4579adabf7a2fbe0178a610d2eff788",
+      "label": "ABC+07",
+      "s2Url": "https://semanticscholar.org/paper/67708229c4579adabf7a2fbe0178a610d2eff788",
+      "title": "Provable data possession at untrusted stores",
+      "venue": "CCS '07",
+      "year": 2007,
+      "numInCitations": 1792
+    },
+    {
+      "abstract": "Predicate encryption is a new paradigm for public-key encryption that generalizes identity-based encryption and more. In predicate encryption, secret keys correspond to predicates and ciphertexts are associated with attributes; the secret key SKf corresponding to a predicate f can be used to decrypt a ciphertext associated with attribute I if and only if f(I)=1. Constructions of such schemes are currently known only for certain classes of predicates.We construct a scheme for predicates corresponding to the evaluation of inner products over ℤN (for some large integer N). This, in turn, enables constructions in which predicates correspond to the evaluation of disjunctions, polynomials, CNF/DNF formulas, thresholds, and more. Besides serving as a significant step forward in the theory of predicate encryption, our results lead to a number of applications that are interesting in their own right.",
+      "authors": [
+        "Jonathan Katz",
+        "Amit Sahai",
+        "Brent Waters"
+      ],
+      "id": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "label": "KSW+07",
+      "s2Url": "https://semanticscholar.org/paper/37dde6a606e64aa455ec241b9de085509c06ba73",
+      "title": "Predicate Encryption Supporting Disjunctions, Polynomial Equations, and Inner Products",
+      "venue": "Journal of Cryptology",
+      "year": 2007,
+      "numInCitations": 740
+    },
+    {
+      "abstract": "We construct an Attribute-Based Encryption (ABE) scheme that allows a user's private key to be expressed in terms of any access formula over attributes. Previous ABE schemes were limited to expressing only monotonic access structures. We provide a proof of security for our scheme based on the Decisional Bilinear Diffie-Hellman (BDH) assumption. Furthermore, the performance of our new scheme compares favorably with existing, less-expressive schemes.",
+      "authors": [
+        "Rafail Ostrovsky",
+        "Amit Sahai",
+        "Brent Waters"
+      ],
+      "id": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "label": "OSW+07",
+      "s2Url": "https://semanticscholar.org/paper/bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "title": "Attribute-based encryption with non-monotonic access structures",
+      "venue": "CCS '07",
+      "year": 2007,
+      "numInCitations": 734
+    },
+    {
+      "abstract": "We consider the problem of efficiently proving the integrity of data stored at untrusted servers. In the provable data possession (PDP) model, the client preprocesses the data and then sends it to an untrusted server for storage, while keeping a small amount of meta-data. The client later asks the server to prove that the stored data has not been tampered with or deleted (without downloading the actual data). However, the original PDP scheme applies only to static (or append-only) files.\n We present a definitional framework and efficient constructions for dynamic provable data possession (DPDP), which extends the PDP model to support provable updates to stored data. We use a new version of authenticated dictionaries based on rank information. The price of dynamic updates is a performance change from O(1) to O(logn) (or O(nεlog n), for a file consisting of n blocks, while maintaining the same (or better, respectively) probability of misbehavior detection. Our experiments show that this slowdown is very low in practice (e.g. 415KB proof size and 30ms computational overhead for a 1GB file). We also show how to apply our DPDP scheme to outsourced file systems and version control systems (e.g. CVS).",
+      "authors": [
+        "C. Christopher Erway",
+        "Alptekin Küpçü",
+        "Charalampos Papamanthou",
+        "Roberto Tamassia"
+      ],
+      "id": "7e104ef1d710b974ee0ee70eba9acada86210357",
+      "label": "EKP+08",
+      "s2Url": "https://semanticscholar.org/paper/7e104ef1d710b974ee0ee70eba9acada86210357",
+      "title": "Dynamic provable data possession",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2008,
+      "numInCitations": 796
+    },
+    {
+      "abstract": "We present a simple and efficient compiler for transforming secure multi-party computation (MPC) protocols that enjoy security only with an honest majority into MPC protocols that guarantee security with no honest majority, in the oblivious-transfer (OT) hybrid model. Our technique works by combining a secure protocol in the honest majority setting with a protocol achieving only security against semi-honestparties in the setting of no honest majority. \n \nApplying our compiler to variants of protocols from the literature, we get several applications for secure two-party computation and for MPC with no honest majority. These include: \n \n \n Constant-rate two-party computation in the OT-hybrid model. We obtain a statistically UC-secure two-party protocol in the OT-hybrid model that can evaluate a general circuit Cof size sand depth dwith a total communication complexity of O(s) + poly(k, d, log s) and O(d) rounds. The above result generalizes to a constant number of parties. \n Extending OTs in the malicious model. We obtain a computationally efficient protocol for generating many string OTs from few string OTs with only a constant amortized communication overheadcompared to the total length of the string OTs. \n Black-box constructions for constant-round MPC with no honest majority. We obtain general computationally UC-secure MPC protocols in the OT-hybrid model that use only a constant number of rounds, and only make a black-boxaccess to a pseudorandom generator. This gives the first constant-round protocols for three or more parties that only make a black-box use of cryptographic primitives (and avoid expensive zero-knowledge proofs).",
+      "authors": [
+        "Yuval Ishai",
+        "Manoj Prabhakaran",
+        "Amit Sahai"
+      ],
+      "id": "19de1229db1c2e62367a3d1459e24848064dfd02",
+      "label": "IPS+08",
+      "s2Url": "https://semanticscholar.org/paper/19de1229db1c2e62367a3d1459e24848064dfd02",
+      "title": "Founding Cryptography on Oblivious Transfer - Efficiently",
+      "venue": "CRYPTO",
+      "year": 2008,
+      "numInCitations": 616
+    },
+    {
+      "abstract": "Storage outsourcing is a rising trend which prompts a number of interesting security issues, many of which have been extensively investigated in the past. However, Provable Data Possession (PDP) is a topic that has only recently appeared in the research literature. The main issue is how to frequently, efficiently and securely verify that a storage server is faithfully storing its client's (potentially very large) outsourced data. The storage server is assumed to be untrusted in terms of both security and reliability. (In other words, it might maliciously or accidentally erase hosted data; it might also relegate it to slow or off-line storage.) The problem is exacerbated by the client being a small computing device with limited resources. Prior work has addressed this problem using either public key cryptography or requiring the client to outsource its data in encrypted form.\n In this paper, we construct a highly efficient and provably secure PDP technique based entirely on symmetric key cryptography, while not requiring any bulk encryption. Also, in contrast with its predecessors, our PDP technique allows outsourcing of dynamic data, i.e, it efficiently supports operations, such as block modification, deletion and append.",
+      "authors": [
+        "Giuseppe Ateniese",
+        "Roberto Di Pietro",
+        "Luigi V. Mancini",
+        "Gene Tsudik"
+      ],
+      "id": "b3c7af3cf2322505da2327add85555a94e1c834d",
+      "label": "APM+08",
+      "s2Url": "https://semanticscholar.org/paper/b3c7af3cf2322505da2327add85555a94e1c834d",
+      "title": "Scalable and efficient provable data possession",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2008,
+      "numInCitations": 890
+    },
+    {
+      "abstract": "We introduce and formalize the notion of Verifiable Computation, which enables a computationally weak client to \"outsource\" the computation of a function F on various dynamically-chosen inputs x1, ...,xk to one or more workers. The workers return the result of the function evaluation, e.g., yi = F(xi), as well as a proof that the computation of F was carried out correctly on the given value xi. The primary constraint is that the verification of the proof should require substantially less computational effort than computing F(i) from scratch. \n \nWe present a protocol that allows the worker to return a computationally-sound, non-interactive proof that can be verified in O(mċpoly(λ)) time, where m is the bit-length of the output of F, and λ is a security parameter. The protocol requires a one-time pre-processing stage by the client which takes O(|C|ċpoly(λ)) time, where C is the smallest known Boolean circuit computing F. Unlike previous work in this area, our scheme also provides (at no additional cost) input and output privacy for the client, meaning that the workers do not learn any information about the xi or yi values.",
+      "authors": [
+        "Rosario Gennaro",
+        "Craig Gentry",
+        "Bryan Parno"
+      ],
+      "id": "9da2bf868e73cb340dff83d24503217562aef0a7",
+      "label": "GGP+09",
+      "s2Url": "https://semanticscholar.org/paper/9da2bf868e73cb340dff83d24503217562aef0a7",
+      "title": "Non-interactive Verifiable Computing: Outsourcing Computation to Untrusted Workers",
+      "venue": "CRYPTO",
+      "year": 2009,
+      "numInCitations": 660
+    },
+    {
+      "abstract": "We construct a simple fully homomorphic encryption scheme, using only elementary modular arithmetic. We use Gentry’s technique to construct a fully homomorphic scheme from a “bootstrappable” somewhat homomorphic scheme. However, instead of using ideal lattices over a polynomial ring, our bootstrappable encryption scheme merely uses addition and multiplication over the integers. The main appeal of our scheme is the conceptual simplicity. \n \nWe reduce the security of our scheme to finding an approximate integer gcd – i.e., given a list of integers that are near-multiples of a hidden integer, output that hidden integer. We investigate the hardness of this task, building on earlier work of Howgrave-Graham.",
+      "authors": [
+        "Marten van Dijk",
+        "Craig Gentry",
+        "Shai Halevi",
+        "Vinod Vaikuntanathan"
+      ],
+      "id": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
+      "label": "DGH+09",
+      "s2Url": "https://semanticscholar.org/paper/1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
+      "title": "Fully Homomorphic Encryption over the Integers",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2009,
+      "numInCitations": 983
+    },
+    {
+      "abstract": "We initiate the cryptographic study of order-preserving symmetric encryption (OPE), a primitive suggested in the database community by Agrawal et al. (SIGMOD '04) for allowing efficient range queries on encrypted data. Interestingly, we first show that a straightforward relaxation of standard security notions for encryption such as indistinguishability against chosen-plaintext attack (IND-CPA) is unachievable by a practical OPE scheme. Instead, we propose a security notion in the spirit of pseudorandom functions (PRFs) and related primitives asking that an OPE scheme look \"as-random-as-possible\" subject to the order-preserving constraint. We then design an efficient OPE scheme and prove its security under our notion based on pseudorandomness of an underlying blockcipher. Our construction is based on a natural relation we uncover between a random order-preserving function and the hypergeometric probability distribution. In particular, it makes black-box use of an efficient sampling algorithm for the latter.",
+      "authors": [
+        "Alexandra Boldyreva",
+        "Nathan Chenette",
+        "Younho Lee",
+        "Adam O'Neill"
+      ],
+      "id": "f75c5ee8db682f37f0ebf16d62677823c02359af",
+      "label": "BCL+09",
+      "s2Url": "https://semanticscholar.org/paper/f75c5ee8db682f37f0ebf16d62677823c02359af",
+      "title": "Order-Preserving Symmetric Encryption",
+      "venue": "EUROCRYPT",
+      "year": 2009,
+      "numInCitations": 529
+    },
+    {
+      "abstract": "Cloud Computing has been envisioned as the next-generation architecture of IT Enterprise. It moves the application software and databases to the centralized large data centers, where the management of the data and services may not be fully trustworthy. This unique paradigm brings about many new security challenges, which have not been well understood. This work studies the problem of ensuring the integrity of data storage in Cloud Computing. In particular, we consider the task of allowing a third party auditor (TPA), on behalf of the cloud client, to verify the integrity of the dynamic data stored in the cloud. The introduction of TPA eliminates the involvement of client through the auditing of whether his data stored in the cloud is indeed intact, which can be important in achieving economies of scale for Cloud Computing. The support for data dynamics via the most general forms of data operation, such as block modification, insertion and deletion, is also a significant step toward practicality, since services in Cloud Computing are not limited to archive or backup data only. While prior works on ensuring remote data integrity often lacks the support of either public verifiability or dynamic data operations, this paper achieves both. We first identify the difficulties and potential security problems of direct extensions with fully dynamic data updates from prior works and then show how to construct an elegant verification scheme for seamless integration of these two salient features in our protocol design. In particular, to achieve efficient data dynamics, we improve the Proof of Retrievability model [1] by manipulating the classic Merkle Hash Tree (MHT) construction for block tag authentication. Extensive security and performance analysis show that the proposed scheme is highly efficient and provably secure.",
+      "authors": [
+        "Qian Wang",
+        "Cong Wang",
+        "Jin Li",
+        "Kui Ren",
+        "Wenjing Lou"
+      ],
+      "id": "b3d6e545cf259c63b81526624e2a0a47844818aa",
+      "label": "WWL+09",
+      "s2Url": "https://semanticscholar.org/paper/b3d6e545cf259c63b81526624e2a0a47844818aa",
+      "title": "Enabling Public Verifiability and Data Dynamics for Storage Security in Cloud Computing",
+      "venue": "ESORICS",
+      "year": 2009,
+      "numInCitations": 805
+    },
+    {
+      "abstract": "We propose a Multi-Authority Attribute-Based Encryption (ABE) system. In our system, any party can become an authority and there is no requirement for any global coordination other than the creation of an initial set of common reference parameters. A party can simply act as an ABE authority by creating a public key and issuing private keys to different users that reflect their attributes. A user can encrypt data in terms of any boolean formula over attributes issued from any chosen set of authorities. Finally, our system does not require any central authority. \n \nIn constructing our system, our largest technical hurdle is to make it collusion resistant. Prior Attribute-Based Encryption systems achieved collusion resistance when the ABE system authority \"tied\" together different components (representing different attributes) of a user's private key by randomizing the key. However, in our system each component will come from a potentially different authority, where we assume no coordination between such authorities. We create new techniques to tie key components together and prevent collusion attacks between users with different global identifiers. \n \nWe prove our system secure using the recent dual system encryption methodology where the security proof works by first converting the challenge ciphertext and private keys to a semi-functional form and then arguing security. We follow a recent variant of the dual system proof technique due to Lewko and Waters and build our system using bilinear groups of composite order. We prove security under similar static assumptions to the LW paper in the random oracle model.",
+      "authors": [
+        "Allison Bishop",
+        "Brent Waters"
+      ],
+      "id": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "label": "BishopWaters10",
+      "s2Url": "https://semanticscholar.org/paper/53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "title": "Decentralizing Attribute-Based Encryption",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2010,
+      "numInCitations": 617
+    },
+    {
+      "abstract": "We present two fully secure functional encryption schemes: a fully secure attribute-based encryption (ABE) scheme and a fully secure (attribute-hiding) predicate encryption (PE) scheme for inner-product predicates. In both cases, previous constructions were only proven to be selectively secure. Both results use novel strategies to adapt the dual system encryption methodology introduced by Waters. We construct our ABE scheme in composite order bilinear groups, and prove its security from three static assumptions. Our ABE scheme supports arbitrary monotone access formulas. Our predicate encryption scheme is constructed via a new approach on bilinear pairings using the notion of dual pairing vector spaces proposed by Okamoto and Takashima.",
+      "authors": [
+        "Allison Bishop",
+        "Tatsuaki Okamoto",
+        "Amit Sahai",
+        "Katsuyuki Takashima",
+        "Brent Waters"
+      ],
+      "id": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "label": "BOS+10",
+      "s2Url": "https://semanticscholar.org/paper/78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "title": "Fully Secure Functional Encryption: Attribute-Based Encryption and (Hierarchical) Inner Product Encryption",
+      "venue": "EUROCRYPT",
+      "year": 2010,
+      "numInCitations": 731
+    },
+    {
+      "abstract": "Cloud computing is an evolving paradigm with tremendous momentum, but its unique aspects exacerbate security and privacy challenges. This article explores the roadblocks and solutions to providing a trustworthy cloud computing environment.",
+      "authors": [
+        "Hassan Takabi",
+        "James B. D. Joshi",
+        "Gail-Joon Ahn"
+      ],
+      "id": "7964791a1dab49340b55672a6cc3c176f517831b",
+      "label": "TJA+10",
+      "s2Url": "https://semanticscholar.org/paper/7964791a1dab49340b55672a6cc3c176f517831b",
+      "title": "Security and Privacy Challenges in Cloud Computing Environments",
+      "venue": "IEEE Security & Privacy",
+      "year": 2010,
+      "numInCitations": 644
+    },
+    {
+      "abstract": "As Cloud Computing becomes prevalent, more and more sensitive information are being centralized into the cloud. For the protection of data privacy, sensitive data usually have to be encrypted before outsourcing, which makes effective data utilization a very challenging task. Although traditional searchable encryption schemes allow a user to securely search over encrypted data through keywords and selectively retrieve files of interest, these techniques support only exact keyword search. That is, there is no tolerance of minor typos and format inconsistencies which, on the other hand, are typical user searching behavior and happen very frequently. This significant drawback makes existing techniques unsuitable in Cloud Computing as it greatly affects system usability, rendering user searching experiences very frustrating and system efficacy very low. In this paper, for the first time we formalize and solve the problem of effective fuzzy keyword search over encrypted cloud data while maintaining keyword privacy. Fuzzy keyword search greatly enhances system usability by returning the matching files when users' searching inputs exactly match the predefined keywords or the closest possible matching files based on keyword similarity semantics, when exact match fails. In our solution, we exploit edit distance to quantify keywords similarity and develop an advanced technique on constructing fuzzy keyword sets, which greatly reduces the storage and representation overheads. Through rigorous security analysis, we show that our proposed solution is secure and privacy-preserving, while correctly realizing the goal of fuzzy keyword search.",
+      "authors": [
+        "Jin Li",
+        "Qian Wang",
+        "Cong Wang",
+        "Ning Cao",
+        "Kui Ren",
+        "Wenjing Lou"
+      ],
+      "id": "e27d5122a0ee36d82d3d4b64647134d19e156189",
+      "label": "LWW+10",
+      "s2Url": "https://semanticscholar.org/paper/e27d5122a0ee36d82d3d4b64647134d19e156189",
+      "title": "Fuzzy Keyword Search over Encrypted Data in Cloud Computing",
+      "venue": "2010 Proceedings IEEE INFOCOM",
+      "year": 2010,
+      "numInCitations": 615
+    },
+    {
+      "abstract": "We describe a working implementation of a variant of Gentry's fully homomorphic encryption scheme (STOC 2009), similar to the variant used in an earlier implementation effort by Smart and Vercauteren (PKC 2010). Smart and Vercauteren implemented the underlying \"somewhat homomorphic\" scheme, but were not able to implement the bootstrapping functionality that is needed to get the complete scheme to work. We show a number of optimizations that allow us to implement all aspects of the scheme, including the bootstrapping functionality. \n \nOur main optimization is a key-generation method for the underlying somewhat homomorphic encryption, that does not require full polynomial inversion. This reduces the asymptotic complexity from O(n2.5) to O(n1.5) when working with dimension-n lattices (and practically reducing the time from many hours/days to a few seconds/minutes). Other optimizations include a batching technique for encryption, a careful analysis of the degree of the decryption polynomial, and some space/time trade-offs for the fully-homomorphic scheme. \n \nWe tested our implementation with lattices of several dimensions, corresponding to several security levels. From a \"toy\" setting in dimension 512, to \"small,\" \"medium,\" and \"large\" settings in dimensions 2048, 8192, and 32768, respectively. The public-key size ranges in size from 70 Megabytes for the \"small\" setting to 2.3 Gigabytes for the \"large\" setting. The time to run one bootstrapping operation (on a 1-CPU 64- bit machine with large memory) ranges from 30 seconds for the \"small\" setting to 30 minutes for the \"large\" setting.",
+      "authors": [
+        "Craig Gentry",
+        "Shai Halevi"
+      ],
+      "id": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "label": "GentryHalevi10",
+      "s2Url": "https://semanticscholar.org/paper/bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "title": "Implementing Gentry's Fully-Homomorphic Encryption Scheme",
+      "venue": "EUROCRYPT",
+      "year": 2010,
+      "numInCitations": 594
+    },
+    {
+      "abstract": "We present a fully homomorphic encryption scheme that is based solely on the(standard) learning with errors (LWE) assumption. Applying known results on LWE, the security of our scheme is based on the worst-case hardness of ``short vector problems'' on arbitrary lattices. Our construction improves on previous works in two aspects:\\begin{enumerate}\\item We show that ``somewhat homomorphic'' encryption can be based on LWE, using a new {\\em re-linearization} technique. In contrast, all previous schemes relied on complexity assumptions related to ideals in various rings. \\item We deviate from the \"squashing paradigm'' used in all previous works. We introduce a new {\\em dimension-modulus reduction} technique, which shortens the cipher texts and reduces the decryption complexity of our scheme, {\\em without introducing additional assumptions}. \\end{enumerate}Our scheme has very short cipher texts and we therefore use it to construct an asymptotically efficient LWE-based single-server private information retrieval (PIR) protocol. The communication complexity of our protocol (in the public-key model) is $k \\cdot \\polylog(k)+\\log \\dbs$ bits per single-bit query (here, $k$ is a security parameter).",
+      "authors": [
+        "Zvika Brakerski",
+        "Vinod Vaikuntanathan"
+      ],
+      "id": "8d63532f254c77549b40e232611948d36c85150b",
+      "label": "BrakerskiVaikuntanathan11",
+      "s2Url": "https://semanticscholar.org/paper/8d63532f254c77549b40e232611948d36c85150b",
+      "title": "Efficient Fully Homomorphic Encryption from (Standard) LWE",
+      "venue": "2011 IEEE 52nd Annual Symposium on Foundations of Computer Science",
+      "year": 2011,
+      "numInCitations": 896
+    },
+    {
+      "abstract": "The prospect of outsourcing an increasing amount of data storage and management to cloud services raises many new privacy concerns for individuals and businesses alike. The privacy concerns can be satisfactorily addressed if users encrypt the data they send to the cloud. If the encryption scheme is homomorphic, the cloud can still perform meaningful computations on the data, even though it is encrypted.\n In fact, we now know a number of constructions of fully homomorphic encryption schemes that allow arbitrary computation on encrypted data. In the last two years, solutions for fully homomorphic encryption have been proposed and improved upon, but it is hard to ignore the elephant in the room, namely efficiency -- can homomorphic encryption ever be efficient enough to be practical? Certainly, it seems that all known fully homomorphic encryption schemes have a long way to go before they can be used in practice. Given this state of affairs, our contribution is two-fold.\n First, we exhibit a number of real-world applications, in the medical, financial, and the advertising domains, which require only that the encryption scheme is \"somewhat\" homomorphic. Somewhat homomorphic encryption schemes, which support a limited number of homomorphic operations, can be much faster, and more compact than fully homomorphic encryption schemes.\n Secondly, we show a proof-of-concept implementation of the recent somewhat homomorphic encryption scheme of Brakerski and Vaikuntanathan, whose security relies on the \"ring learning with errors\" (Ring LWE) problem. The scheme is very efficient, and has reasonably short ciphertexts. Our unoptimized implementation in magma enjoys comparable efficiency to even optimized pairing-based schemes with the same level of security and homomorphic capacity. We also show a number of application-specific optimizations to the encryption scheme, most notably the ability to convert between different message encodings in a ciphertext.",
+      "authors": [
+        "Kristin E. Lauter",
+        "Michael Naehrig",
+        "Vinod Vaikuntanathan"
+      ],
+      "id": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "label": "LNV+11",
+      "s2Url": "https://semanticscholar.org/paper/893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "title": "Can homomorphic encryption be practical?",
+      "venue": "CCSW '11",
+      "year": 2011,
+      "numInCitations": 596
+    },
+    {
+      "abstract": "We present a somewhat homomorphic encryption scheme that is both very simple to describe and analyze, and whose security (quantumly) reduces to the worst-case hardness of problems on ideal lattices. We then transform it into a fully homomorphic encryption scheme using standard \"squashing\" and \"bootstrapping\" techniques introduced by Gentry (STOC 2009). \n \nOne of the obstacles in going from \"somewhat\" to full homomorphism is the requirement that the somewhat homomorphic scheme be circular secure, namely, the scheme can be used to securely encrypt its own secret key. For all known somewhat homomorphic encryption schemes, this requirement was not known to be achievable under any cryptographic assumption, and had to be explicitly assumed. We take a step forward towards removing this additional assumption by proving that our scheme is in fact secure when encrypting polynomial functions of the secret key. \n \nOur scheme is based on the ring learning with errors (RLWE) assumption that was recently introduced by Lyubashevsky, Peikert and Regev (Eurocrypt 2010). The RLWE assumption is reducible to worstcase problems on ideal lattices, and allows us to completely abstract out the lattice interpretation, resulting in an extremely simple scheme. For example, our secret key is s, and our public key is (a, b = as+2e), where s, a, e are all degree (n - 1) integer polynomials whose coefficients are independently drawn from easy to sample distributions.",
+      "authors": [
+        "Zvika Brakerski",
+        "Vinod Vaikuntanathan"
+      ],
+      "id": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "label": "BrakerskiVaikuntanathan11",
+      "s2Url": "https://semanticscholar.org/paper/9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "title": "Fully Homomorphic Encryption from Ring-LWE and Security for Key Dependent Messages",
+      "venue": "CRYPTO",
+      "year": 2011,
+      "numInCitations": 550
+    },
+    {
+      "abstract": "Informally, an <i>obfuscator</i> <i>O</i> is an (efficient, probabilistic) “compiler” that takes as input a program (or circuit) <i>P</i> and produces a new program <i>O</i>(<i>P</i>) that has the same functionality as <i>P</i> yet is “unintelligible” in some sense. Obfuscators, if they exist, would have a wide variety of cryptographic and complexity-theoretic applications, ranging from software protection to homomorphic encryption to complexity-theoretic analogues of Rice's theorem. Most of these applications are based on an interpretation of the “unintelligibility” condition in obfuscation as meaning that <i>O</i>(<i>P</i>) is a “virtual black box,” in the sense that anything one can efficiently compute given <i>O</i>(<i>P</i>), one could also efficiently compute given oracle access to <i>P</i>.\n In this work, we initiate a theoretical investigation of obfuscation. Our main result is that, even under very weak formalizations of the above intuition, obfuscation is impossible. We prove this by constructing a family of efficient programs <i>P</i> that are <i>unobfuscatable</i> in the sense that (a) given <i>any</i> efficient program <i>P</i>' that computes the same function as a program <i>P</i> ∈ <i>p</i>, the “source code” <i>P</i> can be efficiently reconstructed, yet (b) given <i>oracle access</i> to a (randomly selected) program <i>P</i> ∈ <i>p</i>, no efficient algorithm can reconstruct <i>P</i> (or even distinguish a certain bit in the code from random) except with negligible probability.\n We extend our impossibility result in a number of ways, including even obfuscators that (a) are not necessarily computable in polynomial time, (b) only approximately preserve the functionality, and (c) only need to work for very restricted models of computation (<b>TC<sup>0</sup></b>). We also rule out several potential applications of obfuscators, by constructing “unobfuscatable” signature schemes, encryption schemes, and pseudorandom function families.",
+      "authors": [
+        "Boaz Barak",
+        "Oded Goldreich",
+        "Russell Impagliazzo",
+        "Steven Rudich",
+        "Amit Sahai",
+        "Salil P. Vadhan",
+        "Ke Yang"
+      ],
+      "id": "b2ae64924d9a850eeb32f32a09bbff78783244c4",
+      "label": "BGI+12",
+      "s2Url": "https://semanticscholar.org/paper/b2ae64924d9a850eeb32f32a09bbff78783244c4",
+      "title": "On the (im)possibility of obfuscating programs",
+      "venue": "JACM",
+      "year": 2012,
+      "numInCitations": 783
+    },
+    {
+      "abstract": "Bit coin is the first digital currency to see widespread adoption. While payments are conducted between pseudonyms, Bit coin cannot offer strong privacy guarantees: payment transactions are recorded in a public decentralized ledger, from which much information can be deduced. Zero coin (Miers et al., IEEE S&P 2013) tackles some of these privacy issues by unlinking transactions from the payment's origin. Yet, it still reveals payments' destinations and amounts, and is limited in functionality. In this paper, we construct a full-fledged ledger-based digital currency with strong privacy guarantees. Our results leverage recent advances in zero-knowledge Succinct Non-interactive Arguments of Knowledge (zk-SNARKs). First, we formulate and construct decentralized anonymous payment schemes (DAP schemes). A DAP scheme enables users to directly pay each other privately: the corresponding transaction hides the payment's origin, destination, and transferred amount. We provide formal definitions and proofs of the construction's security. Second, we build Zero cash, a practical instantiation of our DAP scheme construction. In Zero cash, transactions are less than 1 kB and take under 6 ms to verify - orders of magnitude more efficient than the less-anonymous Zero coin and competitive with plain Bit coin.",
+      "authors": [
+        "Eli Ben-Sasson",
+        "Alessandro Chiesa",
+        "Christina Garman",
+        "Matthew Green",
+        "Ian Miers",
+        "Eran Tromer",
+        "Madars Virza"
+      ],
+      "id": "3797d924fc5f832b72a84c512e92021906793965",
+      "label": "BCG+14",
+      "s2Url": "https://semanticscholar.org/paper/3797d924fc5f832b72a84c512e92021906793965",
+      "title": "Zerocash: Decentralized Anonymous Payments from Bitcoin",
+      "venue": "2014 IEEE Symposium on Security and Privacy",
+      "year": 2014,
+      "numInCitations": 557
+    },
+    {
+      "abstract": "Emerging smart contract systems over decentralized cryptocurrencies allow mutually distrustful parties to transact safely without trusted third parties. In the event of contractual breaches or aborts, the decentralized blockchain ensures that honest parties obtain commensurate compensation. Existing systems, however, lack transactional privacy. All transactions, including flow of money between pseudonyms and amount transacted, are exposed on the blockchain. We present Hawk, a decentralized smart contract system that does not store financial transactions in the clear on the blockchain, thus retaining transactional privacy from the public's view. A Hawk programmer can write a private smart contract in an intuitive manner without having to implement cryptography, and our compiler automatically generates an efficient cryptographic protocol where contractual parties interact with the blockchain, using cryptographic primitives such as zero-knowledge proofs. To formally define and reason about the security of our protocols, we are the first to formalize the blockchain model of cryptography. The formal modeling is of independent interest. We advocate the community to adopt such a formal model when designing applications atop decentralized blockchains.",
+      "authors": [
+        "Ahmed E. Kosba",
+        "Andrew Miller",
+        "Elaine Shi",
+        "Zikai Wen",
+        "Charalampos Papamanthou"
+      ],
+      "id": "bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
+      "label": "KMS+15",
+      "s2Url": "https://semanticscholar.org/paper/bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
+      "title": "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
+      "venue": "2016 IEEE Symposium on Security and Privacy (SP)",
+      "year": 2015,
+      "numInCitations": 604
+    }
+  ],
+  "connections": [
+    {
+      "id": 0,
+      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "to": "36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
+      "direction": "directed"
+    },
+    {
+      "id": 1,
+      "from": "772cdcc8a67cc878b39409230cbf2488a1117e62",
+      "to": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
+      "direction": "directed"
+    },
+    {
+      "id": 2,
+      "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
+      "to": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
+      "direction": "directed"
+    },
+    {
+      "id": 3,
+      "from": "772cdcc8a67cc878b39409230cbf2488a1117e62",
+      "to": "9a1d75a5c79e603ab7ceecc4bb07ee736e402c18",
+      "direction": "directed"
+    },
+    {
+      "id": 4,
+      "from": "2c1e94e5dea3cac89dda43b90333c40c61f670c0",
+      "to": "bf7267a08fa0347f825b2c3cefc85f13f1ce772e",
+      "direction": "directed"
+    },
+    {
+      "id": 5,
+      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "to": "582f54c4f2a588fb2d8b83a398dbeee4d8577373",
+      "direction": "directed"
+    },
+    {
+      "id": 6,
+      "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
+      "to": "582f54c4f2a588fb2d8b83a398dbeee4d8577373",
+      "direction": "directed"
+    },
+    {
+      "id": 7,
+      "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
+      "to": "54526178a9d3f860072b78717eab01e49209a4ba",
+      "direction": "directed"
+    },
+    {
+      "id": 8,
+      "from": "bf7267a08fa0347f825b2c3cefc85f13f1ce772e",
+      "to": "dab56166e49905226ded911a135f239f27de97bc",
+      "direction": "directed"
+    },
+    {
+      "id": 9,
+      "from": "36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
+      "to": "dab56166e49905226ded911a135f239f27de97bc",
+      "direction": "directed"
+    },
+    {
+      "id": 10,
+      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "to": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "direction": "directed"
+    },
+    {
+      "id": 11,
+      "from": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
+      "to": "dc0a25d09061c4d19975f2d05890b3b56d416fed",
+      "direction": "directed"
+    },
+    {
+      "id": 12,
+      "from": "90574069af02306cd80c046b78e3e27f653f6837",
+      "to": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "direction": "directed"
+    },
+    {
+      "id": 13,
+      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "to": "8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
+      "direction": "directed"
+    },
+    {
+      "id": 14,
+      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "to": "77d0d8f3365612c9675723d3f8822b28214cea7a",
+      "direction": "directed"
+    },
+    {
+      "id": 15,
+      "from": "1808b64aec21863489f0fe66f250890a3ac2b843",
+      "to": "e4ce10063cd25447dcde75c2d9ce327446ced952",
+      "direction": "directed"
+    },
+    {
+      "id": 16,
+      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "to": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
+      "direction": "directed"
+    },
+    {
+      "id": 17,
+      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "to": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
+      "direction": "directed"
+    },
+    {
+      "id": 18,
+      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "to": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
+      "direction": "directed"
+    },
+    {
+      "id": 19,
+      "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "to": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
+      "direction": "directed"
+    },
+    {
+      "id": 20,
+      "from": "77d0d8f3365612c9675723d3f8822b28214cea7a",
+      "to": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
+      "direction": "directed"
+    },
+    {
+      "id": 21,
+      "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
+      "to": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
+      "direction": "directed"
+    },
+    {
+      "id": 22,
+      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "to": "422876e542daadefe3371091a65c5671185796e2",
+      "direction": "directed"
+    },
+    {
+      "id": 23,
+      "from": "93a6a50dd24de94ad8bd5b21f64f0e98a5f298ed",
+      "to": "422876e542daadefe3371091a65c5671185796e2",
+      "direction": "directed"
+    },
+    {
+      "id": 24,
+      "from": "90574069af02306cd80c046b78e3e27f653f6837",
+      "to": "422876e542daadefe3371091a65c5671185796e2",
+      "direction": "directed"
+    },
+    {
+      "id": 25,
+      "from": "e4ce10063cd25447dcde75c2d9ce327446ced952",
+      "to": "1808b64aec21863489f0fe66f250890a3ac2b843",
+      "direction": "directed"
+    },
+    {
+      "id": 26,
+      "from": "36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
+      "to": "67708229c4579adabf7a2fbe0178a610d2eff788",
+      "direction": "directed"
+    },
+    {
+      "id": 27,
+      "from": "dab56166e49905226ded911a135f239f27de97bc",
+      "to": "67708229c4579adabf7a2fbe0178a610d2eff788",
+      "direction": "directed"
+    },
+    {
+      "id": 28,
+      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "direction": "directed"
+    },
+    {
+      "id": 29,
+      "from": "90574069af02306cd80c046b78e3e27f653f6837",
+      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "direction": "directed"
+    },
+    {
+      "id": 30,
+      "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "direction": "directed"
+    },
+    {
+      "id": 31,
+      "from": "422876e542daadefe3371091a65c5671185796e2",
+      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "direction": "directed"
+    },
+    {
+      "id": 32,
+      "from": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "direction": "directed"
+    },
+    {
+      "id": 33,
+      "from": "8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
+      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "direction": "directed"
+    },
+    {
+      "id": 34,
+      "from": "422876e542daadefe3371091a65c5671185796e2",
+      "to": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "direction": "directed"
+    },
+    {
+      "id": 35,
+      "from": "90574069af02306cd80c046b78e3e27f653f6837",
+      "to": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "direction": "directed"
+    },
+    {
+      "id": 36,
+      "from": "93a6a50dd24de94ad8bd5b21f64f0e98a5f298ed",
+      "to": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "direction": "directed"
+    },
+    {
+      "id": 37,
+      "from": "67708229c4579adabf7a2fbe0178a610d2eff788",
+      "to": "7e104ef1d710b974ee0ee70eba9acada86210357",
+      "direction": "directed"
+    },
+    {
+      "id": 38,
+      "from": "b3c7af3cf2322505da2327add85555a94e1c834d",
+      "to": "7e104ef1d710b974ee0ee70eba9acada86210357",
+      "direction": "directed"
+    },
+    {
+      "id": 39,
+      "from": "772cdcc8a67cc878b39409230cbf2488a1117e62",
+      "to": "19de1229db1c2e62367a3d1459e24848064dfd02",
+      "direction": "directed"
+    },
+    {
+      "id": 40,
+      "from": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
+      "to": "19de1229db1c2e62367a3d1459e24848064dfd02",
+      "direction": "directed"
+    },
+    {
+      "id": 41,
+      "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
+      "to": "19de1229db1c2e62367a3d1459e24848064dfd02",
+      "direction": "directed"
+    },
+    {
+      "id": 42,
+      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "to": "b3c7af3cf2322505da2327add85555a94e1c834d",
+      "direction": "directed"
+    },
+    {
+      "id": 43,
+      "from": "67708229c4579adabf7a2fbe0178a610d2eff788",
+      "to": "b3c7af3cf2322505da2327add85555a94e1c834d",
+      "direction": "directed"
+    },
+    {
+      "id": 44,
+      "from": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
+      "to": "f75c5ee8db682f37f0ebf16d62677823c02359af",
+      "direction": "directed"
+    },
+    {
+      "id": 45,
+      "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
+      "to": "f75c5ee8db682f37f0ebf16d62677823c02359af",
+      "direction": "directed"
+    },
+    {
+      "id": 46,
+      "from": "67708229c4579adabf7a2fbe0178a610d2eff788",
+      "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
+      "direction": "directed"
+    },
+    {
+      "id": 47,
+      "from": "b3c7af3cf2322505da2327add85555a94e1c834d",
+      "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
+      "direction": "directed"
+    },
+    {
+      "id": 48,
+      "from": "7e104ef1d710b974ee0ee70eba9acada86210357",
+      "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
+      "direction": "directed"
+    },
+    {
+      "id": 49,
+      "from": "dab56166e49905226ded911a135f239f27de97bc",
+      "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
+      "direction": "directed"
+    },
+    {
+      "id": 50,
+      "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 51,
+      "from": "8cea7934a05b8cd906a89c206bee2df2e84c5629",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 52,
+      "from": "582f54c4f2a588fb2d8b83a398dbeee4d8577373",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 53,
+      "from": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 54,
+      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 55,
+      "from": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 56,
+      "from": "90574069af02306cd80c046b78e3e27f653f6837",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 57,
+      "from": "422876e542daadefe3371091a65c5671185796e2",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 58,
+      "from": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 59,
+      "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
+      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "direction": "directed"
+    },
+    {
+      "id": 60,
+      "from": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "direction": "directed"
+    },
+    {
+      "id": 61,
+      "from": "90574069af02306cd80c046b78e3e27f653f6837",
+      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "direction": "directed"
+    },
+    {
+      "id": 62,
+      "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "direction": "directed"
+    },
+    {
+      "id": 63,
+      "from": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "direction": "directed"
+    },
+    {
+      "id": 64,
+      "from": "422876e542daadefe3371091a65c5671185796e2",
+      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "direction": "directed"
+    },
+    {
+      "id": 65,
+      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
+      "direction": "directed"
+    },
+    {
+      "id": 66,
+      "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
+      "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
+      "direction": "directed"
+    },
+    {
+      "id": 67,
+      "from": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
+      "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
+      "direction": "directed"
+    },
+    {
+      "id": 68,
+      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
+      "direction": "directed"
+    },
+    {
+      "id": 69,
+      "from": "77d0d8f3365612c9675723d3f8822b28214cea7a",
+      "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
+      "direction": "directed"
+    },
+    {
+      "id": 70,
+      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 71,
+      "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 72,
+      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 73,
+      "from": "8d63532f254c77549b40e232611948d36c85150b",
+      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "direction": "directed"
+    },
+    {
+      "id": 74,
+      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "direction": "directed"
+    },
+    {
+      "id": 75,
+      "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
+      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "direction": "directed"
+    },
+    {
+      "id": 76,
+      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "direction": "directed"
+    },
+    {
+      "id": 77,
+      "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
+      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "direction": "directed"
+    },
+    {
+      "id": 78,
+      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "direction": "directed"
+    },
+    {
+      "id": 79,
+      "from": "8d63532f254c77549b40e232611948d36c85150b",
+      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "direction": "directed"
+    },
+    {
+      "id": 80,
+      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "to": "b2ae64924d9a850eeb32f32a09bbff78783244c4",
+      "direction": "directed"
+    },
+    {
+      "id": 81,
+      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "to": "b2ae64924d9a850eeb32f32a09bbff78783244c4",
+      "direction": "directed"
+    },
+    {
+      "id": 82,
+      "from": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
+      "to": "bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
+      "direction": "directed"
+    },
+    {
+      "id": 83,
+      "from": "3797d924fc5f832b72a84c512e92021906793965",
+      "to": "bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
+      "direction": "directed"
+    }
+  ]
+}

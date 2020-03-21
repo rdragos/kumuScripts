@@ -1,0 +1,8 @@
+- To get a list of COED papers take the following steps:
+    1) run python kumucollector.py --output 0
+        to generate a json with all cryptography papers from semantic scholar
+    2) run python trainer.py
+    3) run python predictor.py
+    4) final output should be in 'tagged_output.json'
+        - if you want to restrict the graph to 128 citations for example run    
+            python kumucollector.py --output 2 --limit 128
