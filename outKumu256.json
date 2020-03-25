@@ -357,7 +357,7 @@
       "venue": "EUROCRYPT",
       "year": 1996,
       "numInCitations": 268,
-      "tags": "tbd"
+      "tags": ["digital signatures", "secret sharing", "access structure", "discrete logarithm"]
     },
     {
       "abstract": "The contribution of this paper is two-fold. First, a connection is established between approximating the size of the largest clique in a graph and multi-prover interactive proofs. Second, an efficient multi-prover interactive proof for NP languages is constructed, where the verifier uses very few random bits and communication bits. Last, the connection between cliques and efficient multi-prover interaction proofs, is shown to yield hardness results on the complexity of approximating the size of the largest clique in a graph.\nOf independent interest is our proof of correctness for the multilinearity test of functions.",
@@ -375,7 +375,7 @@
       "venue": "JACM",
       "year": 1996,
       "numInCitations": 272,
-      "tags": "tbd"
+      "tags": ["foundations", "interactive proofs", "graphs"]
     },
     {
       "abstract": "We describe an RSA-based signing scheme which combines essentially optimal efficiency with attractive security properties. Signing takes one RSA decryption plus some hashing, verification takes one RSA encryption plus some hashing, and the size of the signature is the size of the modulus. Assuming the underlying hash functions are ideal, our schemes are not only provably secure, but are so in a tight way-- an ability to forge signatures with a certain amount of computational resources implies the ability to invert RSA (on the same size modulus) with about the same computational effort. Furthermore, we provide a second scheme which maintains all of the above features and in addition provides message recovery. These ideas extend to provide schemes for Rabin signatures with analogous properties; in particular their security can be tightly related to the hardness of factoring.",
@@ -386,11 +386,11 @@
       "id": "36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
       "label": "BellareRogaway96",
       "s2Url": "https://semanticscholar.org/paper/36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
-      "title": "The Exact Security of Digital Signatures - HOw to Sign with RSA and Rabin",
+      "title": "The Exact Security of Digital Signatures - How to Sign with RSA and Rabin",
       "venue": "EUROCRYPT",
       "year": 1996,
       "numInCitations": 610,
-      "tags": "tbd"
+      "tags": ["hash functions", "digital signatures", "random oracle", "provable security"]
     },
     {
       "abstract": "We present a new efficient paradigm for signing digital streams. The problem of signing digital streams to prove their authenticity is substantially different from the problem of signing regular messages. Traditional signature schemes are message oriented and require the receiver to process the entire message before being able to authenticate its signature. However, a stream is a potentially very long (or infinite) sequence of bits that the sender sends to the receiver and the receiver is required to consumes the received bits at more or less the input rate and without excessive delay. Therefore it is infeasible for the receiver to obtain the entire stream before authenticating and consuming it. Examples of streams include digitized video and audio files, data feeds and applets. We present two solutions to the problem of authenticating digital streams. The first one is for the case of a finite stream which is entirely known to the sender (say a movie). We use this constraint to devise an extremely efficient solution. The second case is for a (potentially infinite) stream which is not known in advance to the sender (for example a live broadcast). We present proofs of security of our constructions. Our techniques also have applications in other areas, for example, efficient authentication of long files when communication is at a cost and signature based filtering at a proxy server.",
@@ -405,7 +405,7 @@
       "venue": "CRYPTO",
       "year": 1997,
       "numInCitations": 316,
-      "tags": "tbd"
+      "tags": ["hash functions", "digital signatures", "message authentication codes", "proxy server", "authentication"]
     },
     {
       "abstract": "This paper proposes a bit commitment scheme, BC(·), and efficient statistical zero knowledge (in short, SZK) protocols in which, for any given multi-variable polynomial f(X 1,..,X t) and any given modulus n, prover P gives (I 1,..,I t) to verifier V and can convince V that V knows (x 1,..,x t) satisfying f(x 1,..,x t) = 0 (mod n) and I i = BC(x i), (i = l,..,t). The proposed protocols are O(n) times more efficient than the corresponding previous ones [Dam93, Dam95, Oka95]. The (knowledge) soundness of our protocols holds under a computational assumption, the intractability of a modified RSA problem (see Def.3), while the (statistical) zero-knowledgeness of the protocols needs no computational assumption. The protocols can be employed to construct various practical cryptographic protocols, such as fair exchange, untraceable electronic cash and verifiable secret snaring protocols.",
@@ -420,7 +420,7 @@
       "venue": "CRYPTO",
       "year": 1997,
       "numInCitations": 340,
-      "tags": "tbd"
+      "tags": ["secret sharing", "zero-knowledge proofs", "cryptographic protocols", "commitment schemes"]
     },
     {
       "abstract": "We describe efficient techniques for a number of parties to jointly generate an RSA key. At the end of the protocol an RSA modulus N = pq is publicly known. None of the parties know the factorization of N. In addition a public encryption exponent is publicly known and each party holds a share of the private exponent that enables threshold decryption. Our protocols are efficient in computation and communication. All results are presented in the honest but curious scenario (passive adversary).",
@@ -435,7 +435,7 @@
       "venue": "JACM",
       "year": 1997,
       "numInCitations": 276,
-      "tags": "tbd"
+      "tags": ["rsa", "threshold schemes", "mpc", "primality testing"]
     },
     {
       "abstract": "Private information retrieval (PIR) schemes allow a user to retrieve the ith bit of an n-bit data string x, replicated in k?2 databases (in the information-theoretic setting) or in k?1 databases (in the computational setting), while keeping the value of i private. The main cost measure for such a scheme is its communication complexity. In this paper we introduce a model of symmetrically-private information retrieval (SPIR), where the privacy of the data, as well as the privacy of the user, is guaranteed. That is, in every invocation of a SPIR protocol, the user learns only a single physical bit of x and no other information about the data. Previously known PIR schemes severely fail to meet this goal. We show how to transform PIR schemes into SPIR schemes (with information-theoretic privacy), paying a constant factor in communication complexity. To this end, we introduce and utilize a new cryptographic primitive, called conditional disclosure of secrets, which we believe may be a useful building block for the design of other cryptographic protocols. In particular, we get a k-database SPIR scheme of complexity O(n1/(2k?1)) for every constant k?2 and an O(logn)-database SPIR scheme of complexity O(log2n·loglogn). All our schemes require only a single round of interaction, and are resilient to any dishonest behavior of the user. These results also yield the first implementation of a distributed version of (n1)-OT (1-out-of-n oblivious transfer) with information-theoretic security and sublinear communication complexity.",
@@ -452,7 +452,7 @@
       "venue": "STOC '98",
       "year": 1997,
       "numInCitations": 299,
-      "tags": "tbd"
+      "tags": ["pir", "cryptographic protocols", "symmetric pir"]
     },
     {
       "abstract": "First, we introduce the notion of divertibility as a protocol property as opposed to the existing notion as a language property (see Okamoto, Ohta [OO90]). We give a definition of protocol divertibility that applies to arbitrary 2-party protocols and is compatible with Okamoto and Ohta's definition in the case of interactive zero-knowledge proofs. Other important examples falling under the new definition are blind signature protocols. We propose a sufficiency criterion for divertibility that is satisfied by many existing protocols and which, surprisingly, generalizes to cover several protocols not normally associated with divertibility (e.g., Diffie-Hellman key exchange). Next, we introduce atomic proxy cryptography, in which an atomic proxy function, in conjunction with a public proxy key, converts ciphertexts (messages or signatures) for one key into ciphertexts for another. Proxy keys, once generated, may be made public and proxy functions applied in untrusted environments. We present atomic proxy functions for discrete-log-based encryption, identification, and signature schemes. It is not clear whether atomic proxy functions exist in general for all public-key cryptosystems. Finally, we discuss the relationship between divertibility and proxy cryptography.",
@@ -468,7 +468,7 @@
       "venue": "EUROCRYPT",
       "year": 1998,
       "numInCitations": 798,
-      "tags": "tbd"
+      "tags": ["digital signatures", "proxy signatures", "cryptographic protocols"]
     },
     {
       "abstract": "Abstract. We present general definitions of security for multiparty cryptographic protocols, with focus on the task of evaluating a probabilistic function of the parties' inputs. We show that, with respect to these definitions, security is preserved under a natural composition operation. The definitions follow the general paradigm of known definitions; yet some substantial modifications and simplifications are introduced. The composition operation is the natural ``subroutine substitution'' operation, formalized by Micali and Rogaway. We consider several standard settings for multiparty protocols, including the cases of eavesdropping, Byzantine, nonadaptive and adaptive adversaries, as well as the information-theoretic and the computational models. In particular, in the computational model we provide the first definition of security of protocols that is shown to be preserved under composition.",
@@ -482,7 +482,7 @@
       "venue": "Journal of Cryptology",
       "year": 1998,
       "numInCitations": 803,
-      "tags": "tbd"
+      "tags": ["mpc", "cryptographic protocols"]
     },
     {
       "abstract": "We present an RSA threshold signature scheme. The scheme enjoys the following properties: 1. it is unforgeable and robust in the random oracle model, assuming the RSA problem is hard; 2. signature share generation and verification is completely non-interactive; 3. the size of an individual signature share is bounded by a constant times the size of the RSA modulus.",
@@ -496,7 +496,7 @@
       "venue": "EUROCRYPT",
       "year": 1999,
       "numInCitations": 511,
-      "tags": "tbd"
+      "tags": ["digital signature", "threshold schemes", "rsa", "threshold signatures"]
     },
     {
       "abstract": "The widthof a Resolution proof is defined to be the maximal number of literals in any clause of the proof. In this paper, we relate proof width to proof length (=size), in both general Resolution, and its tree-like variant. The following consequences of these relations reveal width as a crucial “resource” of Resolution proofs.\nIn one direction, the relations allow us to give simple, unified proofs for almost all known exponential lower bounds on size of resolution proofs, as well as several interesting new ones. They all follow from width lower bounds, and we show how these follow from natural expansion property of clauses of the input tautology.\nIn the other direction, the width-size relations naturally suggest a simple dynamic programming procedure for automated theorem proving—one which simply searches for small width proofs. This relation guarantees that the runnuing time (and thus the size of the produced proof) is at most quasi-polynomial in the smallest tree-like proof. This algorithm is never much worse than any of the recursive automated provers (such as DLL) used in practice. In contrast, we present a family of tautologies on which it is exponentially faster.",
@@ -511,7 +511,7 @@
       "venue": "JACM",
       "year": 1999,
       "numInCitations": 401,
-      "tags": "tbd"
+      "tags": ["foundations", "interactive proofs"]
     },
     {
       "abstract": "A publicly verifiable secret sharing (PVSS) scheme is a veri fiable secret sharing scheme with the property that the validity of the shares distributed by the dealer can be verified by any party; hence verification is not limited to the respective participants receiving the shares. We present a new construction for PVSS schemes, which compared to previous solutions by Stadler and later by Fujisaki and Okamoto, achieves improvements both in efficiency and in the type of intractability assumptions. The running time is O(nk), where k is a security parameter, and n is the number of participants, hence essentially optimal. The intractability assumptions are the standard Diffie-Hellman assumption and its decisional variant. We present several applications of our PVSS scheme, among which is a new type of universally verifiable election scheme based on PVSS. The election scheme becomes quite practical and combines several advantages of related electronic voting schemes, which makes it of interest in its own right.",
@@ -525,7 +525,7 @@
       "venue": "CRYPTO",
       "year": 1999,
       "numInCitations": 303,
-      "tags": "tbd"
+      "tags": ["secret sharing", "random oracle model", "electronic vote",  "election scheme"]
     },
     {
       "abstract": "This paper presents a generic conversion from weak asymmetric and symmetric encryption schemes to an asymmetric encryption scheme that is chosen-ciphertext secure in the random oracle model. Our conversion is the first generic transformation from an arbitrary one-way asymmetric encryption scheme to a chosen-ciphertext secure asymmetric encryption scheme in the random oracle model.",
@@ -540,7 +540,7 @@
       "venue": "Journal of Cryptology",
       "year": 1999,
       "numInCitations": 629,
-      "tags": "tbd"
+      "tags": ["random oracle model", "authentication", "authentication code", "symmetric-key cryptography"]
     },
     {
       "abstract": "We present a single-database computationally private information retrieval scheme with polylogarithmic communication complexity. Our construction is based on a new, but reasonable intractability assumption, which we call the φ-Hiding Assumption (φHA): essentially the difficulty of deciding whether a small prime divides φ(m), where m is a composite integer of unknown factorization.",
