@@ -556,7 +556,7 @@
       "venue": "EUROCRYPT",
       "year": 1999,
       "numInCitations": 434,
-      "tags": "tbd"
+      "tags": ["integer factorization", "pir"]
     },
     {
       "abstract": "Alice wants to prove that she is young enough to borrow money from her bank, without revealing her age. She therefore needs a tool for proving that a committed number lies in a specific interval. Up to now, such tools were either inefficient (too many bits to compute and to transmit) or inexact (i.e. proved membership to a much larger interval). This paper presents a new proof, which is both efficient and exact. Here, \"efficient\" means that there are less than 20 exponentiations to perform and less than 2 Kbytes to transmit. The potential areas of application of this proof are numerous (electronic cash, group signatures, publicly verifiable secret encryption, etc ...).",
@@ -570,7 +570,7 @@
       "venue": "EUROCRYPT",
       "year": 2000,
       "numInCitations": 330,
-      "tags": "tbd"
+      "tags": ["secret sharing", "discrete logarithm"]
     },
     {
       "abstract": "We present a rigorous model for secure reactive systems in asynchronous networks with a sound cryptographic semantics, supporting abstract specifications and the composition of secure systems. This enables modular proofs of security, which is essential in bridging the gap between the rigorous proof techniques of cryptography and tool-supported formal proof techniques. The model follows the general simulatability approach of modern cryptography. A variety of network structures and trust models can be described such as static and adaptive adversaries, some examples of this are given. As an example of our specification methodology we provide an abstract and complete specification for Secure Message Transmission, improving on recent results by Lynch (1999), and verify one concrete implementation. Our proof is based on a general theorem on the security of encryption in a reactive multi-user setting, generalizing a recent result by Bellare et. al (2000).",
@@ -585,7 +585,7 @@
       "venue": "Proceedings 2001 IEEE Symposium on Security and Privacy. S&P 2001",
       "year": 2000,
       "numInCitations": 285,
-      "tags": "tbd"
+      "tags": ["foundations", "authentication"]
     },
     {
       "abstract": "We propose a novel paradigm for defining security of cryptographic protocols, called universally composable security. The salient property of universally composable definitions of security is that they guarantee security even when a secure protocol is composed of an arbitrary set of protocols, or more generally when the protocol is used as a component of an arbitrary system. This is an essential property for maintaining security of cryptographic protocols in complex and unpredictable environments such as the Internet. In particular, universally composable definitions guarantee security even when an unbounded number of protocol instances are executed concurrently in an adversarially controlled manner, they guarantee non-malleability with respect to arbitrary protocols, and more. We show how to formulate universally composable definitions of security for practically any cryptographic task. Furthermore, we demonstrate that practically any such definition can be realized using known techniques, as long as only a minority of the participants are corrupted. We then proceed to formulate universally composable definitions of a wide array of cryptographic tasks, including authenticated and secure communication, key-exchange, public-key encryption, signature, commitment, oblivious transfer, zero knowledge and more. We also make initial steps towards studying the realizability of the proposed definitions in various settings.",
@@ -599,7 +599,7 @@
       "venue": "Proceedings 2001 IEEE International Conference on Cluster Computing",
       "year": 2000,
       "numInCitations": 1880,
-      "tags": "tbd"
+      "tags": ["foundations", "cryptographic protocols", "provable security", "concurrent composition"]
     },
     {
       "abstract": "In this paper we introduce the concept of privacy preserving data mining. In our model, two parties owning confidential databases wish to run a data mining algorithm on the union of their databases, without revealing any unnecessary information. This problem has many practical and important applications, such as in medical research with confidential patient records. \n \nData mining algorithms are usually complex, especially as the size of the input is measured in megabytes, if not gigabytes. A generic secure multi-party computation solution, based on evaluation of a circuit computing the algorithm on the entire input, is therefore of no practical use. We focus on the problem of decision tree learning and use ID3, a popular and widely used algorithm for this problem. We present a solution that is considerably more efficient than generic solutions. It demands very few rounds of communication and reasonable bandwidth. In our solution, each party performs by itself a computation of the same order as computing the ID3 algorithm for its own database. The results are then combined using efficient cryptographic protocols, whose overhead is only logarithmic in the number of transactions in the databases. We feel that our result is a substantial contribution, demonstrating that secure multi-party computation can be made practical, even for complex problems and large inputs.",
@@ -614,7 +614,7 @@
       "venue": "CRYPTO",
       "year": 2000,
       "numInCitations": 1268,
-      "tags": "tbd"
+      "tags": ["data mining", "privacy"]
     },
     {
       "abstract": "AbstractRecently Victor Shoup noted that there is a gap in the widely believed security\nresult of OAEP against adaptive chosen-ciphertext attacks. Moreover, he showed\nthat, presumably, OAEP cannot be proven secure from the one-wayness of the underlying\ntrapdoor permutation. This paper establishes another result on the security of OAEP.\nIt proves that OAEP offers semantic security against adaptive chosen-ciphertext attacks,\nin the random oracle model, under the partial-domain one-wayness of the underlying\npermutation. Therefore, this uses a formally stronger assumption. Nevertheless, since\npartial-domain one-wayness of the RSA function is equivalent to its (full-domain) onewayness,\nit follows that the security of RSA-OAEP can actually be proven under the\nsole RSA assumption, although the reduction is not tight.",
@@ -631,7 +631,7 @@
       "venue": "Journal of Cryptology",
       "year": 2000,
       "numInCitations": 262,
-      "tags": "tbd"
+      "tags": ["cryptologic protocols", "hash functions", "random oracle model"]
     },
     {
       "abstract": "Voting schemes that provide receipt-freeness prevent voters from proving their cast vote, and hence thwart vote-buying and coercion. We analyze the security of the multi-authority voting protocol of Benaloh and Tuinstra and demonstrate that this protocol is not receiptfree, opposed to what was claimed in the paper and was believed before. Furthermore, we propose the first practicable receipt-free voting scheme. Its only physical assumption is the existence of secret one-way communication channels from the authorities to the voters, and due to the public verifiability of the tally, voters only join a single stage of the protocol, realizing the \"vote-and-go\" concept. The protocol combines the advantages of the receipt-free protocol of Sako and Kilian and of the very efficient protocol of Cramer, Gennaro, and Schoenmakers, with help of designated-verifier proofs of Jakobsson, Sako, and Impagliazzo. \n \nCompared to the receipt-free protocol of Sako and Kilian for security parameter l (the number of repetitions in the non-interactive cut-andchoose proofs), the protocol described in this paper realizes an improvement of the total bit complexity by a factor l.",
@@ -646,7 +646,7 @@
       "venue": "EUROCRYPT",
       "year": 2000,
       "numInCitations": 362,
-      "tags": "tbd"
+      "tags": ["electronic voting", "he"]
     },
     {
       "abstract": "We show that verifiable secret sharing (VSS) and secure multi-party computation (MPC) among a set of n players can efficiently be based on any linear secret sharing scheme (LSSS) for the players, provided that the access structure of the LSSS allows MPC or VSS at all. Because an LSSS neither guarantees reconstructability when some shares are false, nor verifiability of a shared value, nor allows for the multiplication of shared values, an LSSS is an apparently much weaker primitive than VSS or MPC. \n \nOur approach to secure MPC is generic and applies to both the information-theoretic and the cryptographic setting. The construction is based on 1) a formalization of the special multiplicative property of an LSSS that is needed to perform a multiplication on shared values, 2) an efficient generic construction to obtain from any LSSS a multiplicative LSSS for the same access structure, and 3) an efficient generic construction to build verifiability into every LSSS (always assuming that the adversary structure allows for MPC or VSS at all). \n \nThe protocols are efficient. In contrast to all previous information-theoretically secure protocols, the field size is not restricted (e.g, to be greater than n). Moreover, we exhibit adversary structures for which our protocols are polynomial in n while all previous approaches to MPC for non-threshold adversaries provably have super-polynomial complexity.",
@@ -662,7 +662,7 @@
       "venue": "EUROCRYPT",
       "year": 2000,
       "numInCitations": 307,
-      "tags": "tbd"
+      "tags": ["secret sharing", "mpc", "linear secret sharing", "commitment schemes"]
     },
     {
       "abstract": "One interesting and important challenge for the cryptologic community is that of providing secure authentication and identification for unassisted humans. There are a range of protocols for secure identification which require various forms of trusted hardware or software, aimed at protecting privacy and financial assets. But how do we verify our identity, securely, when we don't have or don't trust our smart card, palmtop, or laptop? \n \nIn this paper, we provide definitions of what we believe to be reasonable goals for secure human identification. We demonstrate that existing solutions do not meet these reasonable definitions. Finally, we provide solutions which demonstrate the feasibility of the security conditions attached to our definitions, but which are impractical for use by humans.",
@@ -677,7 +677,7 @@
       "venue": "ASIACRYPT",
       "year": 2001,
       "numInCitations": 387,
-      "tags": "tbd"
+      "tags": ["smart card", "hash tables"]
     },
     {
       "abstract": "We propose a new security measure for commitment protocols, called Universally Composable (UC) Commitment. The measure guarantees that commitment protocols behave like an \"ideal commitment service,\" even when concurrently composed with an arbitrary set of protocols. This is a strong guarantee: it implies that security is maintained even when an unbounded number of copies of the scheme are running concurrently, it implies non-malleability (not only with respect to other copies of the same protocol but even with respect to other protocols), it provides resilience to selective decommitment, and more. \n \nUnfortunately, two-party uc commitment protocols do not exist in the plain model. However, we construct two-party uc commitment protocols, based on general complexity assumptions, in the common reference string model where all parties have access to a common string taken from a predetermined distribution. The protocols are non-interactive, in the sense that both the commitment and the opening phases consist of a single message from the committer to the receiver.",
@@ -692,7 +692,7 @@
       "venue": "CRYPTO",
       "year": 2001,
       "numInCitations": 409,
-      "tags": "tbd"
+      "tags": ["foundations",  "commitment schemes", "concurrent composition"]
     },
     {
       "abstract": "The simulation paradigm is central to cryptography. A simulator is an algorithm that tries to simulate the interaction of the adversary with an honest party, without knowing the private input of this honest party. Almost all known simulators use the adversary's algorithm as a black-box. We present the first constructions of non-black-box simulators. Using these new non-black-box techniques, we obtain several results that were previously proven to be impossible to obtain using black-box simulators. Specifically, assuming the existence of collision resistent hash functions, we construct a new zero-knowledge argument system for NP that satisfies the following properties: 1. This system has a constant number of rounds with negligible soundness error. 2. It remains zero knowledge even when composed concurrently n times, where n is the security parameter. Simultaneously obtaining 1 and 2 has been recently proven to be impossible to achieve using black-box simulators. 3. It is an Arthur-Merlin (public coins) protocol. Simultaneously obtaining 1 and 3 was known to be impossible to achieve with a black-box simulator. 4. It has a simulator that runs in strict polynomial time, rather than in expected polynomial time. All previously known constant-round, negligible-error zero-knowledge arguments utilized expected polynomial-time simulators.",
@@ -706,7 +706,7 @@
       "venue": "FOCS",
       "year": 2001,
       "numInCitations": 335,
-      "tags": "tbd"
+      "tags": ["foundations", "computational complexity", "cryptographic protocols", "simulation-based proofs"]
     },
     {
       "abstract": "In this paper we formalize the notion of a ring signature, which makes it possible to specify a set of possible signers without revealing which member actually produced the signature. Unlike group signatures, ring signatures have no group managers, no setup procedures, no revocation procedures, and no coordination: any user can choose any set of possible signers that includes himself, and sign any message by using his secret key and the others' public keys, without getting their approval or assistance. Ring signatures provide an elegant way to leak authoritative secrets in an anonymous way, to sign casual email in a way which can only be verified by its intended recipient, and to solve other problems in multiparty computations. The main contribution of this paper is a new construction of such signatures which is unconditionally signer-ambiguous, provably secure in the random oracle model, and exceptionally efficient: adding each ring member increases the cost of signing or verifying by a single modular multiplication and a single symmetric encryption.",
@@ -722,7 +722,7 @@
       "venue": "ASIACRYPT",
       "year": 2001,
       "numInCitations": 834,
-      "tags": "tbd"
+      "tags": ["digital signatures", "ring signatures", "group signatures"]
     },
     {
       "abstract": "We consider the question of protecting the privacy of customers buying digital goods. More specifically, our goal is to allow a buyer to purchase digital goods from a vendor without letting the vendor learn what, and to the extent possible also when and how much, it is buying. We propose solutions which allow the buyer, after making an initial deposit, to engage in an unlimited number of priced oblivious-transfer protocols, satisfying the following requirements: As long as the buyer's balance contains sufficient funds, it will successfully retrieve the selected item and its balance will be debited by the item's price. However, the buyer should be unable to retrieve an item whose cost exceeds its remaining balance. The vendor should learn nothing except what must inevitably be learned, namely, the amount of interaction and the initial deposit amount (which imply upper bounds on the quantity and total price of all information obtained by the buyer). In particular, the vendor should be unable to learn what the buyer's current balance is or when it actually runs out of its funds. \n \nThe technical tools we develop, in the process of solving this problem, seem to be of independent interest. In particular, we present the first one-round (two-pass) protocol for oblivious transfer that does not rely on the random oracle model (a very similar protocol was independently proposed by Naor and Pinkas [21]). This protocol is a special case of a more general \"conditional disclosure\" methodology, which extends a previous approach from [11] and adapts it to the 2-party setting.",
@@ -738,7 +738,7 @@
       "venue": "EUROCRYPT",
       "year": 2001,
       "numInCitations": 288,
-      "tags": "tbd"
+      "tags": ["he", "ot", "pir", "cryptographic protocols"]
     },
     {
       "abstract": "One of the main challenges of securing multicast communicationis source authentication,or enabling receivers of multicast data to verify that the received data originated with the claimed source and was not modified enroute. The problem becomes more complex in common settings where other receivers of the data are not trusted, and where lost packets are not retransmitted. Several source authentication schemes for multicast have been suggested in the past, but none of these schemes is satisfactorily efficient in all prominent parameters. We recently proposed a very efficient scheme, TESLA, that is based on initial loose time synchronization between the sender and the receivers, followed by delayed release of keys by the sender. This paper proposes several substantial modifications and improvements to TESLA. One modification allows receivers to authenticate most packets as soon as they arrive (whereas TESLArequires buffering packets at the receiver side, and provides delayed authentication only). Other modifications improve the scalability of the scheme, reduce the space overhead for multiple instances, increase its resistance to denial-of-service attacks, and more.",
@@ -755,7 +755,7 @@
       "venue": "NDSS",
       "year": 2001,
       "numInCitations": 537,
-      "tags": "tbd"
+      "tags": ["authentication", "cryptographic protocols"]
     },
     {
       "abstract": "A credential system is a system in which users can obtain credentials from organizations and demonstrate possession of these credentials. Such a system is anonymous when transactions carried out by the same user cannot be linked. An anonymous credential system is of significant practical relevance because it is the best means of providing privacy for users. In this paper we propose a practical anonymous credential system that is based on the strong RSA assumption and the decisional Diffie-Hellman assumption modulo a safe prime product and is considerably superior to existing ones: (1) We give the first practical solution that allows a user to unlinkably demonstrate possession of a credential as many times as necessary without involving the issuing organization. (2) To prevent misuse of anonymity, our scheme is the first to offer optional anonymity revocation for particular transactions. (3) Our scheme offers separability: all organizations can choose their cryptographic keys independently of each other. Moreover, we suggest more effective means of preventing users from sharing their credentials, by introducing all-or-nothing sharing: a user who allows a friend to use one of her credentials once, gives him the ability to use all of her credentials, i.e., taking over her identity. This is implemented by a new primitive, called circular encryption, which is of independent interest, and can be realized from any semantically secure cryptosystem in the random oracle model.",
@@ -770,7 +770,7 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2001,
       "numInCitations": 583,
-      "tags": "tbd"
+      "tags": ["cryptographic protocols", "blind signatures", "digital signatures", "e-cash", "circular encryption", "credential systems", "pseudonym systems", "key-oblivious encryption"]
     },
     {
       "abstract": "We present several new and fairly practical public-key encryption schemes and prove them secure against adaptive chosen ciphertext attack. One scheme is based on Paillier's Decision Composite Residuosity assumption, while another is based in the classical Quadratic Residuosity assumption. The analysis is in the standard cryptographic model, i.e., the security of our schemes does not rely on the Random Oracle model. Moreover, we introduce a general framework that allows one to construct secure encryption schemes in a generic fashion from language membership problems that satisfy certain technical requirements. Our new schemes fit into this framework, as does the Cramer-Shoup scheme based on the Decision Diffie-Hellman assumption.",
@@ -785,7 +785,7 @@
       "venue": "EUROCRYPT",
       "year": 2001,
       "numInCitations": 452,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "public-key encryption", "adaptive chosen ciphertext security"]
     },
     {
       "abstract": "We study the question of how to generically compose symmetric encryption and authentication when building \"secure channels\" for the protection of communications over insecure networks. We show that any secure channels protocol designed to work with any combination of secure encryption (against chosen plaintext attacks) and secure MAC must use the encrypt-then-authenticate method. We demonstrate this by showing that the other common methods of composing encryption and authentication, including the authenticate-then-encrypt method used in SSL, are not generically secure. We show an example of an encryption function that provides (Shannon's) perfect secrecy but when combined with any MAC function under the authenticate-then-encrypt method yields a totally insecure protocol (for example, finding passwords or credit card numbers transmitted under the protection of such protocol becomes an easy task for an active attacker). The same applies to the encrypt-and-authenticate method used in SSH. \n \nOn the positive side we show that the authenticate-then-encrypt method is secure if the encryption method in use is either CBC mode (with an underlying secure block cipher) or a stream cipher (that xor the data with a random or pseudorandom pad). Thus, while we show the generic security of SSL to be broken, the current practical implementations of the protocol that use the above modes of encryption are safe.",
