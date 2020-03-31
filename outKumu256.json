@@ -799,7 +799,7 @@
       "venue": "CRYPTO",
       "year": 2001,
       "numInCitations": 288,
-      "tags": "tbd"
+      "tags": ["Secure channels", "symmetric encryption", "authentication", " MAC"]
     },
     {
       "abstract": "Recently, Canetti and Krawczyk (Eurocrypt'2001) formulated a notion of security for key-exchange (ke) protocols, called SK-security, and showed that this notion suffices for constructing secure channels. However, their model and proofs do not suffice for proving more general composability properties of SK-secure ke protocols.We show that while the notion of SK-security is strictly weaker than a fully-idealized notion of key exchange security, it is sufficiently robust for providing secure composition with arbitrary protocols. In particular, SK-security guarantees the security of the key for any application that desires to set-up secret keys between pairs of parties. We also provide new definitions of secure-channels protocols with similarly strong composability properties, and show that SK-security suffices for obtaining these definitions.To obtain these results we use the recently proposed framework of \"universally composable (UC) security.\" We also use a new tool, called \"noninformation oracles,\" which will probably find applications beyond the present case. These tools allow us to bridge between seemingly limited indistinguishability-based definitions such as SK-security and more powerful, simulation-based definitions, such as UC security, where general composition theorems can be proven. Furthermore, based on such composition theorems we reduce the analysis of a full-fledged multi-session keyexchange protocol to the (simpler) analysis of individual, stand-alone, key-exchange sessions.",
@@ -814,7 +814,7 @@
       "venue": "EUROCRYPT",
       "year": 2002,
       "numInCitations": 272,
-      "tags": "tbd"
+      "tags": ["cryptographic protocols",  "key exchange", "cryptographic protocols", "proofs of security"]
     },
     {
       "abstract": "We show how to securely realize any multi-party functionality in a universally composable way, regardless of the number of corrupted participants. That is, we consider a multi-party network with open communication and an adversary that can adaptively corrupt as many parties as it wishes. In this setting, our protocols allow any subset of the parties (with pairs of parties being a special case) to securely realize any desired functionality of their local inputs, and be guaranteed that security is preserved regardless of the activity in the rest of the network. This implies that security is preserved under concurrent composition of an unbounded number of protocol executions, it implies non-malleability with respect to arbitrary protocols, and more. Our constructions are in the common reference string model and make general intractability assumptions.",
@@ -831,7 +831,7 @@
       "venue": "STOC",
       "year": 2002,
       "numInCitations": 372,
-      "tags": "tbd"
+      "tags": ["foundations" , "two-party computation", "mpc", "secure composition of protocols", "proofs of security"]
     },
     {
       "abstract": "Digital signature schemes are a fundamental cryptographic primitive, of use both in its own right, and as a building block in cryptographic protocol design. In this paper, we propose a practical and provably secure signature scheme and show protocols (1) for issuing a signature on a committed value (so the signer has no information about the signed value), and (2) for proving knowledge of a signature on a committed value. This signature scheme and corresponding protocols are a building block for the design of anonymity-enhancing cryptographic systems, such as electronic cash, group signatures, and anonymous credential systems. The security of our signature scheme and protocols relies on the Strong RSA assumption. These results are a generalization of the anonymous credential system of Camenisch and Lysyanskaya.",
@@ -846,7 +846,7 @@
       "venue": "SCN",
       "year": 2002,
       "numInCitations": 456,
-      "tags": "tbd"
+      "tags": ["digital signatures", "commitment schemes", "signature queries"]
     },
     {
       "abstract": "Broadcast Encryption schemes enable a center to broadcast encrypted programs so that only designated subsets of users can decrypt each program. The stateless variant of this problem provides each user with a fixed set of keys which is never updated. The best scheme published so far for this problem is the \"subset difference\" (SD) technique of Naor Naor and Lotspiech, in which each one of the n users is initially given O(log2(n)) symmetric encryption keys. This allows the broadcaster to define at a later stage any subset of up to r users as \"revoked\", and to make the program accessible only to their complement by sending O(r) short messages before the encrypted program, and asking each user to perform an O(log(n)) computation. In this paper we describe the \"Layered Subset Difference\" (LSD) technique, which achieves the same goal with O(log1+?(n)) keys, O(r) messages, and O(log(n)) computation. This reduces the number of keys given to each user by almost a square root factor without affecting the other parameters. In addition, we show how to use the same LSD keys in order to address any subset defined by a nested combination of inclusion and exclusion conditions with a number of messages which is proportional to the complexity of the description rather than to the size of the subset. The LSD scheme is truly practical, and makes it possible to broadcast an unlimited number of programs to 256,000,000 possible customers by giving each new customer a smart card with one kilobyte of tamper-resistant memory. It is then possible to address any subset defined by t nested inclusion and exclusion conditions by sending less than 4t short messages, and the scheme remains secure even if all the other users form an adversarial coalition.",
@@ -861,7 +861,7 @@
       "venue": "CRYPTO",
       "year": 2002,
       "numInCitations": 295,
-      "tags": "tbd"
+      "tags": ["smart cards", "steiner tree", "message complexity", "exclusion condition", "broadcast schemes"]
     },
     {
       "abstract": "We introduce the notion of a dynamic accumulator. An accumulator scheme allows one to hash a large set of inputs into one short value, such that there is a short proof that a given input was incorporated into this value. A dynamic accumulator allows one to dynamically add and delete a value, such that the cost of an add or delete is independent of the number of accumulated values. We provide a construction of a dynamic accumulator and an efficient zero-knowledge proof of knowledge of an accumulated value. We prove their security under the strong RSA assumption. We then show that our construction of dynamic accumulators enables efficient revocation of anonymous credentials, and membership revocation for recent group signature and identity escrow schemes.",
@@ -876,7 +876,7 @@
       "venue": "CRYPTO",
       "year": 2002,
       "numInCitations": 523,
-      "tags": "tbd"
+      "tags": ["dynamic accumulators", "anonymity", "certificate revocation", "group signatures", "credential systems", "identity escrow"]
     },
     {
       "abstract": "An aggregate signature scheme is a digital signature that supports aggregation: Given n signatures on n distinct messages from n distinct users, it is possible to aggregate all these signatures into a single short signature. This single signature (and the n original messages) will convince the verifier that the n users did indeed sign the n original messages (i.e., user i signed message Mi for i = 1, . . . , n). In this paper we introduce the concept of an aggregate signature, present security models for such signatures, and give several applications for aggregate signatures. We construct an efficient aggregate signature from a recent short signature scheme based on bilinear maps due to Boneh, Lynn, and Shacham. Aggregate signatures are useful for reducing the size of certificate chains (by aggregating all signatures in the chain) and for reducing message size in secure routing protocols such as SBGP. We also show that aggregate signatures give rise to verifiably encrypted signatures. Such signatures enable the verifier to test that a given ciphertext C is the encryption of a signature on a given message M. Verifiably encrypted signatures are used in contract-signing protocols. Finally, we show that similar ideas can be used to extend the short signature scheme to give simple ring signatures.",
@@ -893,7 +893,7 @@
       "venue": "EUROCRYPT",
       "year": 2002,
       "numInCitations": 1105,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "aggregate signatures", "multisignatures", "verifiable encryption", "ring signatures", "bilinear maps", "digital signatures"]
     },
     {
       "abstract": "Privacy homomorphisms, encryption schemes that are also homomorphisms relative to some binary operation, have been studied for some time, but one may also consider the analogous problem of homomorphic signature schemes. In this paper we introduce basic definitions of security for homomorphic signature systems, motivate the inquiry with example applications, and describe several schemes that are homomorphic with respect to useful binary operations. In particular, we describe a scheme that allows a signature holder to construct the signature on an arbitrarily redacted submessage of the originally signed message. We present another scheme for signing sets that is homomorphic with respect to both union and taking subsets. Finally, we show that any signature scheme that is homomorphic with respect to integer addition must be insecure.",
@@ -910,7 +910,7 @@
       "venue": "CT-RSA",
       "year": 2002,
       "numInCitations": 312,
-      "tags": "tbd"
+      "tags": ["digital signatures", "homomorphic signatures"]
     },
     {
       "abstract": "We consider the problem of extending oblivious transfers: Given a small number of oblivious transfers “for free,” can one implement a large number of oblivious transfers? Beaver has shown how to extend oblivious transfers given a one-way function. However, this protocol is inefficient in practice, in part due to its non-black-box use of the underlying one-way function.",
@@ -927,7 +927,7 @@
       "venue": "CRYPTO",
       "year": 2003,
       "numInCitations": 369,
-      "tags": "tbd"
+      "tags": ["random oracle model", "ot", "mpc"]
     },
     {
       "abstract": "Although people have hidden secrets in plain sight-now called steganography-throughout the ages, the recent growth in computational power and technology has propelled it to the forefront of today's security techniques. Essentially, the information-hiding process in a steganographic system starts by identifying a cover medium's redundant bits (those that can be modified without destroying that medium's integrity). The embedding process creates a stego medium by replacing these redundant bits with data from the hidden message. This article discusses existing steganographic systems and presents recent research in detecting them via statistical steganalysis. Here, we present recent research and discuss the practical application of detection algorithms and the mechanisms for getting around them.",
@@ -942,7 +942,7 @@
       "venue": "IEEE Security & Privacy",
       "year": 2003,
       "numInCitations": 798,
-      "tags": "tbd"
+      "tags": ["steganography", "statistical steganalysis"]
     },
     {
       "abstract": "A suffix array represents the suffixes of a string in sorted order. Being a simpler and more compact alternative to suffix trees, it is an important tool for full text indexing and other string processing tasks. We introduce the skew algorithm for suffix array construction over integer alphabets that can be implemented to run in linear time using integer sorting as its only nontrivial subroutine: 1. recursively sort suffixes beginning at positions i mod 3 ≠ 0. 2. sort the remaining suffixes using the information obtained in step one. 3. merge the two sorted sequences obtained in steps one and two. \n \nThe algorithm is much simpler than previous linear time algorithms that are all based on the more complicated suffix tree data structure. Since sorting is a well studied problem, we obtain optimal algorithms for several other models of computation, e.g. external memory with parallel disks, cache oblivious, and parallel. The adaptations for BSP and EREW-PRAM are asymptotically faster than the best previously known algorithms.",
@@ -957,7 +957,7 @@
       "venue": "ICALP",
       "year": 2003,
       "numInCitations": 325,
-      "tags": "tbd"
+      "tags": ["foundations", "suffix arrays"]
     },
     {
       "abstract": "We consider the fundamental problem of authenticated group key exchange among n parties within a larger and insecure public network. A number of solutions to this problem have been proposed; however, all provably-secure solutions thus far are not scalable and, in particular, require n rounds. Our main contribution is the first scalable protocol for this problem along with a rigorous proof of security in the standard model under the DDH assumption; our protocol uses a constant number of rounds and requires only O(1) modular exponentiations per user (for key derivation). Toward this goal and of independent interest, we first present a scalable compiler that transforms any group key-exchange protocol secure against a passive eavesdropper to an authenticated protocol which is secure against an active adversary who controls all communication in the network. This compiler adds only one round and O(1) communication (per user) to the original scheme. We then prove secure — against a passive adversary — a variant of the two-round group key-exchange protocol of Burmester and Desmedt. Applying our compiler to this protocol results in a provably-secure three-round protocol for authenticated group key exchange which also achieves forward secrecy.",
@@ -972,7 +972,7 @@
       "venue": "CRYPTO",
       "year": 2003,
       "numInCitations": 318,
-      "tags": "tbd"
+      "tags": ["cryptographic protocols", "key exchange", "authentication"]
     },
     {
       "abstract": "We study the problem of searching on data that is encrypted using a public key system. Consider user Bob who sends email to user Alice encrypted under Alice’s public key. An email gateway wants to test whether the email contains the keyword “urgent” so that it could route the email accordingly. Alice, on the other hand does not wish to give the gateway the ability to decrypt all her messages. We define and construct a mechanism that enables Alice to provide a key to the gateway that enables the gateway to test whether the word “urgent” is a keyword in the email without learning anything else about the email. We refer to this mechanism as Public Key Encryption with keyword Search. As another example, consider a mail server that stores various messages publicly encrypted for Alice by others. Using our mechanism Alice can send the mail server a key that will enable the server to identify all messages containing some specific keyword, but learn nothing else. We define the concept of public key encryption with keyword search and give several constructions.",
@@ -989,7 +989,7 @@
       "venue": "EUROCRYPT",
       "year": 2003,
       "numInCitations": 1806,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "secure search"]
     },
     {
       "abstract": "Cryptographic computations are often carried out on insecure devices for which the threat of key exposure represents a serious and realistic concern. In an effort to mitigate the damage caused by exposure of secret data (e.g., keys) stored on such devices, the paradigm of forward security was introduced. In a forward-secure scheme, secret keys are updated at regular periods of time; furthermore, exposure of a secret key corresponding to a given time period does not enable an adversary to \"break\" the scheme (in the appropriate sense) for any prior time period. A number of constructions of forward-secure digital signature schemes, key-exchange protocols, and symmetric-key schemes are known. \n \nWe present the first constructions of a (non-interactive) forward-secure public-key encryption scheme. Our main construction achieves security against chosen plaintext attacks under the decisional bilinear Diffie-Hellman assumption in the standard model. It is practical, and all complexity parameters grow at most logarithmically with the total number of time periods. The scheme can also be extended to achieve security against chosen ciphertext attacks.",
@@ -1005,7 +1005,7 @@
       "venue": "EUROCRYPT",
       "year": 2003,
       "numInCitations": 580,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "forward security", "BDH assumption"]
     },
     {
       "abstract": "Can you guarantee secrecy even if an adversary can eavesdrop on your brain? We consider the problem of protecting privacy in circuits, when faced with an adversary that can access a bounded number of wires in the circuit. This question is motivated by side channel attacks, which allow an adversary to gain partial access to the inner workings of hardware. Recent work has shown that side channel attacks pose a serious threat to cryptosystems implemented in embedded devices. In this paper, we develop theoretical foundations for security against side channels. In particular, we propose several efficient techniques for building private circuits resisting this type of attacks. We initiate a systematic study of the complexity of such private circuits, and in contrast to most prior work in this area provide a formal threat model and give proofs of security for our constructions.",
@@ -1021,7 +1021,7 @@
       "venue": "CRYPTO",
       "year": 2003,
       "numInCitations": 502,
-      "tags": "tbd"
+      "tags": ["side channel attacks", "provable security", "mpc", "circuit complexity"]
     },
     {
       "abstract": "Audit logs are an important part of any secure system, and they need to be carefully designed in order to give a faithful representation of past system activity. This is especially true in the presence of adversaries who might want to tamper with the audit logs. While it is important that auditors can inspect audit logs to assess past system activity, the content of an audit log may contain sensitive information, and should therefore be protected from unauthorized",
@@ -1038,7 +1038,7 @@
       "venue": "NDSS",
       "year": 2004,
       "numInCitations": 268,
-      "tags": "tbd"
+      "tags": ["searchable encryption", "log systems"]
     },
     {
       "abstract": "Concurrent executions of a zero-knowledge protocol by a single prover (with one or more verifiers) may leak information and may not be zero-knowledge <i>in toto</i>. In this article, we study the problem of maintaining zero-knowledge.We introduce the notion of an (α, β) <i>timing constraint</i>: for any two processors <i>P</i><sub>1</sub> and <i>P</i><sub>2</sub>, if <i>P</i><sub>1</sub> measures α elapsed time on its local clock and <i>P</i><sub>2</sub> measures β elapsed time on its local clock, and <i>P</i><sub>2</sub> starts <i>after</i> <i>P</i><sub>1</sub> does, then <i>P</i><sub>2</sub> will finish after <i>P</i><sub>1</sub> does. We show that if the adversary is constrained by an (α, β) assumption then there exist four-round almost concurrent zero-knowledge interactive proofs and perfect concurrent zero-knowledge arguments for every language in <i>NP</i>. We also address the more specific problem of <i>Deniable Authentication</i>, for which we propose several particularly efficient solutions. Deniable Authentication is of independent interest, even in the sequential case; our concurrent solutions yield sequential solutions <i>without recourse to timing</i>, that is, in the standard model.",
@@ -1054,7 +1054,7 @@
       "venue": "JACM",
       "year": 2004,
       "numInCitations": 303,
-      "tags": "tbd"
+      "tags": ["zero-knowledge proofs", "cryptographic protocols"]
     },
     {
       "abstract": "We study the setting in which a user stores encrypted documents (e.g. e-mails) on an untrusted server. In order to retrieve documents satisfying a certain search criterion, the user gives the server a capability that allows the server to identify exactly those documents. Work in this area has largely focused on search criteria consisting of a single keyword. If the user is actually interested in documents containing each of several keywords (conjunctive keyword search) the user must either give the server capabilities for each of the keywords individually and rely on an intersection calculation (by either the server or the user) to determine the correct set of documents, or alternatively, the user may store additional information on the server to facilitate such searches. Neither solution is desirable; the former enables the server to learn which documents match each individual keyword of the conjunctive search and the latter results in exponential storage if the user allows for searches on every set of keywords.",
@@ -1070,7 +1070,7 @@
       "venue": "ACNS",
       "year": 2004,
       "numInCitations": 486,
-      "tags": "tbd"
+      "tags": ["searchable encryption", "DDH"]
     },
     {
       "abstract": "In a recent paper Dinur and Nissim considered a statistical database in which a trusted database administrator monitors queries and introduces noise to the responses with the goal of maintaining data privacy [5]. Under a rigorous definition of breach of privacy, Dinur and Nissim proved that unless the total number of queries is sub-linear in the size of the database, a substantial amount of noise is required to avoid a breach, rendering the database almost useless.",
@@ -1085,7 +1085,7 @@
       "venue": "CRYPTO",
       "year": 2004,
       "numInCitations": 276,
-      "tags": "tbd"
+      "tags": ["privacy", "databases", "statistical databases", "secure data mining"]
     },
     {
       "abstract": "We consider the problem of computing the intersection of private datasets of two parties, where the datasets contain lists of elements taken from a large domain. This problem has many applications for online collaboration. We present protocols, based on the use of homomorphic encryption and balanced hashing, for both semi-honest and malicious environments. For lists of length k, we obtain O(k) communication overhead and O(k ln ln k) computation. The protocol for the semi-honest environment is secure in the standard model, while the protocol for the malicious environment is secure in the random oracle model. We also consider the problem of approximating the size of the intersection, show a linear lower-bound for the communication overhead of solving this problem, and provide a suitable secure protocol. Lastly, we investigate other variants of the matching problem, including extending the protocol to the multi-party setting as well as considering the problem of approximate matching.",
@@ -1101,7 +1101,7 @@
       "venue": "EUROCRYPT",
       "year": 2004,
       "numInCitations": 789,
-      "tags": "tbd"
+      "tags": ["psi", "he", "ot", "random oracle model", "cryptographic protocols"]
     },
     {
       "abstract": "In mining and integrating data from multiple sources, there are many privacy and security issues. In several different contexts, the security of the full privacy-preserving data mining protocol depends on the security of the underlying private scalar product protocol. We show that two of the private scalar product protocols, one of which was proposed in a leading data mining conference, are insecure. We then describe a provably private scalar product protocol that is based on homomorphic encryption and improve its efficiency so that it can also be used on massive datasets.",
@@ -1118,7 +1118,7 @@
       "venue": "ICISC",
       "year": 2004,
       "numInCitations": 285,
-      "tags": "tbd"
+      "tags": ["secure data mining", "private scalar product"]
     },
     {
       "abstract": "We describe highly efficient constructions, XE and XEX, that turn a blockcipher \\(E: \\mathcal{K} \\times \\{0, 1 \\}^{n} \\rightarrow \\{0, 1 \\}^{n}\\) into a tweakable blockcipher \\({E}: \\mathcal{K} \\times \\mathcal{T} \\times \\{0, 1 \\}^{n} \\rightarrow \\{0, 1 \\}^{n}\\) having tweak space \\(\\mathcal{T} = \\{0, 1 \\}^{n} \\times \\mathbb{I}\\) where \\(\\mathbb{I}\\) is a set of tuples of integers such as \\(\\mathbb{I} = [..2^{n/2}] \\times [0..10]\\). When tweak T is obtained from tweak S by incrementing one if its numerical components, the cost to compute \\({E}^{T}_{K}(M)\\) having already computed some \\({E}^{S}_{K}(M')\\) is one blockcipher call plus a small and constant number of elementary machine operations. Our constructions work by associating to the i th coordinate of \\(\\mathbb{I}\\) an element \\(\\alpha_{i} \\epsilon \\mathbb{F}^{*}_{2}n\\) and multiplying by α i when one increments that component of the tweak. We illustrate the use of this approach by refining the authenticated-encryption scheme OCB and the message authentication code PMAC, yielding variants of these algorithms that are simpler and faster than the original schemes, and yet have simpler proofs. Our results bolster the thesis of Liskov, Rivest, and Wagner [10] that a desirable approach for designing modes of operation is to start from a tweakable blockcipher. We elaborate on their idea, suggesting the kind of tweak space, usage-discipline, and blockcipher-based instantiations that give rise to simple and efficient modes.",
@@ -1132,7 +1132,7 @@
       "venue": "ASIACRYPT",
       "year": 2004,
       "numInCitations": 298,
-      "tags": "tbd"
+      "tags": ["symmetric-key cryptography", "block ciphers", "mac"]
     },
     {
       "abstract": "We present the first efficient Identity-Based Encryption (IBE) scheme that is fully secure without random oracles. We first present our IBE construction and reduce the security of our scheme to the decisional Bilinear Diffie-Hellman (BDH) problem. Additionally, we show that our techniques can be used to build a new signature scheme that is secure under the computational Diffie-Hellman assumption without random oracles.",
@@ -1146,7 +1146,7 @@
       "venue": "EUROCRYPT",
       "year": 2004,
       "numInCitations": 1111,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "identity-Based encryption"]
     },
     {
       "abstract": "We propose a new and efficient signature scheme that is provably secure in the plain model. The security of our scheme is based on a discrete-logarithm-based assumption put forth by Lysyanskaya, Rivest, Sahai, and Wolf (LRSW) who also showed that it holds for generic groups and is independent of the decisional Diffie-Hellman assumption. We prove security of our scheme under the LRSW assumption for groups with bilinear maps. We then show how our scheme can be used to construct efficient anonymous credential systems as well as group signature and identity escrow schemes. To this end, we provide efficient protocols that allow one to prove in zero-knowledge the knowledge of a signature on a committed (or encrypted) message and to obtain a signature on a committed message.",
@@ -1161,7 +1161,7 @@
       "venue": "CRYPTO",
       "year": 2004,
       "numInCitations": 560,
-      "tags": "tbd"
+      "tags": ["digital signatures", "discrete logarithm", "anonymous credential systems", "group signatures", "identity escrow systems", "zero-knowledge proofs", "cryptographic protocols"]
     },
     {
       "abstract": "We consider the following problem: a user $\\mathcal{U}$ wants to store his files in an encrypted form on a remote file server $\\mathcal{S}$. Later the user $\\mathcal{U}$ wants to efficiently retrieve some of the encrypted files containing (or indexed by) specific keywords, keeping the keywords themselves secret and not jeopardizing the security of the remotely stored files. For example, a user may want to store old e-mail messages encrypted on a server managed by Yahoo or another large vendor, and later retrieve certain messages while travelling with a mobile device. \n \nIn this paper, we offer solutions for this problem under well-defined security requirements. Our schemes are efficient in the sense that no public-key cryptosystem is involved. Indeed, our approach is independent of the encryption method chosen for the remote files. They are also incremental, in that $\\mathcal{U}$ can submit new files which are secure against previous queries but still searchable against future queries.",
@@ -1176,7 +1176,7 @@
       "venue": "ACNS",
       "year": 2004,
       "numInCitations": 741,
-      "tags": "tbd"
+      "tags": ["cryptographic protocols", "symmetric-key cryptography", "searchable encryption"]
     },
     {
       "abstract": "Forgery and counterfeiting are emerging as serious security risks in low-cost pervasive computing devices. These devices lack the computational, storage, power, and communication resources necessary for most cryptographic authentication schemes. Surprisingly, low-cost pervasive devices like Radio Frequency Identification (RFID) tags share similar capabilities with another weak computing device: people. \n \nThese similarities motivate the adoption of techniques from human-computer security to the pervasive computing setting. This paper analyzes a particular human-to-computer authentication protocol designed by Hopper and Blum (HB), and shows it to be practical for low-cost pervasive devices. We offer an improved, concrete proof of security for the HB protocol against passive adversaries. \n \nThis paper also offers a new, augmented version of the HB protocol, named HB+, that is secure against active adversaries. The HB+ protocol is a novel, symmetric authentication protocol with a simple, low-cost implementation. We prove the security of the HB+ protocol against active adversaries based on the hardness of the Learning Parity with Noise (LPN) problem.",
@@ -1191,7 +1191,7 @@
       "venue": "CRYPTO",
       "year": 2005,
       "numInCitations": 530,
-      "tags": "tbd"
+      "tags": ["authentication", "lpn", "rfid", "cryptologic protocols"]
     },
     {
       "abstract": "The public key encryption with keyword search (PEKS) scheme, proposed by Boneh, Di Crescenzo, Ostrovsky and Persiano, enables one to search for encrypted keywords without compromising the security of the original data. In this paper, we address two important issues of a PEKS scheme, \"removing secure channel\" and \"refreshing keywords\", which have not been considered in Boneh et al.'s paper. We point out the inefficiency of the original PEKS scheme due to the use of the secure channel. We resolve this problem by constructing an efficient PEKS scheme that removes a secure channel. We then argue that care must be taken when keywords are used frequently in the PEKS scheme as this situation might contradict the security of PEKS.",
@@ -1207,7 +1207,7 @@
       "venue": "ICCSA",
       "year": 2005,
       "numInCitations": 269,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "searchable encryption"]
     },
     {
       "abstract": "In many important applications, a collection of mutually distrustful parties must perform private computation over multisets. Each party's input to the function is his private input multiset. In order to protect these private sets, the players perform privacy-preserving computation; that is, no party learns more information about other parties' private input sets than what can be deduced from the result. In this paper, we propose efficient techniques for privacy-preserving operations on multisets. By building a framework of multiset operations, employing the mathematical properties of polynomials, we design efficient, secure, and composable methods to enable privacy-preserving computation of the union, intersection, and element reduction operations. We apply these techniques to a wide range of practical problems, achieving more efficient results than those of previous work.",
@@ -1222,7 +1222,7 @@
       "venue": "CRYPTO",
       "year": 2005,
       "numInCitations": 451,
-      "tags": "tbd"
+      "tags": ["mpc", "cryptologic protocols", "private set operations", "psi"]
     },
     {
       "abstract": "We describe two new public key broadcast encryption systems for stateless receivers. Both systems are fully secure against any number of colluders. In our first construction both ciphertexts and private keys are of constant size (only two group elements), for any subset of receivers. The public key size in this system is linear in the total number of receivers. Our second system is a generalization of the first that provides a tradeoff between ciphertext size and public key size. For example, we achieve a collusion resistant broadcast system for n users where both ciphertexts and public keys are of size $O(\\sqrt{N})$ for any subset of receivers. We discuss several applications of these systems.",
@@ -1238,7 +1238,7 @@
       "venue": "CRYPTO",
       "year": 2005,
       "numInCitations": 686,
-      "tags": "tbd"
+      "tags": ["broadcast encryption schemes", "public-key cryptography"]
     },
     {
       "abstract": "We present an identity-based cryptosystem that features fully anonymous ciphertexts and hierarchical key delegation. We give a proof of security in the standard model, based on the mild Decision Linear complexity assumption in bilinear groups. The system is efficient and practical, with small ciphertexts of size linear in the depth of the hierarchy. Applications include search on encrypted data, fully private communication, etc. \n \nOur results resolve two open problems pertaining to anonymous identity-based encryption, our scheme being the first to offer provable anonymity in the standard model, in addition to being the first to realize fully anonymous HIBE at all levels in the hierarchy.",
@@ -1253,7 +1253,7 @@
       "venue": "CRYPTO",
       "year": 2006,
       "numInCitations": 320,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "linear assumption", "bilinear maps", "standard model"]
     },
     {
       "abstract": "We continue a line of research initiated in [10, 11] on privacy-preserving statistical databases. Consider a trusted server that holds a database of sensitive information. Given a query function f mapping databases to reals, the so-called true answer is the result of applying f to the database. To protect privacy, the true answer is perturbed by the addition of random noise generated according to a carefully chosen distribution, and this response, the true answer plus noise, is returned to the user. Previous work focused on the case of noisy sums, in which f = Σ i g(x i ), where x i denotes the ith row of the database and g maps database rows to [0,1]. We extend the study to general functions f, proving that privacy can be preserved by calibrating the standard deviation of the noise according to the sensitivity of the function f. Roughly speaking, this is the amount that any single argument to f can change its output. The new analysis shows that for several particular applications substantially less noise is needed than was previously understood to be the case. The first step is a very clean characterization of privacy in terms of indistinguishability of transcripts. Additionally, we obtain separation results showing the increased value of interactive sanitization mechanisms over non-interactive.",
@@ -1270,7 +1270,7 @@
       "venue": "TCC",
       "year": 2006,
       "numInCitations": 2599,
-      "tags": "tbd"
+      "tags": ["statistical databases", "private data mining", "privacy"]
     },
     {
       "abstract": "We construct public-key systems that support comparison queries (x ≥ a) on encrypted data as well as more general queries such as subset queries (x∈ S). Furthermore, these systems support arbitrary conjunctive queries (P1 ∧ ... ∧ Pl) without leaking information on individual conjuncts. We present a general framework for constructing and analyzing public-key systems supporting queries on encrypted data.",
@@ -1285,7 +1285,7 @@
       "venue": "TCC",
       "year": 2006,
       "numInCitations": 869,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "private database queries", "private comparison"]
     },
     {
       "abstract": "We present as-strong-as-possible definitions of privacy, and constructions achieving them, for public-key encryption schemes where the encryption algorithm is deterministic. We obtain as a consequence database encryption methods that permit fast (i.e. sub-linear, and in fact logarithmic, time) search while provably providing privacy that is as strong as possible subject to this fast search constraint. One of our constructs, called RSA-DOAEP, has the added feature of being length preserving, so that it is the first example of a public-key cipher. We generalize this to obtain a notion of efficiently-searchable encryption schemes which permit more flexible privacy to search-time trade-offs via a technique called bucketization. Our results answer much-asked questions in the database community and provide foundations for work done there.",
@@ -1301,7 +1301,7 @@
       "venue": "CRYPTO",
       "year": 2006,
       "numInCitations": 520,
-      "tags": "tbd"
+      "tags": ["searchable encryption", "privacy", "deterministic encryption", "public-key encryption", "rsa", "database security"]
     },
     {
       "abstract": "As more sensitive data is shared and stored by third-party sites on the Internet, there will be a need to encrypt data stored at these sites. One drawback of encrypting data, is that it can be selectively shared only at a coarse-grained level (i.e., giving another party your private key). We develop a new cryptosystem for fine-grained sharing of encrypted data that we call Key-Policy Attribute-Based Encryption (KP-ABE). In our cryptosystem, ciphertexts are labeled with sets of attributes and private keys are associated with access structures that control which ciphertexts a user is able to decrypt. We demonstrate the applicability of our construction to sharing of audit-log information and broadcast encryption. Our construction supports delegation of private keys which subsumesHierarchical Identity-Based Encryption (HIBE).",
@@ -1318,7 +1318,7 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2006,
       "numInCitations": 3010,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "abe", "broadcast encryption schemes", "ibe"]
     },
     {
       "abstract": "In this work we provide efficient distributed protocols for generating shares of random noise, secure against malicious participants. The purpose of the noise generation is to create a distributed implementation of the privacy-preserving statistical databases described in recent papers [14,4,13]. In these databases, privacy is obtained by perturbing the true answer to a database query by the addition of a small amount of Gaussian or exponentially distributed random noise. The computational power of even a simple form of these databases, when the query is just of the form ∑if(di), that is, the sum over all rows i in the database of a function f applied to the data in row i, has been demonstrated in [4]. A distributed implementation eliminates the need for a trusted database administrator. \n \nThe results for noise generation are of independent interest. The generation of Gaussian noise introduces a technique for distributing shares of many unbiased coins with fewer executions of verifiable secret sharing than would be needed using previous approaches (reduced by a factor of n). The generation of exponentially distributed noise uses two shallow circuits: one for generating many arbitrarily but identically biased coins at an amortized cost of two unbiased random bits apiece, independent of the bias, and the other to combine bits of appropriate biases to obtain an exponential distribution.",
@@ -1336,7 +1336,7 @@
       "venue": "EUROCRYPT",
       "year": 2006,
       "numInCitations": 732,
-      "tags": "tbd"
+      "tags": ["cryptographic protocols", "malicious security", "statistical databases", "private data mining", "secret sharing"]
     },
     {
       "abstract": "We present an Identity Based Encryption (IBE) system that is fully secure in the standard model and has several advantages over previous such systems – namely, computational efficiency, shorter public parameters, and a “tight” security reduction, albeit to a stronger assumption that depends on the number of private key generation queries made by the adversary. Our assumption is a variant of Boneh et al.'s decisional Bilinear Diffie-Hellman Exponent assumption, which has been used to construct efficient hierarchical IBE and broadcast encryption systems. The construction is remarkably simple. It also provides recipient anonymity automatically, providing a second (and more efficient) solution to the problem of achieving anonymous IBE without random oracles. Finally, our proof of CCA2 security, which has more in common with the security proof for the Cramer-Shoup encryption scheme than with security proofs for other IBE systems, may be of independent interest.",
@@ -1350,7 +1350,7 @@
       "venue": "EUROCRYPT",
       "year": 2006,
       "numInCitations": 502,
-      "tags": "tbd"
+      "tags": ["ibe", "standard model", "bilinear diffie-hellman exponent", "anonymity"]
     },
     {
       "abstract": "A process for recovering brominated acenaphthylene and its condensate in the form of powder, comprising dropping a solution of brominated acenaphthylene and its condensate produced from acenaphthene by reactions of bromination, condensation and dehydrobromination into hot water containing a carboxylic acid ester of polyoxyalkylene sorbitan, while the solvent is being distilled off, to recover the brominated acenaphthylene and its condensate in the form of powder dispersed in water.",
@@ -1365,7 +1365,7 @@
       "venue": "EUROCRYPT",
       "year": 2007,
       "numInCitations": 555,
-      "tags": "tbd"
+      "tags": ["foundations", "non-interactive witness-indistinguishability", "non-interactive zero-knowledge", "common reference string", "bilinear group"]
     },
     {
       "abstract": "We introduce a model for provable data possession (PDP) that allows a client that has stored data at an untrusted server to verify that the server possesses the original data without retrieving it. The model generates probabilistic proofs of possession by sampling random sets of blocks from the server, which drastically reduces I/O costs. The client maintains a constant amount of metadata to verify the proof. The challenge/response protocol transmits a small, constant amount of data, which minimizes network communication. Thus, the PDP model for remote data checking supports large data sets in widely-distributed storage system.\n We present two provably-secure PDP schemes that are more efficient than previous solutions, even when compared with schemes that achieve weaker guarantees. In particular, the overhead at the server is low (or even constant), as opposed to linear in the size of the data. Experiments using our implementation verify the practicality of PDP and reveal that the performance of PDP is bounded by disk I/O and not by cryptographic computation.",
@@ -1385,7 +1385,7 @@
       "venue": "CCS '07",
       "year": 2007,
       "numInCitations": 1792,
-      "tags": "tbd"
+      "tags": ["cryptographic protocols", "pdp"]
     },
     {
       "abstract": "Predicate encryption is a new paradigm for public-key encryption that generalizes identity-based encryption and more. In predicate encryption, secret keys correspond to predicates and ciphertexts are associated with attributes; the secret key SKf corresponding to a predicate f can be used to decrypt a ciphertext associated with attribute I if and only if f(I)=1. Constructions of such schemes are currently known only for certain classes of predicates.We construct a scheme for predicates corresponding to the evaluation of inner products over ℤN (for some large integer N). This, in turn, enables constructions in which predicates correspond to the evaluation of disjunctions, polynomials, CNF/DNF formulas, thresholds, and more. Besides serving as a significant step forward in the theory of predicate encryption, our results lead to a number of applications that are interesting in their own right.",
@@ -1401,7 +1401,7 @@
       "venue": "Journal of Cryptology",
       "year": 2007,
       "numInCitations": 740,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "predicate encryption"]
     },
     {
       "abstract": "We propose a simple and general framework for constructing oblivious transfer (OT) protocols that are efficient, universally composable, and generally realizableunder any one of a variety of standard number-theoretic assumptions, including the decisional Diffie-Hellman assumption, the quadratic residuosity and decisional composite residuosity assumptions, and worst-caselattice assumptions. \n \nOur OT protocols are round-optimal (one message each way), quite efficient in computation and communication, and can use a single common string for an unbounded number of executions between the same sender and receiver. Furthermore, the protocols can provide statisticalsecurity to either the sender or the receiver, simply by changing the distribution of the common string. For certain instantiations of the protocol, even a common uniformly randomstring suffices. \n \nOur key technical contribution is a simple abstraction that we call a dual-modecryptosystem. We implement dual-mode cryptosystems by taking a unified view of several cryptosystems that have what we call \"messy\" public keys, whose defining property is that a ciphertext encrypted under such a key carries no information(statistically) about the encrypted message. \n \nAs a contribution of independent interest, we also provide a multi-bit amortizedversion of Regev's lattice-based cryptosystem (STOC 2005) whose time and space complexity are improved by a linear factor in the security parameter n. The resulting amortized encryption and decryption times are only $\\tilde{O}(n)$ bit operations per message bit, and the ciphertext expansion can be made as small as a constant; the public key size and underlying lattice assumption remain essentially the same.",
@@ -1417,7 +1417,7 @@
       "venue": "CRYPTO",
       "year": 2007,
       "numInCitations": 389,
-      "tags": "tbd"
+      "tags": ["cryptographic protocols", "ot", "universal composability", "lattices"]
     },
     {
       "abstract": "We construct an Attribute-Based Encryption (ABE) scheme that allows a user's private key to be expressed in terms of any access formula over attributes. Previous ABE schemes were limited to expressing only monotonic access structures. We provide a proof of security for our scheme based on the Decisional Bilinear Diffie-Hellman (BDH) assumption. Furthermore, the performance of our new scheme compares favorably with existing, less-expressive schemes.",
@@ -1433,7 +1433,7 @@
       "venue": "CCS '07",
       "year": 2007,
       "numInCitations": 734,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "abe", "decisional bilinear diffie-hellman"]
     },
     {
       "abstract": "We show an efficient secure two-party protocol, based on Yao’s construction, which provides security against malicious adversaries. Yao’s original protocol is only secure in the presence of semi-honest adversaries, and can be transformed into a protocol that achieves security against malicious adversaries by applying the compiler of Goldreich, Micali, and Wigderson (the “GMW compiler”). However, this approach does not seem to be very practical as it requires using generic zero-knowledge proofs. Our construction is based on applying cut-and-choose techniques to the original circuit and inputs. Security is proved according to the ideal/real simulation paradigm, and the proof is in the standard model (with no random oracle model or common reference string assumptions). The resulting protocol is computationally efficient: the only usage of asymmetric cryptography is for running $$O(1)$$O(1) oblivious transfers for each input bit (or for each bit of a statistical security parameter, whichever is larger). Our protocol combines techniques from folklore (like cut-and-choose) along with new techniques for efficiently proving consistency of inputs. We remark that a naive implementation of the cut-and-choose technique with Yao’s protocol does not yield a secure protocol. This is the first paper to show how to properly implement these techniques, and to provide a full proof of security. Our protocol can also be interpreted as a constant-round black-box reduction of secure two-party computation to oblivious transfer and perfectly hiding commitments, or a black-box reduction of secure two-party computation to oblivious transfer alone, with a number of rounds which is linear in a statistical security parameter. These two reductions are comparable to Kilian’s (20th STOC, 1988) reduction, which uses OT alone but incurs a number of rounds which is linear in the depth of the circuit.",
@@ -1448,7 +1448,7 @@
       "venue": "Journal of Cryptology",
       "year": 2008,
       "numInCitations": 258,
-      "tags": "tbd"
+      "tags": ["cryptographic protocols", "secure two-party computation", "mpc", "malicious model", "standard model", "ot"]
     },
     {
       "abstract": "We present a new garbled circuit construction for two-party secure function evaluation (SFE). In our one-round protocol, XOR gates are evaluated \"for free\", which results in the corresponding improvement over the best garbled circuit implementations (e.g. Fairplay [19]). \n \nWe build permutation networks [26] and Universal Circuits (UC) [25] almost exclusively of XOR gates; this results in a factor of up to 4 improvement (in both computation and communication) of their SFE. We also improve integer addition and equality testing by factor of up to 2. \n \nWe rely on the Random Oracle (RO) assumption. Our constructions are proven secure in the semi-honest model.",
@@ -1463,7 +1463,7 @@
       "venue": "ICALP",
       "year": 2008,
       "numInCitations": 446,
-      "tags": "tbd"
+      "tags": ["garbled circuits", "mpc", "random oracle model", "semi-honest model"]
     },
     {
       "abstract": "Identity-based encryption (IBE) is an exciting alternative to public-key encryption, as IBE eliminates the need for a Public Key Infrastructure (PKI). The senders using an IBE do not need to look up the public keys and the corresponding certificates of the receivers, the identities (e.g. emails or IP addresses) of the latter are sufficient to encrypt. Any setting, PKI- or identity-based, must provide a means to revoke users from the system. Efficient revocation is a well-studied problem in the traditional PKI setting. However in the setting of IBE, there has been little work on studying the revocation mechanisms. The most practical solution requires the senders to also use time periods when encrypting, and all the receivers (regardless of whether their keys have been compromised or not) to update their private keys regularly by contacting the trusted authority. We note that this solution does not scale well -- as the number of users increases, the work on key updates becomes a bottleneck. We propose an IBE scheme that significantly improves key-update efficiency on the side of the trusted party (from linear to logarithmic in the number of users), while staying efficient for the users. Our scheme builds on the ideas of the Fuzzy IBE primitive and binary tree data structure, and is provably secure.",
@@ -1479,7 +1479,7 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2008,
       "numInCitations": 426,
-      "tags": "tbd"
+      "tags": ["public-key cryptography", "identity-based encryption", "revocation", "provable security"]
     },
     {
       "abstract": "In this paper, we survey the basic paradigms and notions of secure mul- tiparty computation and discuss their relevance to the fleld of privacy-preserving data mining. In addition to reviewing deflnitions and constructions for secure mul- tiparty computation, we discuss the issue of e-ciency and demonstrate the di-cul- ties involved in constructing highly e-cient protocols. We also present common errors that are prevalent in the literature when secure multiparty computation techniques are applied to privacy-preserving data mining. Finally, we discuss the relationship between secure multiparty computation and privacy-preserving data mining, and show which problems it solves and which problems it does not.",
@@ -1494,7 +1494,7 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2008,
       "numInCitations": 407,
-      "tags": "tbd"
+      "tags": ["cryptographic protocols", "mpc", "private data mining"]
     },
     {
       "abstract": "In the mid 1980s, Yao presented a constant-round protocol for securely computing any two-party functionality in the presence of semi-honest adversaries (FOCS 1986). In this paper, we provide a complete description of Yao’s protocol, along with a rigorous proof of security. Despite the importance of Yao’s protocol to the theory of cryptography and in particular to the field of secure computation, to the best of our knowledge, this is the first time that an explicit proof of security has been published.",
@@ -1509,7 +1509,7 @@
       "venue": "Journal of Cryptology",
       "year": 2008,
       "numInCitations": 325,
-      "tags": "tbd"
+      "tags": ["garbled circuits", "mpc", "semi-honest model"]
     },
     {
       "abstract": "Predicate encryption is a new encryption paradigm which gives a master secret key owner fine-grained control over access to encrypted data. The master secret key owner can generate secret key tokens corresponding to predicates. An encryption of data x can be evaluated using a secret token corresponding to a predicate f ; the user learns whether the data satisfies the predicate, i.e., whether f (x ) = 1. \n \nPrior work on public-key predicate encryption has focused on the notion of data or plaintext privacy, the property that ciphertexts reveal no information about the encrypted data to an attacker other than what is inherently revealed by the tokens the attacker possesses. In this paper, we consider a new notion called predicate privacy , the property that tokens reveal no information about the encoded query predicate. Predicate privacy is inherently impossible to achieve in the public-key setting and has therefore received little attention in prior work. In this work, we consider predicate encryption in the symmetric-key setting and present a symmetric-key predicate encryption scheme which supports inner product queries. We prove that our scheme achieves both plaintext privacy and predicate privacy.",
@@ -1525,7 +1525,7 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2008,
       "numInCitations": 287,
-      "tags": "tbd"
+      "tags": ["predicate encryption", "predicate privacy", "symmetric-key encryption"]
     },
     {
       "abstract": "In this note, we report on the first large-scale and practical application of secure multiparty computation, which took place in January 2008. We also report on the novel cryptographic protocols that were used.",
@@ -1550,7 +1550,7 @@
       "venue": "Financial Cryptography",
       "year": 2008,
       "numInCitations": 300,
-      "tags": "tbd"
+      "tags": ["mpc", "applications"]
     },
     {
       "abstract": "Gathering and processing sensitive data is a difficult task. In fact, there is no common recipe for building the necessary information systems. In this paper, we present a provably secure and efficient general-purpose computation system to address this problem. Our solution-- Sharemind --is a virtual machine for privacy-preserving data processing that relies on share computing techniques. This is a standard way for securely evaluating functions in a multi-party computation environment. The novelty of our solution is in the choice of the secret sharing scheme and the design of the protocol suite. We have made many practical decisions to make large-scale share computing feasible in practice. The protocols of Sharemind are information-theoretically secure in the honest-but-curious model with three computing participants. Although the honest-but-curious model does not tolerate malicious participants, it still provides significantly increased privacy preservation when compared to standard centralised databases.",
@@ -1566,7 +1566,7 @@
       "venue": "ESORICS",
       "year": 2008,
       "numInCitations": 406,
-      "tags": "tbd"
+      "tags": ["private data mining", "mpc", "semi-honest model"]
     },
     {
       "abstract": "We consider the problem of efficiently proving the integrity of data stored at untrusted servers. In the provable data possession (PDP) model, the client preprocesses the data and then sends it to an untrusted server for storage, while keeping a small amount of meta-data. The client later asks the server to prove that the stored data has not been tampered with or deleted (without downloading the actual data). However, the original PDP scheme applies only to static (or append-only) files.\n We present a definitional framework and efficient constructions for dynamic provable data possession (DPDP), which extends the PDP model to support provable updates to stored data. We use a new version of authenticated dictionaries based on rank information. The price of dynamic updates is a performance change from O(1) to O(logn) (or O(nεlog n), for a file consisting of n blocks, while maintaining the same (or better, respectively) probability of misbehavior detection. Our experiments show that this slowdown is very low in practice (e.g. 415KB proof size and 30ms computational overhead for a 1GB file). We also show how to apply our DPDP scheme to outsourced file systems and version control systems (e.g. CVS).",
@@ -1583,7 +1583,7 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2008,
       "numInCitations": 796,
-      "tags": "tbd"
+      "tags": ["cryptographic protocols", "outsourced storage", "authenticated dictionary", "authenticated data structures", "RSA tree", "file system", "version control system", "untrusted storage", "provable data possession", "skip list", "proof of retrievability", "integrity checking"]
     },
     {
       "abstract": "A growing number of online services, such as Google, Yahoo!, and Amazon, are starting to charge users for their storage. Customers often use these services to store valuable data such as email, family photos and videos, and disk backups. Today, a customer must entirely trust such external services to maintain the integrity of hosted data and return it intact. Unfortunately, no service is infallible. To make storage services accountable for data loss, we present protocols that allow a thirdparty auditor to periodically verify the data stored by a service and assist in returning the data intact to the customer. Most importantly, our protocols are privacy-preserving, in that they never reveal the data contents to the auditor. Our solution removes the burden of verification from the customer, alleviates both the customer’s and storage service’s fear of data leakage, and provides a method for independent arbitration of data retention contracts.",
@@ -1599,7 +1599,7 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2008,
       "numInCitations": 291,
-      "tags": "tbd"
+      "tags": ["applications", "storage", "auditing", "extraction", "retrievability", "digital preservation", "privacy"]
     },
     {
       "abstract": "We present a simple and efficient compiler for transforming secure multi-party computation (MPC) protocols that enjoy security only with an honest majority into MPC protocols that guarantee security with no honest majority, in the oblivious-transfer (OT) hybrid model. Our technique works by combining a secure protocol in the honest majority setting with a protocol achieving only security against semi-honestparties in the setting of no honest majority. \n \nApplying our compiler to variants of protocols from the literature, we get several applications for secure two-party computation and for MPC with no honest majority. These include: \n \n \n Constant-rate two-party computation in the OT-hybrid model. We obtain a statistically UC-secure two-party protocol in the OT-hybrid model that can evaluate a general circuit Cof size sand depth dwith a total communication complexity of O(s) + poly(k, d, log s) and O(d) rounds. The above result generalizes to a constant number of parties. \n Extending OTs in the malicious model. We obtain a computationally efficient protocol for generating many string OTs from few string OTs with only a constant amortized communication overheadcompared to the total length of the string OTs. \n Black-box constructions for constant-round MPC with no honest majority. We obtain general computationally UC-secure MPC protocols in the OT-hybrid model that use only a constant number of rounds, and only make a black-boxaccess to a pseudorandom generator. This gives the first constant-round protocols for three or more parties that only make a black-box use of cryptographic primitives (and avoid expensive zero-knowledge proofs).",
@@ -1615,7 +1615,7 @@
       "venue": "CRYPTO",
       "year": 2008,
       "numInCitations": 616,
-      "tags": "tbd"
+      "tags": ["compiler", "mpc", "dishonest majority", "ot", "semi-honest model", "uc model"]
     },
     {
       "abstract": "Storage outsourcing is a rising trend which prompts a number of interesting security issues, many of which have been extensively investigated in the past. However, Provable Data Possession (PDP) is a topic that has only recently appeared in the research literature. The main issue is how to frequently, efficiently and securely verify that a storage server is faithfully storing its client's (potentially very large) outsourced data. The storage server is assumed to be untrusted in terms of both security and reliability. (In other words, it might maliciously or accidentally erase hosted data; it might also relegate it to slow or off-line storage.) The problem is exacerbated by the client being a small computing device with limited resources. Prior work has addressed this problem using either public key cryptography or requiring the client to outsource its data in encrypted form.\n In this paper, we construct a highly efficient and provably secure PDP technique based entirely on symmetric key cryptography, while not requiring any bulk encryption. Also, in contrast with its predecessors, our PDP technique allows outsourcing of dynamic data, i.e, it efficiently supports operations, such as block modification, deletion and append.",
@@ -1632,7 +1632,7 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2008,
       "numInCitations": 890,
-      "tags": "tbd"
+      "tags": ["cryptographic protocols", "pdp", "symmetric-key cryptography"]
     },
     {
       "abstract": "We construct a fully secure HIBE scheme with short ciphertexts. The previous construction of Boneh, Boyen, and Goh was only proven to be secure in the selective model, under a non-static assumption which depended on the depth of the hierarchy. To obtain full security, we apply the dual system encryption concept recently introduced by Waters. A straightforward application of this technique is insufficient to achieve short ciphertexts, since the original instantiation of the technique includes tags that do not compress. To overcome this challenge, we design a new method for realizing dual system encryption. We provide a system in composite order groups (of three primes) and prove the security of our (first) scheme under three static assumptions. In addition, we provide a prime order group analog of our first scheme and prove it secure in asymmetric bilinear groups. ∗Supported by National Defense Science and Engineering Graduate Fellowship. †Supported by NSF CNS-0716199, CNS-0915361 and Air Force Office of Scientific Research (AFO SR) under the MURI award for “Collaborative policies and assured information sharing” (Project PRESIDIO).",
@@ -1643,11 +1643,11 @@
       "id": "0505166a68276e63b4be5a8ec21448faca0b2928",
       "label": "LewkoWaters09",
       "s2Url": "https://semanticscholar.org/paper/0505166a68276e63b4be5a8ec21448faca0b2928",
-      "title": "Fully Secure HIBE with Short Ciphertexts",
+      "title": "Fully Secure HIBE with Short ciphertexts",
       "venue": "",
       "year": 2009,
       "numInCitations": 307,
-      "tags": "tbd"
+      "tags": ["ibe", "hierarchical ibe"]
     },
     {
       "abstract": "We present a new methodology for proving security of encryption systems using what we call Dual System Encryption. Our techniques result in fully secure Identity-Based Encryption (IBE) and Hierarchical Identity-Based Encryption (HIBE) systems under the simple and established decisional Bilinear Diffie-Hellman and decisional Linear assumptions. Our IBE system has ciphertexts, private keys, and public parameters each consisting of a constant number of group elements. These results are the first HIBE system and the first IBE system with short parameters under simple assumptions. \n \nIn a Dual System Encryption system both ciphertexts and private keys can take on one of two indistinguishable forms. A private key or ciphertext will be normal if they are generated respectively from the system's key generation or encryption algorithm. These keys and ciphertexts will behave as one expects in an IBE system. In addition, we define semi-functional keys and ciphertexts. A semi-functional private key will be able to decrypt all normally generated ciphertexts; however, decryption will fail if one attempts to decrypt a semi-functional ciphertext with a semi-functional private key. Analogously, semi-functional ciphertexts will be decryptable only by normal private keys. \n \nDual System Encryption opens up a new way to prove security of IBE and related encryption systems. We define a sequence of games where we change first the challenge ciphertext and then the private keys one by one to be semi-functional. We finally end up in a game where the challenge ciphertext and all private keys are semi-functional at which point proving security is straightforward.",
@@ -1661,7 +1661,7 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2009,
       "numInCitations": 479,
-      "tags": "tbd"
+      "tags": ["ibe", "hierarchical ibe", "public-key cryptography", "decisional bilinear diffie-hellman"]
     },
     {
       "abstract": "We introduce and formalize the notion of Verifiable Computation, which enables a computationally weak client to \"outsource\" the computation of a function F on various dynamically-chosen inputs x1, ...,xk to one or more workers. The workers return the result of the function evaluation, e.g., yi = F(xi), as well as a proof that the computation of F was carried out correctly on the given value xi. The primary constraint is that the verification of the proof should require substantially less computational effort than computing F(i) from scratch. \n \nWe present a protocol that allows the worker to return a computationally-sound, non-interactive proof that can be verified in O(mċpoly(λ)) time, where m is the bit-length of the output of F, and λ is a security parameter. The protocol requires a one-time pre-processing stage by the client which takes O(|C|ċpoly(λ)) time, where C is the smallest known Boolean circuit computing F. Unlike previous work in this area, our scheme also provides (at no additional cost) input and output privacy for the client, meaning that the workers do not learn any information about the xi or yi values.",
@@ -1677,7 +1677,7 @@
       "venue": "CRYPTO",
       "year": 2009,
       "numInCitations": 660,
-      "tags": "tbd"
+      "tags": ["verifiable computation"]
     },
     {
       "abstract": "We construct a simple fully homomorphic encryption scheme, using only elementary modular arithmetic. We use Gentry’s technique to construct a fully homomorphic scheme from a “bootstrappable” somewhat homomorphic scheme. However, instead of using ideal lattices over a polynomial ring, our bootstrappable encryption scheme merely uses addition and multiplication over the integers. The main appeal of our scheme is the conceptual simplicity. \n \nWe reduce the security of our scheme to finding an approximate integer gcd – i.e., given a list of integers that are near-multiples of a hidden integer, output that hidden integer. We investigate the hardness of this task, building on earlier work of Howgrave-Graham.",
@@ -1694,7 +1694,7 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2009,
       "numInCitations": 983,
-      "tags": "tbd"
+      "tags": ["fhe", "approximate gcd"]
     },
     {
       "abstract": "We initiate the cryptographic study of order-preserving symmetric encryption (OPE), a primitive suggested in the database community by Agrawal et al. (SIGMOD '04) for allowing efficient range queries on encrypted data. Interestingly, we first show that a straightforward relaxation of standard security notions for encryption such as indistinguishability against chosen-plaintext attack (IND-CPA) is unachievable by a practical OPE scheme. Instead, we propose a security notion in the spirit of pseudorandom functions (PRFs) and related primitives asking that an OPE scheme look \"as-random-as-possible\" subject to the order-preserving constraint. We then design an efficient OPE scheme and prove its security under our notion based on pseudorandomness of an underlying blockcipher. Our construction is based on a natural relation we uncover between a random order-preserving function and the hypergeometric probability distribution. In particular, it makes black-box use of an efficient sampling algorithm for the latter.",
