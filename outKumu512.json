@@ -8,6 +8,9 @@
       "id": "772cdcc8a67cc878b39409230cbf2488a1117e62",
       "label": "Rabin81",
       "s2Url": "https://semanticscholar.org/paper/772cdcc8a67cc878b39409230cbf2488a1117e62",
+      "tags": [
+        "oblivious transfer"
+      ],
       "title": "How To Exchange Secrets with Oblivious Transfer",
       "venue": "IACR Cryptology ePrint Archive",
       "year": 1981,
@@ -22,6 +25,11 @@
       "id": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
       "label": "FiatShamir86",
       "s2Url": "https://semanticscholar.org/paper/b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "tags": [
+        "cryptographic protocols",
+        "digital signatures",
+        "authentication"
+      ],
       "title": "How to Prove Yourself: Practical Solutions to Identification and Signature Problems",
       "venue": "CRYPTO",
       "year": 1986,
@@ -35,6 +43,9 @@
       "id": "10d0ee23caea21b78b50b366c355bf2cfa0b6cf5",
       "label": "Chaum88",
       "s2Url": "https://semanticscholar.org/paper/10d0ee23caea21b78b50b366c355bf2cfa0b6cf5",
+      "tags": [
+        "anonymity"
+      ],
       "title": "The dining cryptographers problem: Unconditional sender and recipient untraceability",
       "venue": "Journal of Cryptology",
       "year": 1988,
@@ -49,6 +60,11 @@
       "id": "bdccfcb9e908460052b799d0ccf6a21e92225e35",
       "label": "DesmedtFrankel89",
       "s2Url": "https://semanticscholar.org/paper/bdccfcb9e908460052b799d0ccf6a21e92225e35",
+      "tags": [
+        "digital signatures",
+        "threshold schemes",
+        "lagrange interpolation"
+      ],
       "title": "Threshold Cryptosystems",
       "venue": "CRYPTO",
       "year": 1989,
@@ -64,6 +80,9 @@
       "id": "eba8a236ca3afa59bba5c86b12611d00eea6e5ba",
       "label": "GMW+91",
       "s2Url": "https://semanticscholar.org/paper/eba8a236ca3afa59bba5c86b12611d00eea6e5ba",
+      "tags": [
+        "zero-knowledge proofs"
+      ],
       "title": "Proofs that yield nothing but their validity or all languages in NP have zero-knowledge proof systems",
       "venue": "JACM",
       "year": 1991,
@@ -77,6 +96,10 @@
       "id": "86bb5811e8eb8c835e2b942f7e45530b87856561",
       "label": "Ostrovsky92",
       "s2Url": "https://semanticscholar.org/paper/86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "tags": [
+        "pseudorandom functions",
+        "oblivious ram"
+      ],
       "title": "Software protection and simulation on oblivious RAMs",
       "venue": "JACM",
       "year": 1992,
@@ -91,6 +114,9 @@
       "id": "3eb633f032e5f70d7e0e415948ebd9dc5cf0399d",
       "label": "NaorShamir94",
       "s2Url": "https://semanticscholar.org/paper/3eb633f032e5f70d7e0e415948ebd9dc5cf0399d",
+      "tags": [
+        "secret sharing"
+      ],
       "title": "Visual Cryptography",
       "venue": "EUROCRYPT",
       "year": 1994,
@@ -106,6 +132,10 @@
       "id": "2c1e94e5dea3cac89dda43b90333c40c61f670c0",
       "label": "CDS+94",
       "s2Url": "https://semanticscholar.org/paper/2c1e94e5dea3cac89dda43b90333c40c61f670c0",
+      "tags": [
+        "access structures",
+        "secret sharing"
+      ],
       "title": "Proofs of Partial Knowledge and Simplified Design of Witness Hiding Protocols",
       "venue": "CRYPTO",
       "year": 1994,
@@ -120,6 +150,12 @@
       "id": "36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
       "label": "BellareRogaway96",
       "s2Url": "https://semanticscholar.org/paper/36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
+      "tags": [
+        "hash functions",
+        "digital signatures",
+        "random oracle model",
+        "provable security"
+      ],
       "title": "The Exact Security of Digital Signatures - HOw to Sign with RSA and Rabin",
       "venue": "EUROCRYPT",
       "year": 1996,
@@ -135,6 +171,11 @@
       "id": "ff2695513e7e0f49a0a484818c19b6346e076172",
       "label": "BBS+98",
       "s2Url": "https://semanticscholar.org/paper/ff2695513e7e0f49a0a484818c19b6346e076172",
+      "tags": [
+        "digital signatures",
+        "proxy signatures",
+        "cryptographic protocols"
+      ],
       "title": "Divertible Protocols and Atomic Proxy Cryptography",
       "venue": "EUROCRYPT",
       "year": 1998,
@@ -148,6 +189,10 @@
       "id": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
       "label": "Canetti98",
       "s2Url": "https://semanticscholar.org/paper/9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
+      "tags": [
+        "mpc",
+        "cryptographic protocols"
+      ],
       "title": "Security and Composition of Multiparty Cryptographic Protocols",
       "venue": "Journal of Cryptology",
       "year": 1998,
@@ -162,6 +207,12 @@
       "id": "cd9ae7c817ff251124cc723db7f3bae0b757bef6",
       "label": "FujisakiOkamoto99",
       "s2Url": "https://semanticscholar.org/paper/cd9ae7c817ff251124cc723db7f3bae0b757bef6",
+      "tags": [
+        "random oracle model",
+        "authentication",
+        "mac",
+        "symmetric-key cryptography"
+      ],
       "title": "Secure Integration of Asymmetric and Symmetric Encryption Schemes",
       "venue": "Journal of Cryptology",
       "year": 1999,
@@ -175,6 +226,12 @@
       "id": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
       "label": "Canetti00",
       "s2Url": "https://semanticscholar.org/paper/44dc896ec1d1abf65a88a8f076515d26b54c6047",
+      "tags": [
+        "foundations",
+        "cryptographic protocols",
+        "provable security",
+        "concurrent composition"
+      ],
       "title": "Universally composable security: a new paradigm for cryptographic protocols",
       "venue": "Proceedings 2001 IEEE International Conference on Cluster Computing",
       "year": 2000,
@@ -189,6 +246,10 @@
       "id": "9a1d75a5c79e603ab7ceecc4bb07ee736e402c18",
       "label": "LindellPinkas00",
       "s2Url": "https://semanticscholar.org/paper/9a1d75a5c79e603ab7ceecc4bb07ee736e402c18",
+      "tags": [
+        "data mining",
+        "privacy"
+      ],
       "title": "Privacy Preserving Data Mining",
       "venue": "CRYPTO",
       "year": 2000,
@@ -204,6 +265,11 @@
       "id": "bf7267a08fa0347f825b2c3cefc85f13f1ce772e",
       "label": "RSK+01",
       "s2Url": "https://semanticscholar.org/paper/bf7267a08fa0347f825b2c3cefc85f13f1ce772e",
+      "tags": [
+        "digital signatures",
+        "ring signatures",
+        "group signatures"
+      ],
       "title": "How to Leak a Secret",
       "venue": "ASIACRYPT",
       "year": 2001,
@@ -220,6 +286,10 @@
       "id": "6d1f292dcb0aa92d96b955229d7d3f500dde908b",
       "label": "PCS+01",
       "s2Url": "https://semanticscholar.org/paper/6d1f292dcb0aa92d96b955229d7d3f500dde908b",
+      "tags": [
+        "authentication",
+        "cryptographic protocols"
+      ],
       "title": "Efficient and Secure Source Authentication for Multicast",
       "venue": "NDSS",
       "year": 2001,
@@ -234,6 +304,16 @@
       "id": "582f54c4f2a588fb2d8b83a398dbeee4d8577373",
       "label": "CamenischLysyanskaya01",
       "s2Url": "https://semanticscholar.org/paper/582f54c4f2a588fb2d8b83a398dbeee4d8577373",
+      "tags": [
+        "cryptographic protocols",
+        "blind signatures",
+        "digital signatures",
+        "e-cash",
+        "circular encryption",
+        "credential systems",
+        "pseudonym systems",
+        "key-oblivious encryption"
+      ],
       "title": "An Efficient System for Non-transferable Anonymous Credentials with Optional Anonymity Revocation",
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2001,
@@ -248,6 +328,14 @@
       "id": "54526178a9d3f860072b78717eab01e49209a4ba",
       "label": "CamenischLysyanskaya02",
       "s2Url": "https://semanticscholar.org/paper/54526178a9d3f860072b78717eab01e49209a4ba",
+      "tags": [
+        "dynamic accumulators",
+        "anonymity",
+        "certificate revocation",
+        "group signatures",
+        "credential systems",
+        "identity escrow systems"
+      ],
       "title": "Dynamic Accumulators and Application to Efficient Revocation of Anonymous Credentials",
       "venue": "CRYPTO",
       "year": 2002,
@@ -264,6 +352,15 @@
       "id": "dab56166e49905226ded911a135f239f27de97bc",
       "label": "BGL+02",
       "s2Url": "https://semanticscholar.org/paper/dab56166e49905226ded911a135f239f27de97bc",
+      "tags": [
+        "public-key cryptography",
+        "aggregate signatures",
+        "multisignatures",
+        "verifiable encryption",
+        "ring signatures",
+        "bilinear maps",
+        "digital signatures"
+      ],
       "title": "Aggregate and Verifiably Encrypted Signatures from Bilinear Maps",
       "venue": "EUROCRYPT",
       "year": 2002,
@@ -278,6 +375,10 @@
       "id": "75f182a2393c785543c089ffd5cff3ef71fa44c7",
       "label": "ProvosHoneyman03",
       "s2Url": "https://semanticscholar.org/paper/75f182a2393c785543c089ffd5cff3ef71fa44c7",
+      "tags": [
+        "steganography",
+        "statistical steganalysis"
+      ],
       "title": "Hide and Seek: An Introduction to Steganography",
       "venue": "IEEE Security & Privacy",
       "year": 2003,
@@ -294,6 +395,10 @@
       "id": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "label": "BCO+03",
       "s2Url": "https://semanticscholar.org/paper/afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "tags": [
+        "public-key cryptography",
+        "secure search"
+      ],
       "title": "Public Key Encryption with Keyword Search",
       "venue": "EUROCRYPT",
       "year": 2003,
@@ -309,6 +414,11 @@
       "id": "90574069af02306cd80c046b78e3e27f653f6837",
       "label": "CHK+03",
       "s2Url": "https://semanticscholar.org/paper/90574069af02306cd80c046b78e3e27f653f6837",
+      "tags": [
+        "public-key cryptography",
+        "forward security",
+        "bilinear Diffie-Hellman"
+      ],
       "title": "A Forward-Secure Public-Key Encryption Scheme",
       "venue": "EUROCRYPT",
       "year": 2003,
@@ -324,6 +434,13 @@
       "id": "dc0a25d09061c4d19975f2d05890b3b56d416fed",
       "label": "FNP+04",
       "s2Url": "https://semanticscholar.org/paper/dc0a25d09061c4d19975f2d05890b3b56d416fed",
+      "tags": [
+        "psi",
+        "he",
+        "oblivious transfer",
+        "random oracle model",
+        "cryptographic protocols"
+      ],
       "title": "Efficient Private Matching and Set Intersection",
       "venue": "EUROCRYPT",
       "year": 2004,
@@ -337,6 +454,10 @@
       "id": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
       "label": "Waters04",
       "s2Url": "https://semanticscholar.org/paper/efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "tags": [
+        "public-key cryptography",
+        "identity-based encryption"
+      ],
       "title": "Efficient Identity-Based Encryption Without Random Oracles",
       "venue": "EUROCRYPT",
       "year": 2004,
@@ -351,6 +472,15 @@
       "id": "8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
       "label": "CamenischLysyanskaya04",
       "s2Url": "https://semanticscholar.org/paper/8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
+      "tags": [
+        "digital signatures",
+        "discrete logarithm",
+        "anonymous credential systems",
+        "group signatures",
+        "identity escrow systems",
+        "zero-knowledge proofs",
+        "cryptographic protocols"
+      ],
       "title": "Signature Schemes and Anonymous Credentials from Bilinear Maps",
       "venue": "CRYPTO",
       "year": 2004,
@@ -365,6 +495,11 @@
       "id": "77d0d8f3365612c9675723d3f8822b28214cea7a",
       "label": "ChangMitzenmacher04",
       "s2Url": "https://semanticscholar.org/paper/77d0d8f3365612c9675723d3f8822b28214cea7a",
+      "tags": [
+        "cryptographic protocols",
+        "symmetric-key cryptography",
+        "searchable encryption"
+      ],
       "title": "Privacy Preserving Keyword Searches on Remote Encrypted Data",
       "venue": "ACNS",
       "year": 2004,
@@ -379,6 +514,12 @@
       "id": "6900f82508020fac97c98b60d0e264839df767b5",
       "label": "JuelsWeis05",
       "s2Url": "https://semanticscholar.org/paper/6900f82508020fac97c98b60d0e264839df767b5",
+      "tags": [
+        "authentication",
+        "LPN",
+        "RFID",
+        "cryptographic protocols"
+      ],
       "title": "Authenticating Pervasive Devices with Human Protocols",
       "venue": "CRYPTO",
       "year": 2005,
@@ -394,6 +535,10 @@
       "id": "93a6a50dd24de94ad8bd5b21f64f0e98a5f298ed",
       "label": "BGW+05",
       "s2Url": "https://semanticscholar.org/paper/93a6a50dd24de94ad8bd5b21f64f0e98a5f298ed",
+      "tags": [
+        "broadcast encryption",
+        "public-key cryptography"
+      ],
       "title": "Collusion Resistant Broadcast Encryption with Short Ciphertexts and Private Keys",
       "venue": "CRYPTO",
       "year": 2005,
@@ -410,6 +555,11 @@
       "id": "e4ce10063cd25447dcde75c2d9ce327446ced952",
       "label": "DMN+06",
       "s2Url": "https://semanticscholar.org/paper/e4ce10063cd25447dcde75c2d9ce327446ced952",
+      "tags": [
+        "statistical databases",
+        "private data mining",
+        "privacy"
+      ],
       "title": "Calibrating Noise to Sensitivity in Private Data Analysis",
       "venue": "TCC",
       "year": 2006,
@@ -424,6 +574,11 @@
       "id": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "label": "BonehWaters06",
       "s2Url": "https://semanticscholar.org/paper/f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
+      "tags": [
+        "public-key cryptography",
+        "private database queries",
+        "private comparison"
+      ],
       "title": "Conjunctive, Subset, and Range Queries on Encrypted Data",
       "venue": "TCC",
       "year": 2006,
@@ -439,6 +594,14 @@
       "id": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
       "label": "BBO+06",
       "s2Url": "https://semanticscholar.org/paper/f722bf03d76056cdc2b227e1f2b54d690c42e435",
+      "tags": [
+        "searchable encryption",
+        "privacy",
+        "deterministic encryption",
+        "public-key encryption",
+        "RSA",
+        "database security"
+      ],
       "title": "Deterministic and Efficiently Searchable Encryption",
       "venue": "CRYPTO",
       "year": 2006,
@@ -455,6 +618,12 @@
       "id": "422876e542daadefe3371091a65c5671185796e2",
       "label": "GPS+06",
       "s2Url": "https://semanticscholar.org/paper/422876e542daadefe3371091a65c5671185796e2",
+      "tags": [
+        "public-key cryptography",
+        "attribute-based encryption",
+        "broadcast encryption",
+        "identity-based encryption"
+      ],
       "title": "Attribute-based encryption for fine-grained access control of encrypted data",
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2006,
@@ -472,6 +641,13 @@
       "id": "1808b64aec21863489f0fe66f250890a3ac2b843",
       "label": "DKM+06",
       "s2Url": "https://semanticscholar.org/paper/1808b64aec21863489f0fe66f250890a3ac2b843",
+      "tags": [
+        "cryptographic protocols",
+        "malicious model",
+        "statistical databases",
+        "private data mining",
+        "secret sharing"
+      ],
       "title": "Our Data, Ourselves: Privacy Via Distributed Noise Generation",
       "venue": "EUROCRYPT",
       "year": 2006,
@@ -486,6 +662,13 @@
       "id": "8cea7934a05b8cd906a89c206bee2df2e84c5629",
       "label": "GrothSahai07",
       "s2Url": "https://semanticscholar.org/paper/8cea7934a05b8cd906a89c206bee2df2e84c5629",
+      "tags": [
+        "foundations",
+        "non-interactive witness-indistinguishability",
+        "nizk",
+        "common reference string",
+        "bilinear groups"
+      ],
       "title": "Efficient Non-interactive Proof Systems for Bilinear Groups",
       "venue": "EUROCRYPT",
       "year": 2007,
@@ -505,6 +688,10 @@
       "id": "67708229c4579adabf7a2fbe0178a610d2eff788",
       "label": "ABC+07",
       "s2Url": "https://semanticscholar.org/paper/67708229c4579adabf7a2fbe0178a610d2eff788",
+      "tags": [
+        "cryptographic protocols",
+        "pdp"
+      ],
       "title": "Provable data possession at untrusted stores",
       "venue": "CCS '07",
       "year": 2007,
@@ -520,6 +707,10 @@
       "id": "37dde6a606e64aa455ec241b9de085509c06ba73",
       "label": "KSW+07",
       "s2Url": "https://semanticscholar.org/paper/37dde6a606e64aa455ec241b9de085509c06ba73",
+      "tags": [
+        "public-key cryptography",
+        "predicate encryption"
+      ],
       "title": "Predicate Encryption Supporting Disjunctions, Polynomial Equations, and Inner Products",
       "venue": "Journal of Cryptology",
       "year": 2007,
@@ -535,6 +726,11 @@
       "id": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
       "label": "OSW+07",
       "s2Url": "https://semanticscholar.org/paper/bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "tags": [
+        "public-key cryptography",
+        "attribute-based encryption",
+        "decisional bilinear Diffie-Hellman"
+      ],
       "title": "Attribute-based encryption with non-monotonic access structures",
       "venue": "CCS '07",
       "year": 2007,
@@ -551,6 +747,20 @@
       "id": "7e104ef1d710b974ee0ee70eba9acada86210357",
       "label": "EKP+08",
       "s2Url": "https://semanticscholar.org/paper/7e104ef1d710b974ee0ee70eba9acada86210357",
+      "tags": [
+        "cryptographic protocols",
+        "outsourced storage",
+        "authenticated dictionary",
+        "authenticated data structures",
+        "RSA tree",
+        "file system",
+        "version control system",
+        "untrusted storage",
+        "provable data possession",
+        "skip list",
+        "proof of retrievability",
+        "integrity checking"
+      ],
       "title": "Dynamic provable data possession",
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2008,
@@ -566,6 +776,14 @@
       "id": "19de1229db1c2e62367a3d1459e24848064dfd02",
       "label": "IPS+08",
       "s2Url": "https://semanticscholar.org/paper/19de1229db1c2e62367a3d1459e24848064dfd02",
+      "tags": [
+        "compiler",
+        "mpc",
+        "dishonest majority",
+        "oblivious transfer",
+        "semi-honest model",
+        "uc model"
+      ],
       "title": "Founding Cryptography on Oblivious Transfer - Efficiently",
       "venue": "CRYPTO",
       "year": 2008,
@@ -582,6 +800,11 @@
       "id": "b3c7af3cf2322505da2327add85555a94e1c834d",
       "label": "APM+08",
       "s2Url": "https://semanticscholar.org/paper/b3c7af3cf2322505da2327add85555a94e1c834d",
+      "tags": [
+        "cryptographic protocols",
+        "pdp",
+        "symmetric-key cryptography"
+      ],
       "title": "Scalable and efficient provable data possession",
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2008,
@@ -597,6 +820,9 @@
       "id": "9da2bf868e73cb340dff83d24503217562aef0a7",
       "label": "GGP+09",
       "s2Url": "https://semanticscholar.org/paper/9da2bf868e73cb340dff83d24503217562aef0a7",
+      "tags": [
+        "verifiable computation"
+      ],
       "title": "Non-interactive Verifiable Computing: Outsourcing Computation to Untrusted Workers",
       "venue": "CRYPTO",
       "year": 2009,
@@ -613,6 +839,10 @@
       "id": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
       "label": "DGH+09",
       "s2Url": "https://semanticscholar.org/paper/1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
+      "tags": [
+        "fhe",
+        "approximate gcd"
+      ],
       "title": "Fully Homomorphic Encryption over the Integers",
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2009,
@@ -629,6 +859,10 @@
       "id": "f75c5ee8db682f37f0ebf16d62677823c02359af",
       "label": "BCL+09",
       "s2Url": "https://semanticscholar.org/paper/f75c5ee8db682f37f0ebf16d62677823c02359af",
+      "tags": [
+        "order-preserving encryption",
+        "symmetric-key cryptography"
+      ],
       "title": "Order-Preserving Symmetric Encryption",
       "venue": "EUROCRYPT",
       "year": 2009,
@@ -646,6 +880,10 @@
       "id": "b3d6e545cf259c63b81526624e2a0a47844818aa",
       "label": "WWL+09",
       "s2Url": "https://semanticscholar.org/paper/b3d6e545cf259c63b81526624e2a0a47844818aa",
+      "tags": [
+        "integrity verification",
+        "cloud computing"
+      ],
       "title": "Enabling Public Verifiability and Data Dynamics for Storage Security in Cloud Computing",
       "venue": "ESORICS",
       "year": 2009,
@@ -660,6 +898,13 @@
       "id": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "label": "BishopWaters10",
       "s2Url": "https://semanticscholar.org/paper/53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "tags": [
+        "attribute-based encryption",
+        "multi-authority abe",
+        "collusion resistance",
+        "bilinear groups",
+        "random oracle model"
+      ],
       "title": "Decentralizing Attribute-Based Encryption",
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2010,
@@ -677,6 +922,12 @@
       "id": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "label": "BOS+10",
       "s2Url": "https://semanticscholar.org/paper/78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "tags": [
+        "functional encryption",
+        "attribute-based encryption",
+        "predicate encryption",
+        "bilinear groups"
+      ],
       "title": "Fully Secure Functional Encryption: Attribute-Based Encryption and (Hierarchical) Inner Product Encryption",
       "venue": "EUROCRYPT",
       "year": 2010,
@@ -692,6 +943,9 @@
       "id": "7964791a1dab49340b55672a6cc3c176f517831b",
       "label": "TJA+10",
       "s2Url": "https://semanticscholar.org/paper/7964791a1dab49340b55672a6cc3c176f517831b",
+      "tags": [
+        "cloud computing"
+      ],
       "title": "Security and Privacy Challenges in Cloud Computing Environments",
       "venue": "IEEE Security & Privacy",
       "year": 2010,
@@ -710,6 +964,11 @@
       "id": "e27d5122a0ee36d82d3d4b64647134d19e156189",
       "label": "LWW+10",
       "s2Url": "https://semanticscholar.org/paper/e27d5122a0ee36d82d3d4b64647134d19e156189",
+      "tags": [
+        "private search",
+        "fuzzy private search",
+        "edit distance"
+      ],
       "title": "Fuzzy Keyword Search over Encrypted Data in Cloud Computing",
       "venue": "2010 Proceedings IEEE INFOCOM",
       "year": 2010,
@@ -724,6 +983,11 @@
       "id": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
       "label": "GentryHalevi10",
       "s2Url": "https://semanticscholar.org/paper/bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "tags": [
+        "fhe",
+        "implementation",
+        "lattice-based cryptography"
+      ],
       "title": "Implementing Gentry's Fully-Homomorphic Encryption Scheme",
       "venue": "EUROCRYPT",
       "year": 2010,
@@ -738,6 +1002,13 @@
       "id": "8d63532f254c77549b40e232611948d36c85150b",
       "label": "BrakerskiVaikuntanathan11",
       "s2Url": "https://semanticscholar.org/paper/8d63532f254c77549b40e232611948d36c85150b",
+      "tags": [
+        "fhe",
+        "LWE",
+        "lattice-based cryptography",
+        "pir",
+        "public-key cryptography"
+      ],
       "title": "Efficient Fully Homomorphic Encryption from (Standard) LWE",
       "venue": "2011 IEEE 52nd Annual Symposium on Foundations of Computer Science",
       "year": 2011,
@@ -753,6 +1024,12 @@
       "id": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
       "label": "LNV+11",
       "s2Url": "https://semanticscholar.org/paper/893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "tags": [
+        "he",
+        "she",
+        "ring-LWE",
+        "applications"
+      ],
       "title": "Can homomorphic encryption be practical?",
       "venue": "CCSW '11",
       "year": 2011,
@@ -767,6 +1044,12 @@
       "id": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
       "label": "BrakerskiVaikuntanathan11",
       "s2Url": "https://semanticscholar.org/paper/9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "tags": [
+        "fhe",
+        "ring-LWE",
+        "lattice-based cryptography",
+        "ideal lattices"
+      ],
       "title": "Fully Homomorphic Encryption from Ring-LWE and Security for Key Dependent Messages",
       "venue": "CRYPTO",
       "year": 2011,
@@ -786,6 +1069,10 @@
       "id": "b2ae64924d9a850eeb32f32a09bbff78783244c4",
       "label": "BGI+12",
       "s2Url": "https://semanticscholar.org/paper/b2ae64924d9a850eeb32f32a09bbff78783244c4",
+      "tags": [
+        "obfuscation",
+        "foundations"
+      ],
       "title": "On the (im)possibility of obfuscating programs",
       "venue": "JACM",
       "year": 2012,
@@ -805,6 +1092,13 @@
       "id": "3797d924fc5f832b72a84c512e92021906793965",
       "label": "BCG+14",
       "s2Url": "https://semanticscholar.org/paper/3797d924fc5f832b72a84c512e92021906793965",
+      "tags": [
+        "blockchain",
+        "anonymity",
+        "privacy",
+        "bitcoin",
+        "digital currency"
+      ],
       "title": "Zerocash: Decentralized Anonymous Payments from Bitcoin",
       "venue": "2014 IEEE Symposium on Security and Privacy",
       "year": 2014,
@@ -822,6 +1116,11 @@
       "id": "bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
       "label": "KMS+15",
       "s2Url": "https://semanticscholar.org/paper/bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
+      "tags": [
+        "blockchain",
+        "smart contracts",
+        "cryptographic protocols"
+      ],
       "title": "Hawk: The Blockchain Model of Cryptography and Privacy-Preserving Smart Contracts",
       "venue": "2016 IEEE Symposium on Security and Privacy (SP)",
       "year": 2015,
