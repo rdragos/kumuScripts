@@ -890,6 +890,19 @@
       "numInCitations": 805
     },
     {
+      "abstract": "We propose a fully homomorphic encryption scheme -- i.e., a scheme that allows one to evaluate circuits over encrypted data without being able to decrypt. Our solution comes in three steps. First, we provide a general result -- that, to construct an encryption scheme that permits evaluation of arbitrary circuits, it suffices to construct an encryption scheme that can evaluate (slightly augmented versions of) its own decryption circuit; we call a scheme that can evaluate its (augmented) decryption circuit bootstrappable.\n Next, we describe a public key encryption scheme using ideal lattices that is almost bootstrappable.\n Lattice-based cryptosystems typically have decryption algorithms with low circuit complexity, often dominated by an inner product computation that is in NC1. Also, ideal lattices provide both additive and multiplicative homomorphisms (modulo a public-key ideal in a polynomial ring that is represented as a lattice), as needed to evaluate general circuits.\n Unfortunately, our initial scheme is not quite bootstrappable -- i.e., the depth that the scheme can correctly evaluate can be logarithmic in the lattice dimension, just like the depth of the decryption circuit, but the latter is greater than the former. In the final step, we show how to modify the scheme to reduce the depth of the decryption circuit, and thereby obtain a bootstrappable encryption scheme, without reducing the depth that the scheme can evaluate. Abstractly, we accomplish this by enabling the encrypter to start the decryption process, leaving less work for the decrypter, much like the server leaves less work for the decrypter in a server-aided cryptosystem.",
+      "authors": [
+        "Craig Gentry"
+      ],
+      "id": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "label": "Gentry09",
+      "s2Url": "https://semanticscholar.org/paper/6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "title": "Fully homomorphic encryption using ideal lattices",
+      "venue": "STOC '09",
+      "year": 2009,
+      "numInCitations": 2808
+    },
+    {
       "abstract": "We propose a Multi-Authority Attribute-Based Encryption (ABE) system. In our system, any party can become an authority and there is no requirement for any global coordination other than the creation of an initial set of common reference parameters. A party can simply act as an ABE authority by creating a public key and issuing private keys to different users that reflect their attributes. A user can encrypt data in terms of any boolean formula over attributes issued from any chosen set of authorities. Finally, our system does not require any central authority. \n \nIn constructing our system, our largest technical hurdle is to make it collusion resistant. Prior Attribute-Based Encryption systems achieved collusion resistance when the ABE system authority \"tied\" together different components (representing different attributes) of a user's private key by randomizing the key. However, in our system each component will come from a potentially different authority, where we assume no coordination between such authorities. We create new techniques to tie key components together and prevent collusion attacks between users with different global identifiers. \n \nWe prove our system secure using the recent dual system encryption methodology where the security proof works by first converting the challenge ciphertext and private keys to a semi-functional form and then arguing security. We follow a recent variant of the dual system proof technique due to Lewko and Waters and build our system using bilinear groups of composite order. We prove security under similar static assumptions to the LW paper in the random oracle model.",
       "authors": [
         "Allison Bishop",
@@ -1394,240 +1407,282 @@
     },
     {
       "id": 44,
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "9da2bf868e73cb340dff83d24503217562aef0a7",
+      "direction": "directed"
+    },
+    {
+      "id": 45,
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
+      "direction": "directed"
+    },
+    {
+      "id": 46,
       "from": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
       "to": "f75c5ee8db682f37f0ebf16d62677823c02359af",
       "direction": "directed"
     },
     {
-      "id": 45,
+      "id": 47,
       "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "to": "f75c5ee8db682f37f0ebf16d62677823c02359af",
       "direction": "directed"
     },
     {
-      "id": 46,
+      "id": 48,
       "from": "67708229c4579adabf7a2fbe0178a610d2eff788",
       "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
       "direction": "directed"
     },
     {
-      "id": 47,
+      "id": 49,
       "from": "b3c7af3cf2322505da2327add85555a94e1c834d",
       "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
       "direction": "directed"
     },
     {
-      "id": 48,
+      "id": 50,
       "from": "7e104ef1d710b974ee0ee70eba9acada86210357",
       "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
       "direction": "directed"
     },
     {
-      "id": 49,
+      "id": 51,
       "from": "dab56166e49905226ded911a135f239f27de97bc",
       "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
       "direction": "directed"
     },
     {
-      "id": 50,
-      "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
-      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
-      "direction": "directed"
-    },
-    {
-      "id": 51,
-      "from": "8cea7934a05b8cd906a89c206bee2df2e84c5629",
-      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
-      "direction": "directed"
-    },
-    {
       "id": 52,
-      "from": "582f54c4f2a588fb2d8b83a398dbeee4d8577373",
-      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "from": "ff2695513e7e0f49a0a484818c19b6346e076172",
+      "to": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
       "direction": "directed"
     },
     {
       "id": 53,
-      "from": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
       "id": 54,
-      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "from": "8cea7934a05b8cd906a89c206bee2df2e84c5629",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
       "id": 55,
-      "from": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "from": "582f54c4f2a588fb2d8b83a398dbeee4d8577373",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
       "id": 56,
-      "from": "90574069af02306cd80c046b78e3e27f653f6837",
+      "from": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
       "id": 57,
-      "from": "422876e542daadefe3371091a65c5671185796e2",
+      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
       "id": 58,
-      "from": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "from": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
       "id": 59,
-      "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
-      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "from": "90574069af02306cd80c046b78e3e27f653f6837",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
       "id": 60,
-      "from": "37dde6a606e64aa455ec241b9de085509c06ba73",
-      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "from": "422876e542daadefe3371091a65c5671185796e2",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
       "id": 61,
-      "from": "90574069af02306cd80c046b78e3e27f653f6837",
-      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "from": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
       "id": 62,
-      "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "direction": "directed"
     },
     {
       "id": 63,
-      "from": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "from": "37dde6a606e64aa455ec241b9de085509c06ba73",
       "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "direction": "directed"
     },
     {
       "id": 64,
-      "from": "422876e542daadefe3371091a65c5671185796e2",
+      "from": "90574069af02306cd80c046b78e3e27f653f6837",
       "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "direction": "directed"
     },
     {
       "id": 65,
+      "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "direction": "directed"
+    },
+    {
+      "id": 66,
+      "from": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "direction": "directed"
+    },
+    {
+      "id": 67,
+      "from": "422876e542daadefe3371091a65c5671185796e2",
+      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "direction": "directed"
+    },
+    {
+      "id": 68,
       "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
       "direction": "directed"
     },
     {
-      "id": 66,
+      "id": 69,
       "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
       "direction": "directed"
     },
     {
-      "id": 67,
+      "id": 70,
       "from": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
       "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
       "direction": "directed"
     },
     {
-      "id": 68,
+      "id": 71,
       "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
       "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
       "direction": "directed"
     },
     {
-      "id": 69,
+      "id": 72,
       "from": "77d0d8f3365612c9675723d3f8822b28214cea7a",
       "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
       "direction": "directed"
     },
     {
-      "id": 70,
-      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
-      "to": "8d63532f254c77549b40e232611948d36c85150b",
-      "direction": "directed"
-    },
-    {
-      "id": 71,
-      "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
-      "to": "8d63532f254c77549b40e232611948d36c85150b",
-      "direction": "directed"
-    },
-    {
-      "id": 72,
-      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
-      "to": "8d63532f254c77549b40e232611948d36c85150b",
-      "direction": "directed"
-    },
-    {
       "id": 73,
-      "from": "8d63532f254c77549b40e232611948d36c85150b",
-      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
       "direction": "directed"
     },
     {
       "id": 74,
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 75,
+      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 76,
+      "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 77,
+      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 78,
+      "from": "8d63532f254c77549b40e232611948d36c85150b",
+      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "direction": "directed"
+    },
+    {
+      "id": 79,
       "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
       "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
       "direction": "directed"
     },
     {
-      "id": 75,
+      "id": 80,
       "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
       "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
       "direction": "directed"
     },
     {
-      "id": 76,
+      "id": 81,
       "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
       "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
       "direction": "directed"
     },
     {
-      "id": 77,
+      "id": 82,
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "direction": "directed"
+    },
+    {
+      "id": 83,
       "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
       "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
       "direction": "directed"
     },
     {
-      "id": 78,
+      "id": 84,
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "direction": "directed"
+    },
+    {
+      "id": 85,
       "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
       "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
       "direction": "directed"
     },
     {
-      "id": 79,
+      "id": 86,
       "from": "8d63532f254c77549b40e232611948d36c85150b",
       "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
       "direction": "directed"
     },
     {
-      "id": 80,
+      "id": 87,
       "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
       "to": "b2ae64924d9a850eeb32f32a09bbff78783244c4",
       "direction": "directed"
     },
     {
-      "id": 81,
+      "id": 88,
       "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
       "to": "b2ae64924d9a850eeb32f32a09bbff78783244c4",
       "direction": "directed"
     },
     {
-      "id": 82,
+      "id": 89,
       "from": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
       "to": "bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
       "direction": "directed"
     },
     {
-      "id": 83,
+      "id": 90,
       "from": "3797d924fc5f832b72a84c512e92021906793965",
       "to": "bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
       "direction": "directed"

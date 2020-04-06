@@ -46,6 +46,8 @@ def fetch_data():
     for i in range(100,181):
         all_entries += inner_fetch(gen_name('-', i))
 
+    all_entries += inner_fetch('s2-corpus-additions')
+
     return all_entries
 
 complete_entries = fetch_data()
