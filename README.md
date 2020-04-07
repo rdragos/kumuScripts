@@ -1,4 +1,4 @@
-# HOWTO add/remove papers for contributors
+# HOWTO add/remove papers
 
 As the current pipeline stands, if you want to add/remove a paper you need to follow the next steps:
 
@@ -29,10 +29,10 @@ its id is `e2957cbe949d4e76764bec20291a66de89393174`
 ...
 ```
 
-and look for it in `tagged_output.json` to check whether there is such an entry and check the flag `isMPC'
+and look for it in `tagged_output.json` to check whether there is such an entry and check the flag `isMPC`
 to be set up accordingly (0 to remove paper in the kumu map, 1 to add paper in the map).
 
-If there is no such entry, then make sure to add it at the end of file, with the corresponding flag, eg:
+If there is no such entry, then make sure to add it at the end of `tagged_output.json`, with the corresponding flag, eg:
 ```
     {
       "label": "SmartVercauteren09",
@@ -96,5 +96,20 @@ python tag-adder.py --in crypto-semantics-data.json --out kumu_output.json
 ```
 ```
 after a re-run of `python kumucollector.py --output 0`
+
+# FAQ: Why is not paper X in there?
+
+Most likely because it's indexed wrong by semantic scholar. The way we built this database was by
+selecting for papers which appeared in CRYPTO, EUROCRYPT, CCS, etc. Sometimes semantic scholar does
+parses the venues incorrectly, or even author names, sometimes it has duplications of the same paper
+so the number of citations might be slightly different than what you see on Google Scholar.
+
+If you see such inconsistencies please fill in a issue to add paper X to our database, we will gladly do so.
+
+# Thanks
+
+We would like to thank Peter Sebastian Nordholt for posting the scripts used in https://guutboy.github.io/ 
+on GitHub.
+
 
 
