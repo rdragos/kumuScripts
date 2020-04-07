@@ -1,60 +1,74 @@
 # HOWTO add/remove papers
 
-As the current pipeline stands, if you want to add/remove a paper you need to follow the next steps:
+## The easy way
 
-1. Find its semantic scholar id, for example: <https://www.semanticscholar.org/paper/Fully-Homomorphic-Encryption-with-Relatively-Small-Smart-Vercauteren/e2957cbe949d4e76764bec20291a66de89393174>
+Fill in an GitHub issue with the paper and some associated tags you think
+are right for it, as in [here](https://github.com/rdragos/kumuScripts/issues/1#issuecomment-610406754).
 
-The id for this paper is `e2957cbe949d4e76764bec20291a66de89393174`
 
-2. Look for its json information in `crypto-semantics-data.json, eg:
+## The hard way
+
+Suppose you want to add the paper called "Practical Covertly Secure MPC for Dishonest Majority - Or: Breaking the SPDZ Limits"
+
+As the current pipeline
+stands, if you want to add a paper you need to follow the next steps:
+
+1. Find its semantic scholar id (s2id), for example:
+<https://www.semanticscholar.org/paper/Practical-Covertly-Secure-MPC-for-Dishonest-Or%3A-the-Damg%C3%A5rd-Keller/e69e44f837662fdc5c49a7ba40666ba7bd5980c0>
+
+The **s2id** of a paper consist in the entire digest before the end of the link, i.e.: `e69e44f837662fdc5c49a7ba40666ba7bd5980c0`
+
+2. Look for the json information corresponding to the **s2id** in `crypto-semantics-data.json`, eg:
 ```javascript
 ...
     {
-      "label": "SmartVercauteren09",
-      "abstract": "We present a fully homomorphic encryption scheme which has both relatively small key and ciphertext size. Our construction follows that of Gentry by producing a fully homomorphic scheme from a “somewhat” homomorphic scheme. For the somewhat homomorphic scheme the public and private keys consist of two large integers (one of which is shared by both the public and private key) and the ciphertext consists of one large integer. As such, our scheme has smaller message expansion and key size than Gentry’s original scheme. In addition, our proposal allows efficient fully homomorphic encryption over any field of characteristic two.",
-      "id": "e2957cbe949d4e76764bec20291a66de89393174",
-      "venue": "Public Key Cryptography",
-      "s2Url": "https://semanticscholar.org/paper/e2957cbe949d4e76764bec20291a66de89393174",
+      "label": "DKL+12",
+      "abstract": "SPDZ (pronounced “Speedz”) is the nickname of the MPC protocol of Damgard et al. from Crypto 2012. In this paper we both resolve a number of open problems with SPDZ; and present several theoretical and practical improvements to the protocol. In detail, we start by designing and implementing a covertly secure key generation protocol for obtaining a BGV public key and a shared associated secret key. We then construct both a covertly and actively secure preprocessing phase, both of which compare favourably with previous work in terms of efficiency and provable security.",
+      "id": "e69e44f837662fdc5c49a7ba40666ba7bd5980c0",
+      "venue": "ESORICS",
+      "s2Url": "https://semanticscholar.org/paper/e69e44f837662fdc5c49a7ba40666ba7bd5980c0",
       "authors": [
-        "Nigel P. Smart",
-        "Frederik Vercauteren"
+        "Ivan Damgård",
+        "Marcel Keller",
+        "Enrique Larraia",
+        "Valerio Pastro",
+        "Peter Scholl",
+        "Nigel P. Smart"
       ],
-      "title": "Fully Homomorphic Encryption with Relatively Small Key and Ciphertext Sizes",
-      "year": 2009,
-      "tags": [
-        "fhe",
-        "public-key cryptography"
-      ]
-    }
-...
+      "title": "Practical Covertly Secure MPC for Dishonest Majority - Or: Breaking the SPDZ Limits",
+      "year": 2012
+    },
+ ...
 ```
 
-and look for it in `tagged_output.json` to check whether there is such an entry and check the flag `isMPC`
-to be set up accordingly (0 to remove paper in the kumu map, 1 to add paper in the map).
+Check if the **s2id** is in `tagged_output.json`. If it is and you actually want to delete the entry
+from the Kumu map then set the flag `isMPC: 0`.
 
-If there is no such entry, then make sure to add it at the end of `tagged_output.json`, with the corresponding flag, eg:
+If the **s2id** is not in `tagged_output.json` then add this entry at the end of of `tagged_output.json`.
+with the corresponding `isMPC` flag:
 ```javascript
+
     {
-      "label": "SmartVercauteren09",
-      "abstract": "We present a fully homomorphic encryption scheme which has both relatively small key and ciphertext size. Our construction follows that of Gentry by producing a fully homomorphic scheme from a “somewhat” homomorphic scheme. For the somewhat homomorphic scheme the public and private keys consist of two large integers (one of which is shared by both the public and private key) and the ciphertext consists of one large integer. As such, our scheme has smaller message expansion and key size than Gentry’s original scheme. In addition, our proposal allows efficient fully homomorphic encryption over any field of characteristic two.",
-      "id": "e2957cbe949d4e76764bec20291a66de89393174",
-      "venue": "Public Key Cryptography",
-      "s2Url": "https://semanticscholar.org/paper/e2957cbe949d4e76764bec20291a66de89393174",
+      "label": "DKL+12",
+      "abstract": "SPDZ (pronounced “Speedz”) is the nickname of the MPC protocol of Damgard et al. from Crypto 2012. In this paper we both resolve a number of open problems with SPDZ; and present several theoretical and practical improvements to the protocol. In detail, we start by designing and implementing a covertly secure key generation protocol for obtaining a BGV public key and a shared associated secret key. We then construct both a covertly and actively secure preprocessing phase, both of which compare favourably with previous work in terms of efficiency and provable security.",
+      "id": "e69e44f837662fdc5c49a7ba40666ba7bd5980c0",
+      "venue": "ESORICS",
+      "s2Url": "https://semanticscholar.org/paper/e69e44f837662fdc5c49a7ba40666ba7bd5980c0",
       "authors": [
-        "Nigel P. Smart",
-        "Frederik Vercauteren"
+        "Ivan Damgård",
+        "Marcel Keller",
+        "Enrique Larraia",
+        "Valerio Pastro",
+        "Peter Scholl",
+        "Nigel P. Smart"
       ],
-      "title": "Fully Homomorphic Encryption with Relatively Small Key and Ciphertext Sizes",
-      "year": 2009,
-      "isMPC": 1,
-      "tags": [
-        "fhe",
-        "public-key cryptography"
-      ]
+      "title": "Practical Covertly Secure MPC for Dishonest Majority - Or: Breaking the SPDZ Limits",
+      "year": 2012,
+      "isMPC": 1
     }
 ```
  
-Once this is done please submit a pull request and I'll make sure to re-run a script that adds automatically
+Once this is done please submit a pull request and I will make sure to re-run a script that adds automatically
 the connections in the visual map.
 
 # Instructions for developers:
@@ -108,12 +122,12 @@ so the number of citations might be slightly different than what you see on Goog
 
 **Question:** Where can I see this marvellous map?
 
-**Answer:** [Here it is](https://kumu.io/DragosRotaru/coed-map#coed-256)
+**Answer:** You can find it on Kumu [here](https://kumu.io/DragosRotaru/coed-map#coed-256).
 
 **Question:** Are there any other cryptography maps?
 
 **Answer:** Yes, a very more detailed map on FHE literature made by Ilia Iliashenko.
-[Check it out here](https://kumu.io/iliailia/fhe-graph#academic-papers)
+[Check it out here](https://kumu.io/iliailia/fhe-graph#academic-papers).
 
 
 ## Thanks
