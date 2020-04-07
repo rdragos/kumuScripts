@@ -2,9 +2,9 @@
 
 As the current pipeline stands, if you want to add/remove a paper you need to follow the next steps:
 
-1. Find its semantic scholar id, for example: `https://www.semanticscholar.org/paper/Fully-Homomorphic-Encryption-with-Relatively-Small-Smart-Vercauteren/e2957cbe949d4e76764bec20291a66de89393174`
+1. Find its semantic scholar id, for example: <https://www.semanticscholar.org/paper/Fully-Homomorphic-Encryption-with-Relatively-Small-Smart-Vercauteren/e2957cbe949d4e76764bec20291a66de89393174>
 
-its id is `e2957cbe949d4e76764bec20291a66de89393174`
+The id for this paper is `e2957cbe949d4e76764bec20291a66de89393174`
 
 2. Look for its json information in `crypto-semantics-data.json, eg:
 ```javascript
@@ -106,15 +106,17 @@ selecting for papers which appeared in CRYPTO, EUROCRYPT, CCS, etc. Sometimes se
 parses the venues incorrectly, or even author names, sometimes it has duplications of the same paper
 so the number of citations might be slightly different than what you see on Google Scholar.
 
-**Question:** Where can I see the marvellous map?
+**Question:** Where can I see this marvellous map?
+
 **Answer:** [Here it is](https://kumu.io/DragosRotaru/coed-map#coed-256)
 
 **Question:** Are there any other cryptography maps?
+
 **Answer:** Yes, a very more detailed map on FHE literature made by Ilia Iliashenko.
 [Check it out here](https://kumu.io/iliailia/fhe-graph#academic-papers)
 
 
-# Thanks
+## Thanks
 
 We would like to thank Peter Sebastian Nordholt for posting the scripts used in https://guutboy.github.io/ 
 on GitHub.
