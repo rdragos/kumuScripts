@@ -17,6 +17,48 @@
       "numInCitations": 957
     },
     {
+      "abstract": "It is sometimes required that user pairs in a network share secret information to be used for mutual identification or as a key in a cipher system. If the network is large it becomes impractical or even impossible to store all keys securely at the users. A natural solution then is to supply each user with a relatively small amount of secret data from which he can derive all his keys. A scheme for this purpose will be presented and we call such a scheme a symmetric key generation system (SKGS). However, as all keys will be generated from a small amount of data, dependencies between keys will exist. Therefore by cooperation, users in the system might be able to decrease their uncertainty about keys they should not have access to.The objective of this paper is to present a class of SKGS for which the amount of secret information needed by each user to generate his keys is the least possible while at the same time a certain minimum number of users have to cooperate to resolve the uncertainty of unknown keys.",
+      "authors": [
+        "Rolf Blom"
+      ],
+      "id": "23b42d185e125a151e57ae925510b0a7f94cb43c",
+      "label": "Blom84",
+      "s2Url": "https://semanticscholar.org/paper/23b42d185e125a151e57ae925510b0a7f94cb43c",
+      "title": "An Optimal Class of Symmetric Key Generation Systems",
+      "venue": "EUROCRYPT",
+      "year": 1984,
+      "numInCitations": 730
+    },
+    {
+      "abstract": "The consensus problem involves an asynchronous system of processes, some of which may be unreliable. The problem is for the reliable processes to agree on a binary value. In this paper, it is shown that every protocol for this problem has the possibility of nontermination, even with only one faulty process. By way of contrast, solutions are known for the synchronous case, the “Byzantine Generals” problem.",
+      "authors": [
+        "Michael J. Fischer",
+        "Nancy A. Lynch",
+        "Mike Paterson"
+      ],
+      "id": "a35142950f967193fbf2d7d1b63b7c126b0d8554",
+      "label": "FLP+85",
+      "s2Url": "https://semanticscholar.org/paper/a35142950f967193fbf2d7d1b63b7c126b0d8554",
+      "title": "Impossibility of distributed consensus with one faulty process",
+      "venue": "JACM",
+      "year": 1985,
+      "numInCitations": 2555
+    },
+    {
+      "abstract": "In a distributed system, one strategy for achieving mutual exclusion of groups of nodes without communication is to assign to each node a number of votes. Only a group with a majority of votes can execute the critical operations, and mutual exclusion is achieved because at any given time there is at most one such group. A second strategy, which appears to be similar to votes, is to define a priori a set of groups that intersect each other. Any group of nodes that finds itself in this set can perform the restricted operations. In this paper, both of these strategies are studied in detail and it is shown that they are not equivalent in general (although they are in some cases). In doing so, a number of other interesting properties are proved. These properties will be of use to a system designer who is selecting a vote assignment or a set of groups for a specific application.",
+      "authors": [
+        "Hector Garcia-Molina",
+        "Daniel Barbará"
+      ],
+      "id": "150ab919d4266b0acc0d86ac95c449f21d9c5d0c",
+      "label": "Garcia-MolinaBarbará85",
+      "s2Url": "https://semanticscholar.org/paper/150ab919d4266b0acc0d86ac95c449f21d9c5d0c",
+      "title": "How to assign votes in a distributed system",
+      "venue": "JACM",
+      "year": 1985,
+      "numInCitations": 396
+    },
+    {
       "abstract": "In this paper we introduce a new tool for controlling the knowledge transfer process in cryptographic protocol design. It is applied to solve a general class of problems which include most of the two-party cryptographic problems in the literature. Specifically, we show how two parties A and B can interactively generate a random integer N = p?q such that its secret, i.e., the prime factors (p, q), is hidden from either party individually but is recoverable jointly if desired. This can be utilized to give a protocol for two parties with private values i and j to compute any polynomially computable functions f(i,j) and g(i,j) with minimal knowledge transfer and a strong fairness property. As a special case, A and B can exchange a pair of secrets sA, sB, e.g. the factorization of an integer and a Hamiltonian circuit in a graph, in such a way that sA becomes computable by B when and only when sB becomes computable by A. All these results are proved assuming only that the problem of factoring large intergers is computationally intractable.",
       "authors": [
         "Andrew Chi-Chih Yao"
@@ -88,6 +130,32 @@
       "numInCitations": 563
     },
     {
+      "abstract": "We present an efficient interactive identification scheme and a related signature scheme that are based on discrete logarithms and which are particularly suited for smart cards. Previous cryptoschemes, based on the discrete logarithm, have been proposed by El Gamal (1985), Chaum, Evertse, Graaf (1988), Beth (1988) and Gunter (1989). The new scheme comprises the following novel features.",
+      "authors": [
+        "C. P. Schnorr"
+      ],
+      "id": "8d69c06d48b618a090dd19185aea7a13def894a5",
+      "label": "Schnorr89",
+      "s2Url": "https://semanticscholar.org/paper/8d69c06d48b618a090dd19185aea7a13def894a5",
+      "title": "Efficient Identification and Signatures for Smart Cards",
+      "venue": "CRYPTO",
+      "year": 1989,
+      "numInCitations": 871
+    },
+    {
+      "abstract": "In a threshold cryptosystem n members share the necret key of an organization such that k members (1 5 k 5 n) must cooperate in order to decipher a given uphertext. In this note it is shown how to implement such a scheme without having a trusted party, which selects the secret key and distributes it to the members. In stead, the members choose the secret key and distribute it verifiably among themselves. Subsequently, this key can be used for authentication as well as secret communication.",
+      "authors": [
+        "Torben P. Pedersen"
+      ],
+      "id": "79804f82aba5f7abd344e52ef0908935ae9319b3",
+      "label": "Pedersen91",
+      "s2Url": "https://semanticscholar.org/paper/79804f82aba5f7abd344e52ef0908935ae9319b3",
+      "title": "A Threshold Cryptosystem without a Trusted Party (Extended Abstract)",
+      "venue": "EUROCRYPT",
+      "year": 1991,
+      "numInCitations": 488
+    },
+    {
       "abstract": "In this paper the generality and wide applicability of Zero-knowledge proofs, a notion introduced by Goldwasser, Micali, and Rackoff is demonstrated. These are probabilistic and interactive proofs that, for the members of a language, efficiently demonstrate membership in the language without conveying any additional knowledge. All previously known zero-knowledge proofs were only for number-theoretic languages in NP fl CONP. Under the assumption that secure encryption functions exist or by using \"physical means for hiding information, '' it is shown that all languages in NP have zero-knowledge proofs. Loosely speaking, it is possible to demonstrate that a CNF formula is satisfiable without revealing any other property of the formula, in particular, without yielding neither a satis@ing assignment nor properties such as whether there is a satisfying assignment in which xl = X3 etc. It is also demonstrated that zero-knowledge proofs exist \"outside the domain of cryptography and number theory. \" Using no assumptions. it is shown that both graph isomorphism and graph nonisomor- phism have zero-knowledge interactive proofs. The mere existence of an interactive proof for graph nonisomorphism is interesting, since graph nonisomorphism is not known to be in NP and hence no efficient proofs were known before for demonstrating that two graphs are not isomorphic.",
       "authors": [
         "Oded Goldreich",
@@ -104,6 +172,32 @@
       "venue": "JACM",
       "year": 1991,
       "numInCitations": 873
+    },
+    {
+      "abstract": "It is shown how to distribute a secret to n persons such that each person can verify that he has received correct information about the secret without talking with other persons. Any k of these persons can later find the secret (1 ? k ? n), whereas fewer than k persons get no (Shannon) information about the secret. The information rate of the scheme is 1/2 and the distribution as well as the verification requires approximately 2k modular multiplications pr. bit of the secret. It is also shown how a number of persons can choose a secret \"in the well\" and distribute it veritably among themselves.",
+      "authors": [
+        "Torben P. Pedersen"
+      ],
+      "id": "26747053b4bc759f4517f2d570b7c0227d116c2c",
+      "label": "Pedersen91",
+      "s2Url": "https://semanticscholar.org/paper/26747053b4bc759f4517f2d570b7c0227d116c2c",
+      "title": "Non-Interactive and Information-Theoretic Secure Verifiable Secret Sharing",
+      "venue": "CRYPTO",
+      "year": 1991,
+      "numInCitations": 1316
+    },
+    {
+      "abstract": "We present a new public-key signature scheme and a corresponding authentication scheme that are based on discrete logarithms in a subgroup of units in ℤp where p is a sufficiently large prime, e.g., p ≥ 2512. A key idea is to use for the base of the discrete logarithm an integer α in ℤp such that the order of α is a sufficiently large prime q, e.g., q ≥ 2140. In this way we improve the ElGamal signature scheme in the speed of the procedures for the generation and the verification of signatures and also in the bit length of signatures. We present an efficient algorithm that preprocesses the exponentiation of a random residue modulo p.",
+      "authors": [
+        "Claus-Peter Schnorr"
+      ],
+      "id": "2642738e9977c08d4085ce1c6530d63545383d30",
+      "label": "Schnorr91",
+      "s2Url": "https://semanticscholar.org/paper/2642738e9977c08d4085ce1c6530d63545383d30",
+      "title": "Efficient signature generation by smart cards",
+      "venue": "Journal of Cryptology",
+      "year": 1991,
+      "numInCitations": 1581
     },
     {
       "abstract": "We show how a pseudorandom generator can provide a bit-commitment protocol. We also analyze the number of bits communicated when parties commit to many bits simultaneously, and show that the assumption of the existence of pseudorandom generators suffices to assure amortized O(1) bits of communication per bit commitment.",
@@ -158,6 +252,20 @@
       "venue": "JACM",
       "year": 1992,
       "numInCitations": 1047
+    },
+    {
+      "abstract": "",
+      "authors": [
+        "Amos Fiat",
+        "Moni Naor"
+      ],
+      "id": "2c6f1ebf7da3dba7650a8c02aabb5472b59fd477",
+      "label": "FiatNaor93",
+      "s2Url": "https://semanticscholar.org/paper/2c6f1ebf7da3dba7650a8c02aabb5472b59fd477",
+      "title": "Broadcast Encryption",
+      "venue": "CRYPTO",
+      "year": 1993,
+      "numInCitations": 821
     },
     {
       "abstract": "We propose a complexity model of quantum circuits analogous to the standard (acyclic) Boolean circuit model. It is shown that any function computable in polynomial time by a quantum Turing machine has a polynomial-size quantum circuit. This result also enables us to construct a universal quantum computer which can simulate, with a polynomial factor slowdown, a broader class of quantum machines than that considered by E. Bernstein and U. Vazirani (1993), thus answering an open question raised by them. We also develop a theory of quantum communication complexity, and use it as a tool to prove that the majority function does not have a linear-size quantum formula. >",
@@ -216,6 +324,20 @@
       "numInCitations": 726
     },
     {
+      "abstract": "We present practical conference key distribution systems based on public keys, which authenticate the users and which are ‘proven’ secure provided the Diffie-Hellman problem is intractable. A certain number of interactions is needed but the overall cost is low. There is a complexity tradeoff. Depending on the network used, we either have a constant (in the number of conference participants) number of rounds (exchanges) or a constant communication and computation overhead. Our technique for authentication can be extended and used as the basis for an authentication scheme which is ‘proven’ secure against any type of attack, provided the Discrete Logarithm problem is intractable.",
+      "authors": [
+        "Mike Burmester",
+        "Yvo Desmedt"
+      ],
+      "id": "c84588d2aab33828bb1134800005eeca31d04eae",
+      "label": "BurmesterDesmedt94",
+      "s2Url": "https://semanticscholar.org/paper/c84588d2aab33828bb1134800005eeca31d04eae",
+      "title": "A Secure and Efficient Conference Key Distribution System (Extended Abstract)",
+      "venue": "EUROCRYPT",
+      "year": 1994,
+      "numInCitations": 582
+    },
+    {
       "abstract": "We describe an RSA-based signing scheme which combines essentially optimal efficiency with attractive security properties. Signing takes one RSA decryption plus some hashing, verification takes one RSA encryption plus some hashing, and the size of the signature is the size of the modulus. Assuming the underlying hash functions are ideal, our schemes are not only provably secure, but are so in a tight way-- an ability to forge signatures with a certain amount of computational resources implies the ability to invert RSA (on the same size modulus) with about the same computational effort. Furthermore, we provide a second scheme which maintains all of the above features and in addition provides message recovery. These ideas extend to provide schemes for Rabin signatures with analogous properties; in particular their security can be tightly related to the hardness of factoring.",
       "authors": [
         "Mihir Bellare",
@@ -236,24 +358,45 @@
       "numInCitations": 610
     },
     {
-      "abstract": "First, we introduce the notion of divertibility as a protocol property as opposed to the existing notion as a language property (see Okamoto, Ohta [OO90]). We give a definition of protocol divertibility that applies to arbitrary 2-party protocols and is compatible with Okamoto and Ohta's definition in the case of interactive zero-knowledge proofs. Other important examples falling under the new definition are blind signature protocols. We propose a sufficiency criterion for divertibility that is satisfied by many existing protocols and which, surprisingly, generalizes to cover several protocols not normally associated with divertibility (e.g., Diffie-Hellman key exchange). Next, we introduce atomic proxy cryptography, in which an atomic proxy function, in conjunction with a public proxy key, converts ciphertexts (messages or signatures) for one key into ciphertexts for another. Proxy keys, once generated, may be made public and proxy functions applied in untrusted environments. We present atomic proxy functions for discrete-log-based encryption, identification, and signature schemes. It is not clear whether atomic proxy functions exist in general for all public-key cryptosystems. Finally, we discuss the relationship between divertibility and proxy cryptography.",
+      "abstract": "Secure and authenticated message delivery/storage is one of the major aims of computer and communication security research. The current standard method to achieve this aim is “(digital) signature followed by encryption”. In this paper, we address a question on the cost of secure and authenticated message delivery/storage, namely, whether it is possible to transport/store messages of varying length in a secure and authenticated way with an expense less than that required by “signature followed by encryption”. This question seems to have never been addressed in the literature since the invention of public key cryptography. We then present a positive answer to the question. In particular, we discover a new cryptographic primitive termed as “signcryption” which simultaneously fulfills both the functions of digital signature and public key encryption in a logically single step, and with a cost significantly lower than that required by “signature followed by encryption”. For typical security parameters for high level security applications (size of public moduli = 1536 bits), signcryption costs 50% (31%, respectively) less in computation time and 85% (91%, respectively) less in message expansion than does “signature followed by encryption” based on the discrete logarithm problem (factorization problem, respectively).",
       "authors": [
-        "Matt Blaze",
-        "Gerrit Bleumer",
-        "Martin Strauss"
+        "Yuliang Zheng"
       ],
-      "id": "ff2695513e7e0f49a0a484818c19b6346e076172",
-      "label": "BBS+98",
-      "s2Url": "https://semanticscholar.org/paper/ff2695513e7e0f49a0a484818c19b6346e076172",
-      "tags": [
-        "digital signatures",
-        "proxy signatures",
-        "cryptographic protocols"
+      "id": "072e8123e534331625f52111cb5b7c0441bee8aa",
+      "label": "Zheng97",
+      "s2Url": "https://semanticscholar.org/paper/072e8123e534331625f52111cb5b7c0441bee8aa",
+      "title": "Digital Signcryption or How to Achieve Cost(Signature & Encryption) << Cost(Signature) + Cost(Encryption)",
+      "venue": "CRYPTO",
+      "year": 1997,
+      "numInCitations": 691
+    },
+    {
+      "abstract": "A sound pressure level meter adapted for use in monitoring noise levels, particularly for use by law enforcement agencies wherein the device includes means for providing a logarithmic indication of the root mean square value of ambient sound pressure levels and wherein means are provided for holding and displaying a maximum sound pressure level detected over a given period of time and for providing an alarm when a detected level exceeds a predetermined threshold level.",
+      "authors": [
+        "Dan Boneh",
+        "Richard A. DeMillo",
+        "Richard J. Lipton"
       ],
-      "title": "Divertible Protocols and Atomic Proxy Cryptography",
+      "id": "e2ceac65a53955893ca3152b992e65489e16e08a",
+      "label": "BDL+97",
+      "s2Url": "https://semanticscholar.org/paper/e2ceac65a53955893ca3152b992e65489e16e08a",
+      "title": "On the Importance of Checking Cryptographic Protocols for Faults (Extended Abstract)",
       "venue": "EUROCRYPT",
+      "year": 1997,
+      "numInCitations": 950
+    },
+    {
+      "abstract": "Given a collection<inline-equation><f> <sc>F</sc></f></inline-equation> of subsets of <?Pub Fmt italic>S<?Pub Fmt /italic> ={1,…,<?Pub Fmt italic>n<?Pub Fmt /italic>}, <?Pub Fmt italic>setcover<?Pub Fmt /italic> is the problem of selecting as few as possiblesubsets from <inline-equation> <f> <sc>F</sc></f></inline-equation> such that their union covers<?Pub Fmt italic>S,<?Pub Fmt /italic>, and <?Pub Fmt italic>maxk-cover<?Pub Fmt /italic> is the problem of selecting<?Pub Fmt italic>k<?Pub Fmt /italic> subsets from<inline-equation> <f> <sc>F</sc></f></inline-equation> such that their union has maximum cardinality. Both these problems areNP-hard.   We prove that (1 - <?Pub Fmt italic>o<?Pub Fmt /italic>(1)) ln<?Pub Fmt italic>n<?Pub Fmt /italic> is a threshold below   which setcover cannot be approximated efficiently, unless NP has slightlysuperpolynomial time algorithms. This closes the gap (up to low-orderterms) between the ratio of approximation achievable by the greedyalogorithm (which is (1 - <?Pub Fmt italic>o<?Pub Fmt /italic>(1)) lnn), and provious results of Lund and Yanakakis, that showed hardness ofapproximation within a ratio of <inline-equation><f><fen lp=\"par\"><lim align=\"r\"><op><rf>log</rf></op><ll>2</ll></lim>n<rp post=\"par\"></fen>/2≃0.72</f></inline-equation> ln <?Pub Fmt italic>n<?Pub Fmt /italic>. For max<?Pub Fmt italic>k<?Pub Fmt /italic>-cover, we show an approximationthreshold of (1 - 1/<?Pub   Fmt italic>e<?Pub Fmt /italic>)(up tolow-order terms), under assumption that <inline-equation><f>P≠NP</f><?Pub   Caret></inline-equation>.",
+      "authors": [
+        "Uriel Feige"
+      ],
+      "id": "83dc5ee478bfdca626b8bc413b98a7e024d5698c",
+      "label": "Feige98",
+      "s2Url": "https://semanticscholar.org/paper/83dc5ee478bfdca626b8bc413b98a7e024d5698c",
+      "title": "A threshold of ln n for approximating set cover",
+      "venue": "JACM",
       "year": 1998,
-      "numInCitations": 798
+      "numInCitations": 1980
     },
     {
       "abstract": "Abstract. We present general definitions of security for multiparty cryptographic protocols, with focus on the task of evaluating a probabilistic function of the parties' inputs. We show that, with respect to these definitions, security is preserved under a natural composition operation. The definitions follow the general paradigm of known definitions; yet some substantial modifications and simplifications are introduced. The composition operation is the natural ``subroutine substitution'' operation, formalized by Micali and Rogaway. We consider several standard settings for multiparty protocols, including the cases of eavesdropping, Byzantine, nonadaptive and adaptive adversaries, as well as the information-theoretic and the computational models. In particular, in the computational model we provide the first definition of security of protocols that is shown to be preserved under composition.",
@@ -463,30 +606,6 @@
       "numInCitations": 537
     },
     {
-      "abstract": "A credential system is a system in which users can obtain credentials from organizations and demonstrate possession of these credentials. Such a system is anonymous when transactions carried out by the same user cannot be linked. An anonymous credential system is of significant practical relevance because it is the best means of providing privacy for users. In this paper we propose a practical anonymous credential system that is based on the strong RSA assumption and the decisional Diffie-Hellman assumption modulo a safe prime product and is considerably superior to existing ones: (1) We give the first practical solution that allows a user to unlinkably demonstrate possession of a credential as many times as necessary without involving the issuing organization. (2) To prevent misuse of anonymity, our scheme is the first to offer optional anonymity revocation for particular transactions. (3) Our scheme offers separability: all organizations can choose their cryptographic keys independently of each other. Moreover, we suggest more effective means of preventing users from sharing their credentials, by introducing all-or-nothing sharing: a user who allows a friend to use one of her credentials once, gives him the ability to use all of her credentials, i.e., taking over her identity. This is implemented by a new primitive, called circular encryption, which is of independent interest, and can be realized from any semantically secure cryptosystem in the random oracle model.",
-      "authors": [
-        "Jan Camenisch",
-        "Anna Lysyanskaya"
-      ],
-      "id": "582f54c4f2a588fb2d8b83a398dbeee4d8577373",
-      "label": "CamenischLysyanskaya01",
-      "s2Url": "https://semanticscholar.org/paper/582f54c4f2a588fb2d8b83a398dbeee4d8577373",
-      "tags": [
-        "cryptographic protocols",
-        "blind signatures",
-        "digital signatures",
-        "e-cash",
-        "circular encryption",
-        "credential systems",
-        "pseudonym systems",
-        "key-oblivious encryption"
-      ],
-      "title": "An Efficient System for Non-transferable Anonymous Credentials with Optional Anonymity Revocation",
-      "venue": "IACR Cryptology ePrint Archive",
-      "year": 2001,
-      "numInCitations": 583
-    },
-    {
       "abstract": "We present several new and fairly practical public-key encryption schemes and prove them secure against adaptive chosen ciphertext attack. One scheme is based on Paillier's Decision Composite Residuosity assumption, while another is based in the classical Quadratic Residuosity assumption. The analysis is in the standard cryptographic model, i.e., the security of our schemes does not rely on the Random Oracle model. Moreover, we introduce a general framework that allows one to construct secure encryption schemes in a generic fashion from language membership problems that satisfy certain technical requirements. Our new schemes fit into this framework, as does the Cramer-Shoup scheme based on the Decision Diffie-Hellman assumption.",
       "authors": [
         "Ronald Cramer",
@@ -504,6 +623,22 @@
       "venue": "EUROCRYPT",
       "year": 2001,
       "numInCitations": 452
+    },
+    {
+      "abstract": "In this paper we address the problem of secure communication and authentication in ad-hoc wireless networks. This is a difficult problem, as it involves bootstrapping trust between strangers. We present a user-friendly solution, which provides secure authentication using almost any established public-key-based key exchange protocol, as well as inexpensive hash-based alternatives. In our approach, devices exchange a limited amount of public information over a privileged side channel, which will then allow them to complete an authenticated key exchange protocol over the wireless link. Our solution does not require a public key infrastructure, is secure against passive attacks on the privileged side channel and all attacks on the wireless link, and directly captures users’ intuitions that they want to talk to a particular previously unknown device in their physical proximity. We have implemented our system in Java for a variety of different devices, communication media, and key",
+      "authors": [
+        "Dirk Balfanz",
+        "Diana K. Smetters",
+        "Paul Stewart",
+        "H. Chi Wong"
+      ],
+      "id": "04efdda5544c0ba2c5c1a0ae9d7c667f83624a82",
+      "label": "BSS+02",
+      "s2Url": "https://semanticscholar.org/paper/04efdda5544c0ba2c5c1a0ae9d7c667f83624a82",
+      "title": "Talking to Strangers: Authentication in Ad-Hoc Wireless Networks",
+      "venue": "NDSS",
+      "year": 2002,
+      "numInCitations": 560
     },
     {
       "abstract": "Digital signature schemes are a fundamental cryptographic primitive, of use both in its own right, and as a building block in cryptographic protocol design. In this paper, we propose a practical and provably secure signature scheme and show protocols (1) for issuing a signature on a committed value (so the signer has no information about the signed value), and (2) for proving knowledge of a signature on a committed value. This signature scheme and corresponding protocols are a building block for the design of anonymity-enhancing cryptographic systems, such as electronic cash, group signatures, and anonymous credential systems. The security of our signature scheme and protocols relies on the Strong RSA assumption. These results are a generalization of the anonymous credential system of Camenisch and Lysyanskaya.",
@@ -572,24 +707,6 @@
       "numInCitations": 1105
     },
     {
-      "abstract": "Although people have hidden secrets in plain sight-now called steganography-throughout the ages, the recent growth in computational power and technology has propelled it to the forefront of today's security techniques. Essentially, the information-hiding process in a steganographic system starts by identifying a cover medium's redundant bits (those that can be modified without destroying that medium's integrity). The embedding process creates a stego medium by replacing these redundant bits with data from the hidden message. This article discusses existing steganographic systems and presents recent research in detecting them via statistical steganalysis. Here, we present recent research and discuss the practical application of detection algorithms and the mechanisms for getting around them.",
-      "authors": [
-        "Niels Provos",
-        "Peter Honeyman"
-      ],
-      "id": "75f182a2393c785543c089ffd5cff3ef71fa44c7",
-      "label": "ProvosHoneyman03",
-      "s2Url": "https://semanticscholar.org/paper/75f182a2393c785543c089ffd5cff3ef71fa44c7",
-      "tags": [
-        "steganography",
-        "statistical steganalysis"
-      ],
-      "title": "Hide and Seek: An Introduction to Steganography",
-      "venue": "IEEE Security & Privacy",
-      "year": 2003,
-      "numInCitations": 798
-    },
-    {
       "abstract": "We study the problem of searching on data that is encrypted using a public key system. Consider user Bob who sends email to user Alice encrypted under Alice’s public key. An email gateway wants to test whether the email contains the keyword “urgent” so that it could route the email accordingly. Alice, on the other hand does not wish to give the gateway the ability to decrypt all her messages. We define and construct a mechanism that enables Alice to provide a key to the gateway that enables the gateway to test whether the word “urgent” is a keyword in the email without learning anything else about the email. We refer to this mechanism as Public Key Encryption with keyword Search. As another example, consider a mail server that stores various messages publicly encrypted for Alice by others. Using our mechanism Alice can send the mail server a key that will enable the server to identify all messages containing some specific keyword, but learn nothing else. We define the concept of public key encryption with keyword search and give several constructions.",
       "authors": [
         "Dan Boneh",
@@ -651,6 +768,20 @@
       "numInCitations": 502
     },
     {
+      "abstract": "We present a fully secure Identity Based Encryption scheme whose proof of security does not rely on the random oracle heuristic. Security is based on the Decision Bilinear Diffie-Hellman assumption. This solves an open problem posed by Boneh and Franklin in 2001.",
+      "authors": [
+        "Dan Boneh",
+        "Xavier Boyen"
+      ],
+      "id": "2dc6b23839d32bddba95bb6846e4ef849029d1e1",
+      "label": "BonehBoyen04",
+      "s2Url": "https://semanticscholar.org/paper/2dc6b23839d32bddba95bb6846e4ef849029d1e1",
+      "title": "Secure Identity Based Encryption Without Random Oracles",
+      "venue": "CRYPTO",
+      "year": 2004,
+      "numInCitations": 384
+    },
+    {
       "abstract": "We study the setting in which a user stores encrypted documents (e.g. e-mails) on an untrusted server. In order to retrieve documents satisfying a certain search criterion, the user gives the server a capability that allows the server to identify exactly those documents. Work in this area has largely focused on search criteria consisting of a single keyword. If the user is actually interested in documents containing each of several keywords (conjunctive keyword search) the user must either give the server capabilities for each of the keywords individually and rely on an intersection calculation (by either the server or the user) to determine the correct set of documents, or alternatively, the user may store additional information on the server to facilitate such searches. Neither solution is desirable; the former enables the server to learn which documents match each individual keyword of the conjunctive search and the latter results in exponential storage if the user allows for searches on every set of keywords.",
       "authors": [
         "Philippe Golle",
@@ -668,6 +799,20 @@
       "venue": "ACNS",
       "year": 2004,
       "numInCitations": 486
+    },
+    {
+      "abstract": "We construct two efficient Identity Based Encryption (IBE) systems that are selective identity secure without the random oracle model. Selective identity secure IBE is a slightly weaker security model than the standard security model for IBE. In this model the adversary must commit ahead of time to the identity that it intends to attack, whereas in the standard model the adversary is allowed to choose this identity adaptively. Our first secure IBE system extends to give a selective identity Hierarchical IBE secure without random oracles.",
+      "authors": [
+        "Dan Boneh",
+        "Xavier Boyen"
+      ],
+      "id": "55886865782939a467d506bdaf7abecab65ede5a",
+      "label": "BonehBoyen04",
+      "s2Url": "https://semanticscholar.org/paper/55886865782939a467d506bdaf7abecab65ede5a",
+      "title": "Efficient Selective-ID Secure Identity Based Encryption Without Random Oracles",
+      "venue": "IACR Cryptology ePrint Archive",
+      "year": 2004,
+      "numInCitations": 968
     },
     {
       "abstract": "We consider the problem of computing the intersection of private datasets of two parties, where the datasets contain lists of elements taken from a large domain. This problem has many applications for online collaboration. We present protocols, based on the use of homomorphic encryption and balanced hashing, for both semi-honest and malicious environments. For lists of length k, we obtain O(k) communication overhead and O(k ln ln k) computation. The protocol for the semi-honest environment is secure in the standard model, while the protocol for the malicious environment is secure in the random oracle model. We also consider the problem of approximating the size of the intersection, show a linear lower-bound for the communication overhead of solving this problem, and provide a suitable secure protocol. Lastly, we investigate other variants of the matching problem, including extending the protocol to the multi-party setting as well as considering the problem of approximate matching.",
@@ -690,6 +835,21 @@
       "venue": "EUROCRYPT",
       "year": 2004,
       "numInCitations": 789
+    },
+    {
+      "abstract": "This paper describes the direct anonymous attestation scheme (DAA). This scheme was adopted by the Trusted Computing Group (TCG) as the method for remote authentication of a hardware module, called Trusted Platform Module (TPM), while preserving the privacy of the user of the platform that contains the module. DAA can be seen as a group signature without the feature that a signature can be opened, i.e., the anonymity is not revocable. Moreover, DAA allows for pseudonyms, i.e., for each signature a user (in agreement with the recipient of the signature) can decide whether or not the signature should be linkable to another signature. DAA furthermore allows for detection of \"known\" keys: if the DAA secret keys are extracted from a TPM and published, a verifier can detect that a signature was produced using these secret keys. The scheme is provably secure in the random oracle model under the strong RSA and the decisional Diffie-Hellman assumption.",
+      "authors": [
+        "Ernest F. Brickell",
+        "Jan Camenisch",
+        "Liqun Chen"
+      ],
+      "id": "60739cb3e92415cff6f76a34374045d3f5cb6f27",
+      "label": "BCC+04",
+      "s2Url": "https://semanticscholar.org/paper/60739cb3e92415cff6f76a34374045d3f5cb6f27",
+      "title": "Direct anonymous attestation",
+      "venue": "CCS '04",
+      "year": 2004,
+      "numInCitations": 592
     },
     {
       "abstract": "We present the first efficient Identity-Based Encryption (IBE) scheme that is fully secure without random oracles. We first present our IBE construction and reduce the security of our scheme to the decisional Bilinear Diffie-Hellman (BDH) problem. Additionally, we show that our techniques can be used to build a new signature scheme that is secure under the computational Diffie-Hellman assumption without random oracles.",
@@ -749,6 +909,20 @@
       "venue": "ACNS",
       "year": 2004,
       "numInCitations": 741
+    },
+    {
+      "abstract": "Traditional theory suggests consumers should be able to manage their privacy. Yet, empirical and theoretical research suggests that consumers often lack enough information to make privacy-sensitive decisions and, even with sufficient information, are likely to trade off long-term privacy for short-term benefits",
+      "authors": [
+        "Alessandro Acquisti",
+        "Jens Grossklags"
+      ],
+      "id": "4c6400807740f314f0f13ad5530b0dbe7711b0d7",
+      "label": "AcquistiGrossklags05",
+      "s2Url": "https://semanticscholar.org/paper/4c6400807740f314f0f13ad5530b0dbe7711b0d7",
+      "title": "Privacy and rationality in individual decision making",
+      "venue": "IEEE Security & Privacy",
+      "year": 2005,
+      "numInCitations": 547
     },
     {
       "abstract": "Forgery and counterfeiting are emerging as serious security risks in low-cost pervasive computing devices. These devices lack the computational, storage, power, and communication resources necessary for most cryptographic authentication schemes. Surprisingly, low-cost pervasive devices like Radio Frequency Identification (RFID) tags share similar capabilities with another weak computing device: people. \n \nThese similarities motivate the adoption of techniques from human-computer security to the pervasive computing setting. This paper analyzes a particular human-to-computer authentication protocol designed by Hopper and Blum (HB), and shows it to be practical for low-cost pervasive devices. We offer an improved, concrete proof of security for the HB protocol against passive adversaries. \n \nThis paper also offers a new, augmented version of the HB protocol, named HB+, that is secure against active adversaries. The HB+ protocol is a novel, symmetric authentication protocol with a simple, low-cost implementation. We prove the security of the HB+ protocol against active adversaries based on the hardness of the Learning Parity with Noise (LPN) problem.",
@@ -848,29 +1022,6 @@
       "venue": "TCC",
       "year": 2006,
       "numInCitations": 869
-    },
-    {
-      "abstract": "We present as-strong-as-possible definitions of privacy, and constructions achieving them, for public-key encryption schemes where the encryption algorithm is deterministic. We obtain as a consequence database encryption methods that permit fast (i.e. sub-linear, and in fact logarithmic, time) search while provably providing privacy that is as strong as possible subject to this fast search constraint. One of our constructs, called RSA-DOAEP, has the added feature of being length preserving, so that it is the first example of a public-key cipher. We generalize this to obtain a notion of efficiently-searchable encryption schemes which permit more flexible privacy to search-time trade-offs via a technique called bucketization. Our results answer much-asked questions in the database community and provide foundations for work done there.",
-      "authors": [
-        "Mihir Bellare",
-        "Alexandra Boldyreva",
-        "Adam O'Neill"
-      ],
-      "id": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
-      "label": "BBO+06",
-      "s2Url": "https://semanticscholar.org/paper/f722bf03d76056cdc2b227e1f2b54d690c42e435",
-      "tags": [
-        "searchable encryption",
-        "privacy",
-        "deterministic encryption",
-        "public-key encryption",
-        "RSA",
-        "database security"
-      ],
-      "title": "Deterministic and Efficiently Searchable Encryption",
-      "venue": "CRYPTO",
-      "year": 2006,
-      "numInCitations": 520
     },
     {
       "abstract": "As more sensitive data is shared and stored by third-party sites on the Internet, there will be a need to encrypt data stored at these sites. One drawback of encrypting data, is that it can be selectively shared only at a coarse-grained level (i.e., giving another party your private key). We develop a new cryptosystem for fine-grained sharing of encrypted data that we call Key-Policy Attribute-Based Encryption (KP-ABE). In our cryptosystem, ciphertexts are labeled with sets of attributes and private keys are associated with access structures that control which ciphertexts a user is able to decrypt. We demonstrate the applicability of our construction to sharing of audit-log information and broadcast encryption. Our construction supports delegation of private keys which subsumesHierarchical Identity-Based Encryption (HIBE).",
@@ -982,23 +1133,17 @@
       "numInCitations": 1792
     },
     {
-      "abstract": "Predicate encryption is a new paradigm for public-key encryption that generalizes identity-based encryption and more. In predicate encryption, secret keys correspond to predicates and ciphertexts are associated with attributes; the secret key SKf corresponding to a predicate f can be used to decrypt a ciphertext associated with attribute I if and only if f(I)=1. Constructions of such schemes are currently known only for certain classes of predicates.We construct a scheme for predicates corresponding to the evaluation of inner products over ℤN (for some large integer N). This, in turn, enables constructions in which predicates correspond to the evaluation of disjunctions, polynomials, CNF/DNF formulas, thresholds, and more. Besides serving as a significant step forward in the theory of predicate encryption, our results lead to a number of applications that are interesting in their own right.",
+      "abstract": "In an identity based encryption scheme, each user is identified by a unique identity string. An attribute based encryption scheme (ABE), in contrast, is a scheme in which each user is identified by a set of attributes, and some function of those attributes is used to determine decryption ability for each ciphertext. Sahai and Waters introduced a single authority attribute encryption scheme and left open the question of whether a scheme could be constructed in which multiple authorities were allowed to distribute attributes [SW05]. We answer this question in the affirmative. \n \nOur scheme allows any polynomial number of independent authorities to monitor attributes and distribute secret keys. An encryptor can choose, for each authority, a number dk and a set of attributes; he can then encrypt a message such that a user can only decrypt if he has at least dk of the given attributes from each authority k. Our scheme can tolerate an arbitrary number of corrupt authoritites. \n \nWe also show how to apply our techniques to achieve a multiauthority version of the large universe fine grained access control ABE presented by Gopal et al. [GPSW06].",
       "authors": [
-        "Jonathan Katz",
-        "Amit Sahai",
-        "Brent Waters"
+        "Melissa Chase"
       ],
-      "id": "37dde6a606e64aa455ec241b9de085509c06ba73",
-      "label": "KSW+07",
-      "s2Url": "https://semanticscholar.org/paper/37dde6a606e64aa455ec241b9de085509c06ba73",
-      "tags": [
-        "public-key cryptography",
-        "predicate encryption"
-      ],
-      "title": "Predicate Encryption Supporting Disjunctions, Polynomial Equations, and Inner Products",
-      "venue": "Journal of Cryptology",
+      "id": "8684be807d5b00d38734dc42d458e0339b0ad753",
+      "label": "Chase07",
+      "s2Url": "https://semanticscholar.org/paper/8684be807d5b00d38734dc42d458e0339b0ad753",
+      "title": "Multi-authority Attribute Based Encryption",
+      "venue": "TCC",
       "year": 2007,
-      "numInCitations": 740
+      "numInCitations": 594
     },
     {
       "abstract": "We propose a simple and general framework for constructing oblivious transfer (OT) protocols that are efficient, universally composable, and generally realizableunder any one of a variety of standard number-theoretic assumptions, including the decisional Diffie-Hellman assumption, the quadratic residuosity and decisional composite residuosity assumptions, and worst-caselattice assumptions. \n \nOur OT protocols are round-optimal (one message each way), quite efficient in computation and communication, and can use a single common string for an unbounded number of executions between the same sender and receiver. Furthermore, the protocols can provide statisticalsecurity to either the sender or the receiver, simply by changing the distribution of the common string. For certain instantiations of the protocol, even a common uniformly randomstring suffices. \n \nOur key technical contribution is a simple abstraction that we call a dual-modecryptosystem. We implement dual-mode cryptosystems by taking a unified view of several cryptosystems that have what we call \"messy\" public keys, whose defining property is that a ciphertext encrypted under such a key carries no information(statistically) about the encrypted message. \n \nAs a contribution of independent interest, we also provide a multi-bit amortizedversion of Regev's lattice-based cryptosystem (STOC 2005) whose time and space complexity are improved by a linear factor in the security parameter n. The resulting amortized encryption and decryption times are only $\\tilde{O}(n)$ bit operations per message bit, and the ciphertext expansion can be made as small as a constant; the public key size and underlying lattice assumption remain essentially the same.",
@@ -1040,26 +1185,6 @@
       "venue": "CCS '07",
       "year": 2007,
       "numInCitations": 734
-    },
-    {
-      "abstract": "We present a new garbled circuit construction for two-party secure function evaluation (SFE). In our one-round protocol, XOR gates are evaluated \"for free\", which results in the corresponding improvement over the best garbled circuit implementations (e.g. Fairplay [19]). \n \nWe build permutation networks [26] and Universal Circuits (UC) [25] almost exclusively of XOR gates; this results in a factor of up to 4 improvement (in both computation and communication) of their SFE. We also improve integer addition and equality testing by factor of up to 2. \n \nWe rely on the Random Oracle (RO) assumption. Our constructions are proven secure in the semi-honest model.",
-      "authors": [
-        "Vladimir Kolesnikov",
-        "Thomas Schneider"
-      ],
-      "id": "264bfb17824e11db74c87d8af0e5dd25f2b376fd",
-      "label": "KolesnikovSchneider08",
-      "s2Url": "https://semanticscholar.org/paper/264bfb17824e11db74c87d8af0e5dd25f2b376fd",
-      "tags": [
-        "garbled circuits",
-        "mpc",
-        "random oracle model",
-        "semi-honest model"
-      ],
-      "title": "Improved Garbled Circuit: Free XOR Gates and Applications",
-      "venue": "ICALP",
-      "year": 2008,
-      "numInCitations": 446
     },
     {
       "abstract": "Identity-based encryption (IBE) is an exciting alternative to public-key encryption, as IBE eliminates the need for a Public Key Infrastructure (PKI). The senders using an IBE do not need to look up the public keys and the corresponding certificates of the receivers, the identities (e.g. emails or IP addresses) of the latter are sufficient to encrypt. Any setting, PKI- or identity-based, must provide a means to revoke users from the system. Efficient revocation is a well-studied problem in the traditional PKI setting. However in the setting of IBE, there has been little work on studying the revocation mechanisms. The most practical solution requires the senders to also use time periods when encrypting, and all the receivers (regardless of whether their keys have been compromised or not) to update their private keys regularly by contacting the trusted authority. We note that this solution does not scale well -- as the number of users increases, the work on key updates becomes a bottleneck. We propose an IBE scheme that significantly improves key-update efficiency on the side of the trusted party (from linear to logarithmic in the number of users), while staying efficient for the users. Our scheme builds on the ideas of the Fuzzy IBE primitive and binary tree data structure, and is provably secure.",
@@ -1213,6 +1338,20 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2009,
       "numInCitations": 479
+    },
+    {
+      "abstract": "Global electrical grids are verging on the largest technological transformation since the introduction of electricity into the home. The antiquated infrastructure that delivers power to our homes and businesses is being replaced with a collection of digital systems called the smart grid. This grid is the modernization of the existing electrical system that enhances customers' and utilities' ability to monitor, control, and predict energy use.",
+      "authors": [
+        "Patrick D. McDaniel",
+        "Stephen E. McLaughlin"
+      ],
+      "id": "e9ffbd29836571e25e0b7f5f0469b0a7e24dbf05",
+      "label": "McDanielMcLaughlin09",
+      "s2Url": "https://semanticscholar.org/paper/e9ffbd29836571e25e0b7f5f0469b0a7e24dbf05",
+      "title": "Security and Privacy Challenges in the Smart Grid",
+      "venue": "IEEE Security & Privacy",
+      "year": 2009,
+      "numInCitations": 606
     },
     {
       "abstract": "We introduce and formalize the notion of Verifiable Computation, which enables a computationally weak client to \"outsource\" the computation of a function F on various dynamically-chosen inputs x1, ...,xk to one or more workers. The workers return the result of the function evaluation, e.g., yi = F(xi), as well as a proof that the computation of F was carried out correctly on the given value xi. The primary constraint is that the verification of the proof should require substantially less computational effort than computing F(i) from scratch. \n \nWe present a protocol that allows the worker to return a computationally-sound, non-interactive proof that can be verified in O(mċpoly(λ)) time, where m is the bit-length of the output of F, and λ is a security parameter. The protocol requires a one-time pre-processing stage by the client which takes O(|C|ċpoly(λ)) time, where C is the smallest known Boolean circuit computing F. Unlike previous work in this area, our scheme also provides (at no additional cost) input and output privacy for the client, meaning that the workers do not learn any information about the xi or yi values.",
@@ -1529,6 +1668,21 @@
       "numInCitations": 550
     },
     {
+      "abstract": "The current discourse about cloud computing security issues makes a well-founded assessment of cloud computing's security impact difficult for two primary reasons. First, as is true for many discussions about risk, basic vocabulary such as \"risk,\" \"threat,\" and \"vulnerability\" are often used as if they were interchangeable, without regard to their respective definitions. Second, not every issue that's raised is really specific to cloud computing. We can achieve an accurate understanding of the security issue \"delta\" that cloud computing really adds by analyzing how cloud computing influences each risk factor. One important factor concerns vulnerabilities: cloud computing makes certain well-understood vulnerabilities more significant and adds new vulnerabilities. Here, the authors define four indicators of cloud-specific vulnerabilities, introduce a security-specific cloud reference architecture, and provide examples of cloud-specific vulnerabilities for each architectural component.",
+      "authors": [
+        "Bernd Grobauer",
+        "Tobias Walloschek",
+        "Elmar Stöcker"
+      ],
+      "id": "993db6e50adc33307896403c83ef10399883454f",
+      "label": "GWS+11",
+      "s2Url": "https://semanticscholar.org/paper/993db6e50adc33307896403c83ef10399883454f",
+      "title": "Understanding Cloud Computing Vulnerabilities",
+      "venue": "IEEE Security & Privacy",
+      "year": 2011,
+      "numInCitations": 454
+    },
+    {
       "abstract": "We propose a general multiparty computation protocol secure against an active adversary corrupting up to $$n-1$$ of the n players. The protocol may be used to compute securely arithmetic circuits over any finite field $$\\mathbb {F}_{p^k}$$. Our protocol consists of a preprocessing phase that is both independent of the function to be computed and of the inputs, and a much more efficient online phase where the actual computation takes place. The online phase is unconditionally secure and has total computational and communication complexity linear in n, the number of players, where earlier work was quadratic in n. Moreover, the work done by each player is only a small constant factor larger than what one would need to compute the circuit in the clear. We show this is optimal for computation in large fields. In practice, for 3 players, a secure 64-bit multiplication can be done in 0.05 ms. Our preprocessing is based on a somewhat homomorphic cryptosystem. We extend a scheme by Brakerski et al., so that we can perform distributed decryption and handle many values in parallel in one ciphertext. The computational complexity of our preprocessing phase is dominated by the public-key operations, we need $$On^2/s$$ operations per secure multiplication where s is a parameter that increases with the security parameter of the cryptosystem. Earlier work in this model needed $$\\varOmega n^2$$ operations. In practice, the preprocessing prepares a secure 64-bit multiplication for 3 players in about 13 ms.",
       "authors": [
         "Ivan Damgård",
@@ -1617,6 +1771,21 @@
       "venue": "IACR Cryptology ePrint Archive",
       "year": 2012,
       "numInCitations": 437
+    },
+    {
+      "abstract": "Searchable symmetric encryption (SSE) allows a client to encrypt its data in such a way that this data can still be searched. The most immediate application of SSE is to cloud storage, where it enables a client to securely outsource its data to an untrusted cloud provider without sacrificing the ability to search over it.\n SSE has been the focus of active research and a multitude of schemes that achieve various levels of security and efficiency have been proposed. Any practical SSE scheme, however, should (at a minimum) satisfy the following properties: sublinear search time, security against adaptive chosen-keyword attacks, compact indexes and the ability to add and delete files efficiently. Unfortunately, none of the previously-known SSE constructions achieve all these properties at the same time. This severely limits the practical value of SSE and decreases its chance of deployment in real-world cloud storage systems.\n To address this, we propose the first SSE scheme to satisfy all the properties outlined above. Our construction extends the inverted index approach (Curtmola et al., CCS 2006) in several non-trivial ways and introduces new techniques for the design of SSE. In addition, we implement our scheme and conduct a performance evaluation, showing that our approach is highly efficient and ready for deployment.",
+      "authors": [
+        "Seny Kamara",
+        "Charalampos Papamanthou",
+        "Tom Roeder"
+      ],
+      "id": "7306de2d77d15af3eff4adf285247e586b6016da",
+      "label": "KPR+12",
+      "s2Url": "https://semanticscholar.org/paper/7306de2d77d15af3eff4adf285247e586b6016da",
+      "title": "Dynamic searchable symmetric encryption",
+      "venue": "CCS '12",
+      "year": 2012,
+      "numInCitations": 487
     },
     {
       "abstract": "We formalize a new cryptographic primitive that we call Message-Locked Encryption (MLE), where the key under which encryption and decryption are performed is itself derived from the message. MLE provides a way to achieve secure deduplication (space-efficient secure outsourced storage), a goal currently targeted by numerous cloudstorage providers. We provide definitions both for privacy and for a form of integrity that we call tag consistency. Based on this foundation, we make both practical and theoretical contributions. On the practical side, we provide ROM security analyses of a natural family of MLE schemes that includes deployed schemes. On the theoretical side the challenge is standard model solutions, and we make connections with deterministic encryption, hash functions secure on correlated inputs and the sample-then-extract paradigm to deliver schemes under different assumptions and for different classes of message sources. Our work shows that MLE is a primitive of both practical and theoretical interest.",
@@ -1797,1176 +1966,1290 @@
   "connections": [
     {
       "id": 0,
+      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "to": "8d69c06d48b618a090dd19185aea7a13def894a5",
+      "direction": "directed"
+    },
+    {
+      "id": 1,
       "from": "c1ab2e7282488691e2150c169c0a6d4a5cd6da48",
       "to": "eba8a236ca3afa59bba5c86b12611d00eea6e5ba",
       "direction": "directed"
     },
     {
-      "id": 1,
+      "id": 2,
+      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "to": "2642738e9977c08d4085ce1c6530d63545383d30",
+      "direction": "directed"
+    },
+    {
+      "id": 3,
+      "from": "2642738e9977c08d4085ce1c6530d63545383d30",
+      "to": "2c1e94e5dea3cac89dda43b90333c40c61f670c0",
+      "direction": "directed"
+    },
+    {
+      "id": 4,
       "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
       "to": "36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
       "direction": "directed"
     },
     {
-      "id": 2,
+      "id": 5,
+      "from": "36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
+      "to": "e2ceac65a53955893ca3152b992e65489e16e08a",
+      "direction": "directed"
+    },
+    {
+      "id": 6,
+      "from": "2642738e9977c08d4085ce1c6530d63545383d30",
+      "to": "e2ceac65a53955893ca3152b992e65489e16e08a",
+      "direction": "directed"
+    },
+    {
+      "id": 7,
       "from": "bdccfcb9e908460052b799d0ccf6a21e92225e35",
       "to": "d728243147560dd11960bc30f80a14fe6533a508",
       "direction": "directed"
     },
     {
-      "id": 3,
+      "id": 8,
       "from": "4da4f017deffa5a0952ed5b564c97ee1602d6ecf",
       "to": "cd9ae7c817ff251124cc723db7f3bae0b757bef6",
       "direction": "directed"
     },
     {
-      "id": 4,
+      "id": 9,
       "from": "772cdcc8a67cc878b39409230cbf2488a1117e62",
       "to": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
       "direction": "directed"
     },
     {
-      "id": 5,
+      "id": 10,
       "from": "e22aba3465642e2c1d2ac0c043b9a28bdf9e5e04",
       "to": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
       "direction": "directed"
     },
     {
-      "id": 6,
+      "id": 11,
       "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
       "to": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
       "direction": "directed"
     },
     {
-      "id": 7,
+      "id": 12,
       "from": "772cdcc8a67cc878b39409230cbf2488a1117e62",
       "to": "9a1d75a5c79e603ab7ceecc4bb07ee736e402c18",
       "direction": "directed"
     },
     {
-      "id": 8,
+      "id": 13,
       "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
       "to": "5f58810e60296dacb378dc24048f34acf6e9323a",
       "direction": "directed"
     },
     {
-      "id": 9,
+      "id": 14,
       "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
       "to": "e22aba3465642e2c1d2ac0c043b9a28bdf9e5e04",
       "direction": "directed"
     },
     {
-      "id": 10,
+      "id": 15,
       "from": "eba8a236ca3afa59bba5c86b12611d00eea6e5ba",
       "to": "e22aba3465642e2c1d2ac0c043b9a28bdf9e5e04",
       "direction": "directed"
     },
     {
-      "id": 11,
+      "id": 16,
       "from": "2c1e94e5dea3cac89dda43b90333c40c61f670c0",
       "to": "bf7267a08fa0347f825b2c3cefc85f13f1ce772e",
       "direction": "directed"
     },
     {
-      "id": 12,
-      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
-      "to": "582f54c4f2a588fb2d8b83a398dbeee4d8577373",
-      "direction": "directed"
-    },
-    {
-      "id": 13,
-      "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
-      "to": "582f54c4f2a588fb2d8b83a398dbeee4d8577373",
-      "direction": "directed"
-    },
-    {
-      "id": 14,
+      "id": 17,
       "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
       "to": "764e89025d68eda8010732285add5a4296f4e0ae",
       "direction": "directed"
     },
     {
-      "id": 15,
+      "id": 18,
+      "from": "2642738e9977c08d4085ce1c6530d63545383d30",
+      "to": "764e89025d68eda8010732285add5a4296f4e0ae",
+      "direction": "directed"
+    },
+    {
+      "id": 19,
       "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
       "to": "54526178a9d3f860072b78717eab01e49209a4ba",
       "direction": "directed"
     },
     {
-      "id": 16,
+      "id": 20,
       "from": "bf7267a08fa0347f825b2c3cefc85f13f1ce772e",
       "to": "dab56166e49905226ded911a135f239f27de97bc",
       "direction": "directed"
     },
     {
-      "id": 17,
+      "id": 21,
       "from": "36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
       "to": "dab56166e49905226ded911a135f239f27de97bc",
       "direction": "directed"
     },
     {
-      "id": 18,
-      "from": "3211b62ff2cd50f5af17ef8f0fbc2414952f8d20",
-      "to": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
-      "direction": "directed"
-    },
-    {
-      "id": 19,
-      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
-      "to": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
-      "direction": "directed"
-    },
-    {
-      "id": 20,
-      "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
-      "to": "0ec3f92c0794cf054ec1cc2f0d4f243c1732308a",
-      "direction": "directed"
-    },
-    {
-      "id": 21,
-      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
-      "to": "0ec3f92c0794cf054ec1cc2f0d4f243c1732308a",
-      "direction": "directed"
-    },
-    {
       "id": 22,
       "from": "3211b62ff2cd50f5af17ef8f0fbc2414952f8d20",
-      "to": "61f18940b1f43a0a442cbe75e1b2cd2b6eb3aefe",
+      "to": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "direction": "directed"
     },
     {
       "id": 23,
       "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
-      "to": "61f18940b1f43a0a442cbe75e1b2cd2b6eb3aefe",
+      "to": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "direction": "directed"
     },
     {
       "id": 24,
-      "from": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
-      "to": "dc0a25d09061c4d19975f2d05890b3b56d416fed",
+      "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
+      "to": "0ec3f92c0794cf054ec1cc2f0d4f243c1732308a",
       "direction": "directed"
     },
     {
       "id": 25,
-      "from": "3211b62ff2cd50f5af17ef8f0fbc2414952f8d20",
-      "to": "dc0a25d09061c4d19975f2d05890b3b56d416fed",
+      "from": "e2ceac65a53955893ca3152b992e65489e16e08a",
+      "to": "0ec3f92c0794cf054ec1cc2f0d4f243c1732308a",
       "direction": "directed"
     },
     {
       "id": 26,
-      "from": "90574069af02306cd80c046b78e3e27f653f6837",
-      "to": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "to": "0ec3f92c0794cf054ec1cc2f0d4f243c1732308a",
       "direction": "directed"
     },
     {
       "id": 27,
-      "from": "764e89025d68eda8010732285add5a4296f4e0ae",
-      "to": "8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
+      "from": "90574069af02306cd80c046b78e3e27f653f6837",
+      "to": "2dc6b23839d32bddba95bb6846e4ef849029d1e1",
       "direction": "directed"
     },
     {
       "id": 28,
-      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
-      "to": "8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
+      "from": "3211b62ff2cd50f5af17ef8f0fbc2414952f8d20",
+      "to": "61f18940b1f43a0a442cbe75e1b2cd2b6eb3aefe",
       "direction": "directed"
     },
     {
       "id": 29,
       "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
-      "to": "77d0d8f3365612c9675723d3f8822b28214cea7a",
+      "to": "61f18940b1f43a0a442cbe75e1b2cd2b6eb3aefe",
       "direction": "directed"
     },
     {
       "id": 30,
+      "from": "90574069af02306cd80c046b78e3e27f653f6837",
+      "to": "55886865782939a467d506bdaf7abecab65ede5a",
+      "direction": "directed"
+    },
+    {
+      "id": 31,
+      "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "to": "55886865782939a467d506bdaf7abecab65ede5a",
+      "direction": "directed"
+    },
+    {
+      "id": 32,
+      "from": "2dc6b23839d32bddba95bb6846e4ef849029d1e1",
+      "to": "55886865782939a467d506bdaf7abecab65ede5a",
+      "direction": "directed"
+    },
+    {
+      "id": 33,
+      "from": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
+      "to": "dc0a25d09061c4d19975f2d05890b3b56d416fed",
+      "direction": "directed"
+    },
+    {
+      "id": 34,
+      "from": "3211b62ff2cd50f5af17ef8f0fbc2414952f8d20",
+      "to": "dc0a25d09061c4d19975f2d05890b3b56d416fed",
+      "direction": "directed"
+    },
+    {
+      "id": 35,
+      "from": "54526178a9d3f860072b78717eab01e49209a4ba",
+      "to": "60739cb3e92415cff6f76a34374045d3f5cb6f27",
+      "direction": "directed"
+    },
+    {
+      "id": 36,
+      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "to": "60739cb3e92415cff6f76a34374045d3f5cb6f27",
+      "direction": "directed"
+    },
+    {
+      "id": 37,
+      "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
+      "to": "60739cb3e92415cff6f76a34374045d3f5cb6f27",
+      "direction": "directed"
+    },
+    {
+      "id": 38,
+      "from": "764e89025d68eda8010732285add5a4296f4e0ae",
+      "to": "60739cb3e92415cff6f76a34374045d3f5cb6f27",
+      "direction": "directed"
+    },
+    {
+      "id": 39,
+      "from": "55886865782939a467d506bdaf7abecab65ede5a",
+      "to": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "direction": "directed"
+    },
+    {
+      "id": 40,
+      "from": "2dc6b23839d32bddba95bb6846e4ef849029d1e1",
+      "to": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "direction": "directed"
+    },
+    {
+      "id": 41,
+      "from": "90574069af02306cd80c046b78e3e27f653f6837",
+      "to": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
+      "direction": "directed"
+    },
+    {
+      "id": 42,
+      "from": "764e89025d68eda8010732285add5a4296f4e0ae",
+      "to": "8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
+      "direction": "directed"
+    },
+    {
+      "id": 43,
+      "from": "2642738e9977c08d4085ce1c6530d63545383d30",
+      "to": "8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
+      "direction": "directed"
+    },
+    {
+      "id": 44,
+      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "to": "8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
+      "direction": "directed"
+    },
+    {
+      "id": 45,
+      "from": "26747053b4bc759f4517f2d570b7c0227d116c2c",
+      "to": "8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
+      "direction": "directed"
+    },
+    {
+      "id": 46,
+      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "to": "77d0d8f3365612c9675723d3f8822b28214cea7a",
+      "direction": "directed"
+    },
+    {
+      "id": 47,
       "from": "5f58810e60296dacb378dc24048f34acf6e9323a",
       "to": "6900f82508020fac97c98b60d0e264839df767b5",
       "direction": "directed"
     },
     {
-      "id": 31,
+      "id": 48,
       "from": "dc0a25d09061c4d19975f2d05890b3b56d416fed",
       "to": "3ef985c0786a3ce3b8681ecfe1a06ed8d432f2de",
       "direction": "directed"
     },
     {
-      "id": 32,
+      "id": 49,
+      "from": "2c6f1ebf7da3dba7650a8c02aabb5472b59fd477",
+      "to": "93a6a50dd24de94ad8bd5b21f64f0e98a5f298ed",
+      "direction": "directed"
+    },
+    {
+      "id": 50,
       "from": "1808b64aec21863489f0fe66f250890a3ac2b843",
       "to": "e4ce10063cd25447dcde75c2d9ce327446ced952",
       "direction": "directed"
     },
     {
-      "id": 33,
+      "id": 51,
       "from": "61f18940b1f43a0a442cbe75e1b2cd2b6eb3aefe",
       "to": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "direction": "directed"
     },
     {
-      "id": 34,
+      "id": 52,
       "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "to": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "direction": "directed"
     },
     {
-      "id": 35,
+      "id": 53,
       "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
       "to": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "direction": "directed"
     },
     {
-      "id": 36,
-      "from": "61f18940b1f43a0a442cbe75e1b2cd2b6eb3aefe",
-      "to": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
-      "direction": "directed"
-    },
-    {
-      "id": 37,
-      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
-      "to": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
-      "direction": "directed"
-    },
-    {
-      "id": 38,
-      "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
-      "to": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
-      "direction": "directed"
-    },
-    {
-      "id": 39,
-      "from": "77d0d8f3365612c9675723d3f8822b28214cea7a",
-      "to": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
-      "direction": "directed"
-    },
-    {
-      "id": 40,
-      "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
-      "to": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
-      "direction": "directed"
-    },
-    {
-      "id": 41,
+      "id": 54,
       "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "to": "422876e542daadefe3371091a65c5671185796e2",
       "direction": "directed"
     },
     {
-      "id": 42,
+      "id": 55,
       "from": "93a6a50dd24de94ad8bd5b21f64f0e98a5f298ed",
       "to": "422876e542daadefe3371091a65c5671185796e2",
       "direction": "directed"
     },
     {
-      "id": 43,
+      "id": 56,
       "from": "90574069af02306cd80c046b78e3e27f653f6837",
       "to": "422876e542daadefe3371091a65c5671185796e2",
       "direction": "directed"
     },
     {
-      "id": 44,
+      "id": 57,
+      "from": "55886865782939a467d506bdaf7abecab65ede5a",
+      "to": "422876e542daadefe3371091a65c5671185796e2",
+      "direction": "directed"
+    },
+    {
+      "id": 58,
       "from": "e4ce10063cd25447dcde75c2d9ce327446ced952",
       "to": "1808b64aec21863489f0fe66f250890a3ac2b843",
       "direction": "directed"
     },
     {
-      "id": 45,
+      "id": 59,
       "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "to": "4987aaf293f1715aeda9387f832e3630a79fe74b",
       "direction": "directed"
     },
     {
-      "id": 46,
+      "id": 60,
+      "from": "2dc6b23839d32bddba95bb6846e4ef849029d1e1",
+      "to": "4987aaf293f1715aeda9387f832e3630a79fe74b",
+      "direction": "directed"
+    },
+    {
+      "id": 61,
       "from": "90574069af02306cd80c046b78e3e27f653f6837",
       "to": "4987aaf293f1715aeda9387f832e3630a79fe74b",
       "direction": "directed"
     },
     {
-      "id": 47,
+      "id": 62,
       "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
       "to": "4987aaf293f1715aeda9387f832e3630a79fe74b",
       "direction": "directed"
     },
     {
-      "id": 48,
+      "id": 63,
       "from": "93a6a50dd24de94ad8bd5b21f64f0e98a5f298ed",
       "to": "4987aaf293f1715aeda9387f832e3630a79fe74b",
       "direction": "directed"
     },
     {
-      "id": 49,
+      "id": 64,
       "from": "36d16d3e889882c7fa8c6f4a4ad639bf54dee50c",
       "to": "67708229c4579adabf7a2fbe0178a610d2eff788",
       "direction": "directed"
     },
     {
-      "id": 50,
+      "id": 65,
       "from": "dab56166e49905226ded911a135f239f27de97bc",
       "to": "67708229c4579adabf7a2fbe0178a610d2eff788",
       "direction": "directed"
     },
     {
-      "id": 51,
-      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
-      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
-      "direction": "directed"
-    },
-    {
-      "id": 52,
-      "from": "4987aaf293f1715aeda9387f832e3630a79fe74b",
-      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
-      "direction": "directed"
-    },
-    {
-      "id": 53,
-      "from": "90574069af02306cd80c046b78e3e27f653f6837",
-      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
-      "direction": "directed"
-    },
-    {
-      "id": 54,
-      "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
-      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
-      "direction": "directed"
-    },
-    {
-      "id": 55,
+      "id": 66,
       "from": "422876e542daadefe3371091a65c5671185796e2",
-      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "to": "8684be807d5b00d38734dc42d458e0339b0ad753",
       "direction": "directed"
     },
     {
-      "id": 56,
-      "from": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
-      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "id": 67,
+      "from": "55886865782939a467d506bdaf7abecab65ede5a",
+      "to": "8684be807d5b00d38734dc42d458e0339b0ad753",
       "direction": "directed"
     },
     {
-      "id": 57,
-      "from": "8c2052d2b8cd21501332f2bd3ad3e419e016f50b",
-      "to": "37dde6a606e64aa455ec241b9de085509c06ba73",
-      "direction": "directed"
-    },
-    {
-      "id": 58,
+      "id": 68,
       "from": "4da4f017deffa5a0952ed5b564c97ee1602d6ecf",
       "to": "b356a5975397270616e104bde75463cb2566c200",
       "direction": "directed"
     },
     {
-      "id": 59,
+      "id": 69,
       "from": "e22aba3465642e2c1d2ac0c043b9a28bdf9e5e04",
       "to": "b356a5975397270616e104bde75463cb2566c200",
       "direction": "directed"
     },
     {
-      "id": 60,
+      "id": 70,
       "from": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
       "to": "b356a5975397270616e104bde75463cb2566c200",
       "direction": "directed"
     },
     {
-      "id": 61,
+      "id": 71,
       "from": "772cdcc8a67cc878b39409230cbf2488a1117e62",
       "to": "b356a5975397270616e104bde75463cb2566c200",
       "direction": "directed"
     },
     {
-      "id": 62,
+      "id": 72,
       "from": "19de1229db1c2e62367a3d1459e24848064dfd02",
       "to": "b356a5975397270616e104bde75463cb2566c200",
       "direction": "directed"
     },
     {
-      "id": 63,
+      "id": 73,
       "from": "29b0f06d18949fc7f3a38bb0022571aa15725dc7",
       "to": "b356a5975397270616e104bde75463cb2566c200",
       "direction": "directed"
     },
     {
-      "id": 64,
+      "id": 74,
       "from": "422876e542daadefe3371091a65c5671185796e2",
       "to": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
       "direction": "directed"
     },
     {
-      "id": 65,
+      "id": 75,
+      "from": "55886865782939a467d506bdaf7abecab65ede5a",
+      "to": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
+      "direction": "directed"
+    },
+    {
+      "id": 76,
       "from": "90574069af02306cd80c046b78e3e27f653f6837",
       "to": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
       "direction": "directed"
     },
     {
-      "id": 66,
+      "id": 77,
       "from": "93a6a50dd24de94ad8bd5b21f64f0e98a5f298ed",
       "to": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
       "direction": "directed"
     },
     {
-      "id": 67,
-      "from": "9a1d75a5c79e603ab7ceecc4bb07ee736e402c18",
-      "to": "264bfb17824e11db74c87d8af0e5dd25f2b376fd",
+      "id": 78,
+      "from": "8684be807d5b00d38734dc42d458e0339b0ad753",
+      "to": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
       "direction": "directed"
     },
     {
-      "id": 68,
-      "from": "19de1229db1c2e62367a3d1459e24848064dfd02",
-      "to": "264bfb17824e11db74c87d8af0e5dd25f2b376fd",
-      "direction": "directed"
-    },
-    {
-      "id": 69,
+      "id": 79,
       "from": "cd9ae7c817ff251124cc723db7f3bae0b757bef6",
       "to": "227e3451976869febc3cb739213c5d9af63a811d",
       "direction": "directed"
     },
     {
-      "id": 70,
+      "id": 80,
       "from": "422876e542daadefe3371091a65c5671185796e2",
       "to": "227e3451976869febc3cb739213c5d9af63a811d",
       "direction": "directed"
     },
     {
-      "id": 71,
+      "id": 81,
       "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
       "to": "227e3451976869febc3cb739213c5d9af63a811d",
       "direction": "directed"
     },
     {
-      "id": 72,
+      "id": 82,
       "from": "90574069af02306cd80c046b78e3e27f653f6837",
       "to": "227e3451976869febc3cb739213c5d9af63a811d",
       "direction": "directed"
     },
     {
-      "id": 73,
+      "id": 83,
+      "from": "55886865782939a467d506bdaf7abecab65ede5a",
+      "to": "227e3451976869febc3cb739213c5d9af63a811d",
+      "direction": "directed"
+    },
+    {
+      "id": 84,
       "from": "dc0a25d09061c4d19975f2d05890b3b56d416fed",
       "to": "a6f644f6e739fa73ada11dc4c85b812b31f63d53",
       "direction": "directed"
     },
     {
-      "id": 74,
+      "id": 85,
       "from": "9a1d75a5c79e603ab7ceecc4bb07ee736e402c18",
       "to": "a6f644f6e739fa73ada11dc4c85b812b31f63d53",
       "direction": "directed"
     },
     {
-      "id": 75,
+      "id": 86,
       "from": "3ef985c0786a3ce3b8681ecfe1a06ed8d432f2de",
       "to": "a6f644f6e739fa73ada11dc4c85b812b31f63d53",
       "direction": "directed"
     },
     {
-      "id": 76,
+      "id": 87,
       "from": "772cdcc8a67cc878b39409230cbf2488a1117e62",
       "to": "a6f644f6e739fa73ada11dc4c85b812b31f63d53",
       "direction": "directed"
     },
     {
-      "id": 77,
+      "id": 88,
       "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
       "to": "a6f644f6e739fa73ada11dc4c85b812b31f63d53",
       "direction": "directed"
     },
     {
-      "id": 78,
+      "id": 89,
       "from": "19de1229db1c2e62367a3d1459e24848064dfd02",
       "to": "a6f644f6e739fa73ada11dc4c85b812b31f63d53",
       "direction": "directed"
     },
     {
-      "id": 79,
+      "id": 90,
       "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
       "to": "3ff4a7bcfa42348102cd49f6bf33c8ca85c94472",
       "direction": "directed"
     },
     {
-      "id": 80,
+      "id": 91,
       "from": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
       "to": "3ff4a7bcfa42348102cd49f6bf33c8ca85c94472",
       "direction": "directed"
     },
     {
-      "id": 81,
+      "id": 92,
       "from": "67708229c4579adabf7a2fbe0178a610d2eff788",
       "to": "7e104ef1d710b974ee0ee70eba9acada86210357",
       "direction": "directed"
     },
     {
-      "id": 82,
+      "id": 93,
       "from": "b3c7af3cf2322505da2327add85555a94e1c834d",
       "to": "7e104ef1d710b974ee0ee70eba9acada86210357",
       "direction": "directed"
     },
     {
-      "id": 83,
+      "id": 94,
       "from": "772cdcc8a67cc878b39409230cbf2488a1117e62",
       "to": "19de1229db1c2e62367a3d1459e24848064dfd02",
       "direction": "directed"
     },
     {
-      "id": 84,
+      "id": 95,
       "from": "b356a5975397270616e104bde75463cb2566c200",
       "to": "19de1229db1c2e62367a3d1459e24848064dfd02",
       "direction": "directed"
     },
     {
-      "id": 85,
+      "id": 96,
       "from": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
       "to": "19de1229db1c2e62367a3d1459e24848064dfd02",
       "direction": "directed"
     },
     {
-      "id": 86,
+      "id": 97,
       "from": "9a639a1e48318a482fb646e5e9f9ab8d006f69c2",
       "to": "19de1229db1c2e62367a3d1459e24848064dfd02",
       "direction": "directed"
     },
     {
-      "id": 87,
+      "id": 98,
       "from": "61f18940b1f43a0a442cbe75e1b2cd2b6eb3aefe",
       "to": "b3c7af3cf2322505da2327add85555a94e1c834d",
       "direction": "directed"
     },
     {
-      "id": 88,
+      "id": 99,
       "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "to": "b3c7af3cf2322505da2327add85555a94e1c834d",
       "direction": "directed"
     },
     {
-      "id": 89,
+      "id": 100,
       "from": "67708229c4579adabf7a2fbe0178a610d2eff788",
       "to": "b3c7af3cf2322505da2327add85555a94e1c834d",
       "direction": "directed"
     },
     {
-      "id": 90,
+      "id": 101,
       "from": "90574069af02306cd80c046b78e3e27f653f6837",
       "to": "58d1ea2ca622332b68d72ec94a7f97b4a473ccf2",
       "direction": "directed"
     },
     {
-      "id": 91,
+      "id": 102,
+      "from": "2dc6b23839d32bddba95bb6846e4ef849029d1e1",
+      "to": "58d1ea2ca622332b68d72ec94a7f97b4a473ccf2",
+      "direction": "directed"
+    },
+    {
+      "id": 103,
       "from": "4987aaf293f1715aeda9387f832e3630a79fe74b",
       "to": "58d1ea2ca622332b68d72ec94a7f97b4a473ccf2",
       "direction": "directed"
     },
     {
-      "id": 92,
+      "id": 104,
       "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "to": "58d1ea2ca622332b68d72ec94a7f97b4a473ccf2",
       "direction": "directed"
     },
     {
-      "id": 93,
+      "id": 105,
       "from": "93a6a50dd24de94ad8bd5b21f64f0e98a5f298ed",
       "to": "58d1ea2ca622332b68d72ec94a7f97b4a473ccf2",
       "direction": "directed"
     },
     {
-      "id": 94,
+      "id": 106,
       "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
       "to": "58d1ea2ca622332b68d72ec94a7f97b4a473ccf2",
       "direction": "directed"
     },
     {
-      "id": 95,
+      "id": 107,
+      "from": "2c6f1ebf7da3dba7650a8c02aabb5472b59fd477",
+      "to": "58d1ea2ca622332b68d72ec94a7f97b4a473ccf2",
+      "direction": "directed"
+    },
+    {
+      "id": 108,
+      "from": "55886865782939a467d506bdaf7abecab65ede5a",
+      "to": "58d1ea2ca622332b68d72ec94a7f97b4a473ccf2",
+      "direction": "directed"
+    },
+    {
+      "id": 109,
       "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "to": "58d1ea2ca622332b68d72ec94a7f97b4a473ccf2",
       "direction": "directed"
     },
     {
-      "id": 96,
+      "id": 110,
       "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
       "to": "9da2bf868e73cb340dff83d24503217562aef0a7",
       "direction": "directed"
     },
     {
-      "id": 97,
+      "id": 111,
       "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
       "to": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
       "direction": "directed"
     },
     {
-      "id": 98,
+      "id": 112,
       "from": "3211b62ff2cd50f5af17ef8f0fbc2414952f8d20",
       "to": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
       "direction": "directed"
     },
     {
-      "id": 99,
-      "from": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
-      "to": "f75c5ee8db682f37f0ebf16d62677823c02359af",
-      "direction": "directed"
-    },
-    {
-      "id": 100,
+      "id": 113,
       "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "to": "f75c5ee8db682f37f0ebf16d62677823c02359af",
       "direction": "directed"
     },
     {
-      "id": 101,
+      "id": 114,
       "from": "67708229c4579adabf7a2fbe0178a610d2eff788",
       "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
       "direction": "directed"
     },
     {
-      "id": 102,
+      "id": 115,
       "from": "b3c7af3cf2322505da2327add85555a94e1c834d",
       "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
       "direction": "directed"
     },
     {
-      "id": 103,
+      "id": 116,
       "from": "7e104ef1d710b974ee0ee70eba9acada86210357",
       "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
       "direction": "directed"
     },
     {
-      "id": 104,
+      "id": 117,
       "from": "dab56166e49905226ded911a135f239f27de97bc",
       "to": "b3d6e545cf259c63b81526624e2a0a47844818aa",
       "direction": "directed"
     },
     {
-      "id": 105,
+      "id": 118,
       "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
       "to": "e2957cbe949d4e76764bec20291a66de89393174",
       "direction": "directed"
     },
     {
-      "id": 106,
-      "from": "ff2695513e7e0f49a0a484818c19b6346e076172",
-      "to": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
-      "direction": "directed"
-    },
-    {
-      "id": 107,
+      "id": 119,
       "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
-      "id": 108,
+      "id": 120,
       "from": "8cea7934a05b8cd906a89c206bee2df2e84c5629",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
-      "id": 109,
-      "from": "582f54c4f2a588fb2d8b83a398dbeee4d8577373",
-      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
-      "direction": "directed"
-    },
-    {
-      "id": 110,
+      "id": 121,
       "from": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
-      "id": 111,
+      "id": 122,
+      "from": "2dc6b23839d32bddba95bb6846e4ef849029d1e1",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 123,
       "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
-      "id": 112,
+      "id": 124,
       "from": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
-      "id": 113,
+      "id": 125,
+      "from": "8684be807d5b00d38734dc42d458e0339b0ad753",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 126,
+      "from": "55886865782939a467d506bdaf7abecab65ede5a",
+      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
+      "direction": "directed"
+    },
+    {
+      "id": 127,
       "from": "58d1ea2ca622332b68d72ec94a7f97b4a473ccf2",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
-      "id": 114,
+      "id": 128,
       "from": "90574069af02306cd80c046b78e3e27f653f6837",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
-      "id": 115,
+      "id": 129,
       "from": "4987aaf293f1715aeda9387f832e3630a79fe74b",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
-      "id": 116,
+      "id": 130,
       "from": "422876e542daadefe3371091a65c5671185796e2",
       "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
       "direction": "directed"
     },
     {
-      "id": 117,
-      "from": "37dde6a606e64aa455ec241b9de085509c06ba73",
-      "to": "53e1acfe4550ebdf26f3338d6cecbeec9c4c4ad3",
-      "direction": "directed"
-    },
-    {
-      "id": 118,
+      "id": 131,
       "from": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
       "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
       "direction": "directed"
     },
     {
-      "id": 119,
+      "id": 132,
       "from": "227e3451976869febc3cb739213c5d9af63a811d",
       "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
       "direction": "directed"
     },
     {
-      "id": 120,
+      "id": 133,
       "from": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
       "direction": "directed"
     },
     {
-      "id": 121,
+      "id": 134,
       "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
       "direction": "directed"
     },
     {
-      "id": 122,
+      "id": 135,
+      "from": "8684be807d5b00d38734dc42d458e0339b0ad753",
+      "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
+      "direction": "directed"
+    },
+    {
+      "id": 136,
       "from": "90574069af02306cd80c046b78e3e27f653f6837",
       "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
       "direction": "directed"
     },
     {
-      "id": 123,
+      "id": 137,
+      "from": "2dc6b23839d32bddba95bb6846e4ef849029d1e1",
+      "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
+      "direction": "directed"
+    },
+    {
+      "id": 138,
       "from": "4987aaf293f1715aeda9387f832e3630a79fe74b",
       "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
       "direction": "directed"
     },
     {
-      "id": 124,
+      "id": 139,
       "from": "422876e542daadefe3371091a65c5671185796e2",
       "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
       "direction": "directed"
     },
     {
-      "id": 125,
+      "id": 140,
       "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
       "direction": "directed"
     },
     {
-      "id": 126,
-      "from": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "id": 141,
+      "from": "55886865782939a467d506bdaf7abecab65ede5a",
       "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
       "direction": "directed"
     },
     {
-      "id": 127,
+      "id": 142,
       "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
       "to": "c7a31ee1240a1e463d74f447dc11c930ce098543",
       "direction": "directed"
     },
     {
-      "id": 128,
+      "id": 143,
       "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "direction": "directed"
     },
     {
-      "id": 129,
-      "from": "37dde6a606e64aa455ec241b9de085509c06ba73",
+      "id": 144,
+      "from": "2dc6b23839d32bddba95bb6846e4ef849029d1e1",
       "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "direction": "directed"
     },
     {
-      "id": 130,
+      "id": 145,
+      "from": "55886865782939a467d506bdaf7abecab65ede5a",
+      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "direction": "directed"
+    },
+    {
+      "id": 146,
+      "from": "8684be807d5b00d38734dc42d458e0339b0ad753",
+      "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
+      "direction": "directed"
+    },
+    {
+      "id": 147,
       "from": "90574069af02306cd80c046b78e3e27f653f6837",
       "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "direction": "directed"
     },
     {
-      "id": 131,
+      "id": 148,
       "from": "efb0e6eec3e1ac11b40f6dcaf036064434498917",
       "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "direction": "directed"
     },
     {
-      "id": 132,
+      "id": 149,
       "from": "bf25d9ca8eec88f515932fc7645c8ecc4e3e93b2",
       "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "direction": "directed"
     },
     {
-      "id": 133,
+      "id": 150,
       "from": "4987aaf293f1715aeda9387f832e3630a79fe74b",
       "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "direction": "directed"
     },
     {
-      "id": 134,
+      "id": 151,
       "from": "422876e542daadefe3371091a65c5671185796e2",
       "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "direction": "directed"
     },
     {
-      "id": 135,
+      "id": 152,
       "from": "58d1ea2ca622332b68d72ec94a7f97b4a473ccf2",
       "to": "78b5d3a584db617a57c2092d6c896db29be0b6e4",
       "direction": "directed"
     },
     {
-      "id": 136,
+      "id": 153,
       "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
       "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
       "direction": "directed"
     },
     {
-      "id": 137,
+      "id": 154,
       "from": "f1e1d45de45ef4684b5b16fa6a6b4c4b1fa9cfaa",
       "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
       "direction": "directed"
     },
     {
-      "id": 138,
-      "from": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
-      "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
-      "direction": "directed"
-    },
-    {
-      "id": 139,
+      "id": 155,
       "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
       "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
       "direction": "directed"
     },
     {
-      "id": 140,
+      "id": 156,
       "from": "77d0d8f3365612c9675723d3f8822b28214cea7a",
       "to": "e27d5122a0ee36d82d3d4b64647134d19e156189",
       "direction": "directed"
     },
     {
-      "id": 141,
-      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
-      "to": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
-      "direction": "directed"
-    },
-    {
-      "id": 142,
-      "from": "e2957cbe949d4e76764bec20291a66de89393174",
-      "to": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
-      "direction": "directed"
-    },
-    {
-      "id": 143,
-      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
-      "to": "8d63532f254c77549b40e232611948d36c85150b",
-      "direction": "directed"
-    },
-    {
-      "id": 144,
-      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
-      "to": "8d63532f254c77549b40e232611948d36c85150b",
-      "direction": "directed"
-    },
-    {
-      "id": 145,
-      "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
-      "to": "8d63532f254c77549b40e232611948d36c85150b",
-      "direction": "directed"
-    },
-    {
-      "id": 146,
-      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
-      "to": "8d63532f254c77549b40e232611948d36c85150b",
-      "direction": "directed"
-    },
-    {
-      "id": 147,
-      "from": "e2957cbe949d4e76764bec20291a66de89393174",
-      "to": "8d63532f254c77549b40e232611948d36c85150b",
-      "direction": "directed"
-    },
-    {
-      "id": 148,
-      "from": "3211b62ff2cd50f5af17ef8f0fbc2414952f8d20",
-      "to": "8d63532f254c77549b40e232611948d36c85150b",
-      "direction": "directed"
-    },
-    {
-      "id": 149,
-      "from": "8d63532f254c77549b40e232611948d36c85150b",
-      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
-      "direction": "directed"
-    },
-    {
-      "id": 150,
-      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
-      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
-      "direction": "directed"
-    },
-    {
-      "id": 151,
-      "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
-      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
-      "direction": "directed"
-    },
-    {
-      "id": 152,
-      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
-      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
-      "direction": "directed"
-    },
-    {
-      "id": 153,
-      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
-      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
-      "direction": "directed"
-    },
-    {
-      "id": 154,
-      "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
-      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
-      "direction": "directed"
-    },
-    {
-      "id": 155,
-      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
-      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
-      "direction": "directed"
-    },
-    {
-      "id": 156,
-      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
-      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
-      "direction": "directed"
-    },
-    {
       "id": 157,
-      "from": "e2957cbe949d4e76764bec20291a66de89393174",
-      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
       "direction": "directed"
     },
     {
       "id": 158,
+      "from": "e2957cbe949d4e76764bec20291a66de89393174",
+      "to": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "direction": "directed"
+    },
+    {
+      "id": 159,
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 160,
+      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 161,
+      "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 162,
+      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 163,
+      "from": "e2957cbe949d4e76764bec20291a66de89393174",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 164,
+      "from": "3211b62ff2cd50f5af17ef8f0fbc2414952f8d20",
+      "to": "8d63532f254c77549b40e232611948d36c85150b",
+      "direction": "directed"
+    },
+    {
+      "id": 165,
+      "from": "8d63532f254c77549b40e232611948d36c85150b",
+      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "direction": "directed"
+    },
+    {
+      "id": 166,
+      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "direction": "directed"
+    },
+    {
+      "id": 167,
+      "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
+      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "direction": "directed"
+    },
+    {
+      "id": 168,
+      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "direction": "directed"
+    },
+    {
+      "id": 169,
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "direction": "directed"
+    },
+    {
+      "id": 170,
+      "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
+      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "direction": "directed"
+    },
+    {
+      "id": 171,
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "direction": "directed"
+    },
+    {
+      "id": 172,
+      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "direction": "directed"
+    },
+    {
+      "id": 173,
+      "from": "e2957cbe949d4e76764bec20291a66de89393174",
+      "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "direction": "directed"
+    },
+    {
+      "id": 174,
       "from": "3211b62ff2cd50f5af17ef8f0fbc2414952f8d20",
       "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
       "direction": "directed"
     },
     {
-      "id": 159,
+      "id": 175,
       "from": "8d63532f254c77549b40e232611948d36c85150b",
       "to": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
       "direction": "directed"
     },
     {
-      "id": 160,
+      "id": 176,
       "from": "19de1229db1c2e62367a3d1459e24848064dfd02",
       "to": "eacbec1a3acee23825ed3b520cc474d87824654d",
       "direction": "directed"
     },
     {
-      "id": 161,
-      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
-      "to": "eacbec1a3acee23825ed3b520cc474d87824654d",
-      "direction": "directed"
-    },
-    {
-      "id": 162,
-      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
-      "to": "eacbec1a3acee23825ed3b520cc474d87824654d",
-      "direction": "directed"
-    },
-    {
-      "id": 163,
-      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
-      "to": "a22bcfe6532526247e92c2117d768d27a102125c",
-      "direction": "directed"
-    },
-    {
-      "id": 164,
-      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
-      "to": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
-      "direction": "directed"
-    },
-    {
-      "id": 165,
-      "from": "e2957cbe949d4e76764bec20291a66de89393174",
-      "to": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
-      "direction": "directed"
-    },
-    {
-      "id": 166,
-      "from": "8d63532f254c77549b40e232611948d36c85150b",
-      "to": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
-      "direction": "directed"
-    },
-    {
-      "id": 167,
-      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
-      "to": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
-      "direction": "directed"
-    },
-    {
-      "id": 168,
-      "from": "9da2bf868e73cb340dff83d24503217562aef0a7",
-      "to": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
-      "direction": "directed"
-    },
-    {
-      "id": 169,
-      "from": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
-      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
-      "direction": "directed"
-    },
-    {
-      "id": 170,
-      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
-      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
-      "direction": "directed"
-    },
-    {
-      "id": 171,
-      "from": "8d63532f254c77549b40e232611948d36c85150b",
-      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
-      "direction": "directed"
-    },
-    {
-      "id": 172,
-      "from": "e2957cbe949d4e76764bec20291a66de89393174",
-      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
-      "direction": "directed"
-    },
-    {
-      "id": 173,
-      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
-      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
-      "direction": "directed"
-    },
-    {
-      "id": 174,
-      "from": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
-      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
-      "direction": "directed"
-    },
-    {
-      "id": 175,
-      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
-      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
-      "direction": "directed"
-    },
-    {
-      "id": 176,
-      "from": "f722bf03d76056cdc2b227e1f2b54d690c42e435",
-      "to": "4aa9db8cb5f19d2f14e8dd2b70cb9a1215d0b0fa",
-      "direction": "directed"
-    },
-    {
       "id": 177,
-      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
-      "to": "4aa9db8cb5f19d2f14e8dd2b70cb9a1215d0b0fa",
+      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "to": "eacbec1a3acee23825ed3b520cc474d87824654d",
       "direction": "directed"
     },
     {
       "id": 178,
-      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
-      "to": "b2ae64924d9a850eeb32f32a09bbff78783244c4",
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "eacbec1a3acee23825ed3b520cc474d87824654d",
       "direction": "directed"
     },
     {
       "id": 179,
       "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
-      "to": "b2ae64924d9a850eeb32f32a09bbff78783244c4",
+      "to": "a22bcfe6532526247e92c2117d768d27a102125c",
       "direction": "directed"
     },
     {
       "id": 180,
+      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "to": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
+      "direction": "directed"
+    },
+    {
+      "id": 181,
+      "from": "e2957cbe949d4e76764bec20291a66de89393174",
+      "to": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
+      "direction": "directed"
+    },
+    {
+      "id": 182,
+      "from": "8d63532f254c77549b40e232611948d36c85150b",
+      "to": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
+      "direction": "directed"
+    },
+    {
+      "id": 183,
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
+      "direction": "directed"
+    },
+    {
+      "id": 184,
+      "from": "9da2bf868e73cb340dff83d24503217562aef0a7",
+      "to": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
+      "direction": "directed"
+    },
+    {
+      "id": 185,
+      "from": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
+      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
+      "direction": "directed"
+    },
+    {
+      "id": 186,
+      "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
+      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
+      "direction": "directed"
+    },
+    {
+      "id": 187,
+      "from": "8d63532f254c77549b40e232611948d36c85150b",
+      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
+      "direction": "directed"
+    },
+    {
+      "id": 188,
+      "from": "e2957cbe949d4e76764bec20291a66de89393174",
+      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
+      "direction": "directed"
+    },
+    {
+      "id": 189,
+      "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
+      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
+      "direction": "directed"
+    },
+    {
+      "id": 190,
+      "from": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
+      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
+      "direction": "directed"
+    },
+    {
+      "id": 191,
+      "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
+      "to": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
+      "direction": "directed"
+    },
+    {
+      "id": 192,
+      "from": "77d0d8f3365612c9675723d3f8822b28214cea7a",
+      "to": "7306de2d77d15af3eff4adf285247e586b6016da",
+      "direction": "directed"
+    },
+    {
+      "id": 193,
+      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "to": "7306de2d77d15af3eff4adf285247e586b6016da",
+      "direction": "directed"
+    },
+    {
+      "id": 194,
+      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "to": "7306de2d77d15af3eff4adf285247e586b6016da",
+      "direction": "directed"
+    },
+    {
+      "id": 195,
+      "from": "afaa1636e44246ebf8f3c27ad32fca9a8ce5f0a1",
+      "to": "4aa9db8cb5f19d2f14e8dd2b70cb9a1215d0b0fa",
+      "direction": "directed"
+    },
+    {
+      "id": 196,
+      "from": "b9046d002da153a6fe9b06d469da4efffdfcb9c6",
+      "to": "b2ae64924d9a850eeb32f32a09bbff78783244c4",
+      "direction": "directed"
+    },
+    {
+      "id": 197,
+      "from": "86bb5811e8eb8c835e2b942f7e45530b87856561",
+      "to": "b2ae64924d9a850eeb32f32a09bbff78783244c4",
+      "direction": "directed"
+    },
+    {
+      "id": 198,
       "from": "c3f095c11102196896ed10ed27b9adb2e5bca68f",
       "to": "6eccb6635eb1d6de72415331794e3b3530811800",
       "direction": "directed"
     },
     {
-      "id": 181,
+      "id": 199,
       "from": "ba0e976a601cca3c6a388aac5678fb8760360d7f",
       "to": "6eccb6635eb1d6de72415331794e3b3530811800",
       "direction": "directed"
     },
     {
-      "id": 182,
+      "id": 200,
       "from": "422876e542daadefe3371091a65c5671185796e2",
       "to": "6eccb6635eb1d6de72415331794e3b3530811800",
       "direction": "directed"
     },
     {
-      "id": 183,
+      "id": 201,
       "from": "5b0cbd4bde2166a14f8c6a7e83954ceb702f29d8",
       "to": "6eccb6635eb1d6de72415331794e3b3530811800",
       "direction": "directed"
     },
     {
-      "id": 184,
+      "id": 202,
       "from": "9e487eea9772ba8742c5deee3f6b214ebfb79811",
       "to": "6eccb6635eb1d6de72415331794e3b3530811800",
       "direction": "directed"
     },
     {
-      "id": 185,
+      "id": 203,
       "from": "bdd8fa60be923321754fba4bb7fa24aff7dc4ff3",
       "to": "6eccb6635eb1d6de72415331794e3b3530811800",
       "direction": "directed"
     },
     {
-      "id": 186,
+      "id": 204,
       "from": "1c8de70b95a22c5e13b5cbe0cadc6ba6a61b75a9",
       "to": "6eccb6635eb1d6de72415331794e3b3530811800",
       "direction": "directed"
     },
     {
-      "id": 187,
+      "id": 205,
       "from": "e2957cbe949d4e76764bec20291a66de89393174",
       "to": "6eccb6635eb1d6de72415331794e3b3530811800",
       "direction": "directed"
     },
     {
-      "id": 188,
+      "id": 206,
       "from": "6e6e67042c647b8dd6818f893cbe1ffd474636a3",
       "to": "6eccb6635eb1d6de72415331794e3b3530811800",
       "direction": "directed"
     },
     {
-      "id": 189,
+      "id": 207,
       "from": "8d63532f254c77549b40e232611948d36c85150b",
       "to": "6eccb6635eb1d6de72415331794e3b3530811800",
       "direction": "directed"
     },
     {
-      "id": 190,
+      "id": 208,
+      "from": "2dc6b23839d32bddba95bb6846e4ef849029d1e1",
+      "to": "3797d924fc5f832b72a84c512e92021906793965",
+      "direction": "directed"
+    },
+    {
+      "id": 209,
       "from": "3797d924fc5f832b72a84c512e92021906793965",
       "to": "9584863217908a530f7bc1bff2e9e19f423d8204",
       "direction": "directed"
     },
     {
-      "id": 191,
+      "id": 210,
       "from": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
       "to": "bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
       "direction": "directed"
     },
     {
-      "id": 192,
+      "id": 211,
       "from": "9584863217908a530f7bc1bff2e9e19f423d8204",
       "to": "bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
       "direction": "directed"
     },
     {
-      "id": 193,
+      "id": 212,
       "from": "3797d924fc5f832b72a84c512e92021906793965",
       "to": "bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
       "direction": "directed"
     },
     {
-      "id": 194,
+      "id": 213,
       "from": "3ff4a7bcfa42348102cd49f6bf33c8ca85c94472",
       "to": "bbff38c90b337d3018a9e5d5adb1901fee5c0e3a",
       "direction": "directed"
     },
     {
-      "id": 195,
+      "id": 214,
       "from": "893384832ad8dabfc9c59740a51f8ff8bdb7be86",
       "to": "a42e086f2382d518a0213879050e344539c2bcfa",
       "direction": "directed"

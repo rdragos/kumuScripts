@@ -21874,6 +21874,50 @@
       "title":"An Integer Commitment Scheme based on Groups with Hidden Order",
       "venue":"IACR Cryptology ePrint Archive",
       "year":2001
+    },
+    {
+      "label": "DKL+12",
+      "abstract": "SPDZ (pronounced “Speedz”) is the nickname of the MPC protocol of Damgard et al. from Crypto 2012. In this paper we both resolve a number of open problems with SPDZ; and present several theoretical and practical improvements to the protocol. In detail, we start by designing and implementing a covertly secure key generation protocol for obtaining a BGV public key and a shared associated secret key. We then construct both a covertly and actively secure preprocessing phase, both of which compare favourably with previous work in terms of efficiency and provable security.",
+      "id": "e69e44f837662fdc5c49a7ba40666ba7bd5980c0",
+      "venue": "ESORICS",
+      "s2Url": "https://semanticscholar.org/paper/e69e44f837662fdc5c49a7ba40666ba7bd5980c0",
+      "authors": [
+        "Ivan Damgård",
+        "Marcel Keller",
+        "Enrique Larraia",
+        "Valerio Pastro",
+        "Peter Scholl",
+        "Nigel P. Smart"
+      ],
+      "title": "Practical Covertly Secure MPC for Dishonest Majority - Or: Breaking the SPDZ Limits",
+      "isMPC":1,
+      "year": 2012
+    },
+    {
+      "label": "Tarjan81",
+      "abstract": "We describe a general method for solving path problems on directed graphs. Such path problems include finding shortest paths, solving sparse systems of linear equations, and carrying out global flow analysis of computer programs. Our method consists of two steps. First, we construct a collection of regular expressions representing sets of paths in the graph. This can be done by using any standard algorithm, such as Gaussian or Gauss-Jordan elimination. Next, we apply a natural mapping from regular expressions into the given problem domain. We exhibit the mappings required to find shortest paths, solve sparse systems of linear equations, and carry out global flow analysis. Our results provide a general-purpose algorithm for solving any path problem, and show that the problem of constructing path expressions is in some sense the most general path problem.",
+      "id": "13d310c1420342ff6216d1631cc82051624bfab4",
+      "venue": "JACM",
+      "s2Url": "https://semanticscholar.org/paper/13d310c1420342ff6216d1631cc82051624bfab4",
+      "authors": [
+        "Robert E. Tarjan"
+      ],
+      "title": "A Unified Approach to Path Problems",
+      "year": 1981,
+      "isMPC": 0
+    },
+    {
+      "label": "Jutla00",
+      "abstract": "We define a new mode of operation for block ciphers which, in addition to providing confidentiality, also ensures message integrity. In contrast, previously for message integrity a separate pass was required to compute a cryptographic message authentication code (MAC). The new mode of operation, called Integrity Aware Parallelizable Mode (IAPM), requires a total of m+1 block cipher evaluations on a plain-text of length m blocks. For comparison, the well-known CBC (cipher block chaining) encryption mode requires m block cipher evaluations, and the second pass of computing the CBC-MAC essentially requires additional m+1 block cipher evaluations. As the name suggests, the new mode is also highly parallelizable.",
+      "id": "93d57c7c3db77e04c093f478c92fa941f768da3a",
+      "venue": "Journal of Cryptology",
+      "s2Url": "https://semanticscholar.org/paper/93d57c7c3db77e04c093f478c92fa941f768da3a",
+      "authors": [
+        "Charanjit S. Jutla"
+      ],
+      "title": "Encryption Modes with Almost Free Message Integrity",
+      "year": 2000,
+      "isMPC": 0
     }
   ]
 }
