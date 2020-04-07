@@ -120,13 +120,15 @@ selecting for papers which appeared in CRYPTO, EUROCRYPT, CCS, etc. Sometimes se
 parses the venues incorrectly, or even author names, sometimes it has duplications of the same paper
 so the number of citations might be slightly different than what you see on Google Scholar.
 
-**Question:** Where can I see this marvellous map?
+##
+**Q:** Where can I see this marvellous map?
 
-**Answer:** You can find it on Kumu [here](https://kumu.io/DragosRotaru/coed-map#coed-256).
+**A:** You can find it on Kumu [here](https://kumu.io/DragosRotaru/coed-map#coed-256).
 
-**Question:** Are there any other cryptography maps?
+##
+**Q:** Are there any other cryptography maps?
 
-**Answer:** Yes, a very more detailed map on FHE literature made by Ilia Iliashenko.
+**A:** Yes, a very more detailed map on FHE literature made by Ilia Iliashenko.
 [Check it out here](https://kumu.io/iliailia/fhe-graph#academic-papers).
 
 
