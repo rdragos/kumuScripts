@@ -7,7 +7,7 @@ As the current pipeline stands, if you want to add/remove a paper you need to fo
 its id is `e2957cbe949d4e76764bec20291a66de89393174`
 
 2. Look for its json information in `crypto-semantics-data.json, eg:
-```
+```javascript
 ...
     {
       "label": "SmartVercauteren09",
@@ -33,7 +33,7 @@ and look for it in `tagged_output.json` to check whether there is such an entry 
 to be set up accordingly (0 to remove paper in the kumu map, 1 to add paper in the map).
 
 If there is no such entry, then make sure to add it at the end of `tagged_output.json`, with the corresponding flag, eg:
-```
+```javascript
     {
       "label": "SmartVercauteren09",
       "abstract": "We present a fully homomorphic encryption scheme which has both relatively small key and ciphertext size. Our construction follows that of Gentry by producing a fully homomorphic scheme from a “somewhat” homomorphic scheme. For the somewhat homomorphic scheme the public and private keys consist of two large integers (one of which is shared by both the public and private key) and the ciphertext consists of one large integer. As such, our scheme has smaller message expansion and key size than Gentry’s original scheme. In addition, our proposal allows efficient fully homomorphic encryption over any field of characteristic two.",
@@ -94,17 +94,25 @@ In order to avoid losing the tag information we recommend running
 ```
 python tag-adder.py --in crypto-semantics-data.json --out kumu_output.json
 ```
-```
+
 after a re-run of `python kumucollector.py --output 0`
 
-# FAQ: Why is not paper X in there?
+## FAQ
 
-Most likely because it's indexed wrong by semantic scholar. The way we built this database was by
+**Question:** Why is not paper X in there?
+
+**Answer:** Most likely because it's indexed wrong by semantic scholar. The way we built this database was by
 selecting for papers which appeared in CRYPTO, EUROCRYPT, CCS, etc. Sometimes semantic scholar does
 parses the venues incorrectly, or even author names, sometimes it has duplications of the same paper
 so the number of citations might be slightly different than what you see on Google Scholar.
 
-If you see such inconsistencies please fill in a issue to add paper X to our database, we will gladly do so.
+**Question:** Where can I see the marvellous map?
+**Answer:** [Here it is](https://kumu.io/DragosRotaru/coed-map#coed-256)
+
+**Question:** Are there any other cryptography maps?
+**Answer:** Yes, a very more detailed map on FHE literature made by Ilia Iliashenko.
+[Check it out here](https://kumu.io/iliailia/fhe-graph#academic-papers)
+
 
 # Thanks
 
