@@ -59,3 +59,4 @@
 {"venue": "IEEE INFOCOM", "names": ["INFOCOM", "Proceedings IEEE INFOCOM"]}
 {"venue": "CNSM", "names": ["CNSM", "international conference on network and service management (cnsm) and 2012 workshop on systems virtualiztion management"]}
 {"venue": "CSF", "names": ["IEEE Computer Security Foundations Workshop"]}
+{"venue": "IMACC", "names": ["IMACC", "IMA Int. Conf"]}
