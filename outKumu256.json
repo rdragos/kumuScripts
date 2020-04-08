@@ -967,7 +967,7 @@
       "label": "PfitzmannWaidner00",
       "s2Url": "https://semanticscholar.org/paper/e8d2cafac32e80e02cd6990c0afd65506101359e",
       "title": "A model for asynchronous reactive systems and its application to secure message transmission",
-      "venue": "Proceedings 2001 IEEE Symposium on Security and Privacy. S&P 2001",
+      "venue": "IEEE S&P",
       "year": 2000,
       "tags": [
         "foundations",
@@ -2705,7 +2705,7 @@
       "label": "LWW+10",
       "s2Url": "https://semanticscholar.org/paper/e27d5122a0ee36d82d3d4b64647134d19e156189",
       "title": "Fuzzy Keyword Search over Encrypted Data in Cloud Computing",
-      "venue": "2010 Proceedings IEEE INFOCOM",
+      "venue": "IEEE INFOCOM",
       "year": 2010,
       "tags": [
         "private search",

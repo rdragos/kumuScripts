@@ -1,0 +1,61 @@
+{"venue": "PoPETS", "names": ["PoPETS"]}
+{"venue": "FSE", "names": ["FSE"]}
+{"venue": "CCS", "names": ["CCS", "ACM Conference on Computer and Communications Security"]}
+{"venue": "INDOCRYPT", "names": ["INDOCRYPT"]}
+{"venue": "ICALP", "names": ["ICALP"]}
+{"venue": "TCHES", "names": ["TCHES"]}
+{"venue": "FC", "names": ["FC", "Financial Cryptography"]}
+{"venue": "CANS", "names": ["CANS"]}
+{"venue": "ICICS", "names": ["ICICS"]}
+{"venue": "ISC", "names": ["ISC"]}
+{"venue": "NDSS", "names": ["NDSS"]}
+{"venue": "ITCS", "names": ["ITCS"]}
+{"venue": "CHES", "names": ["CHES"]}
+{"venue": "LATINCRYPT", "names": ["LATINCRYPT"]}
+{"venue": "IWSEC", "names": ["IWSEC"]}
+{"venue": "SAC", "names": ["SAC"]}
+{"venue": "AFRICACRYPT", "names": ["AFRICACRYPT"]}
+{"venue": "JCE", "names": ["JCE"]}
+{"venue": "FOCS", "names": ["FOCS", "Symposium on Foundations of Computer Science"]}
+{"venue": "PODC", "names": ["PODC"]}
+{"venue": "PROVSEC", "names": ["PROVSEC"]}
+{"venue": "PKC", "names": ["PKC", "Public Key Cryptography"]}
+{"venue": "ICISC", "names": ["ICISC"]}
+{"venue": "SODA", "names": ["SODA"]}
+{"venue": "COSADE", "names": ["COSADE"]}
+{"venue": "ToSC", "names": ["ToSC"]}
+{"venue": "STOC", "names": ["STOC"]}
+{"venue": "TCC", "names": ["TCC"]}
+{"venue": "ASIACRYPT", "names": ["ASIACRYPT"]}
+{"venue": "EUROCRYPT", "names": ["EUROCRYPT"]}
+{"venue": "CRYPTO", "names": ["CRYPTO"]}
+{"venue": "PETS", "names": ["PETS", "Privacy Enhancing Technologies"]}
+{"venue": "ASIACCS", "names": ["ASIACCS"]}
+{"venue": "ACISP", "names": ["ACISP"]}
+{"venue": "CQRE", "names": ["CQRE"]}
+{"venue": "SCN", "names": ["SCN"]}
+{"venue": "USENIX", "names": ["USENIX", "USENIX Security Symposium"]}
+{"venue": "ESORICS", "names": ["ESORICS"]}
+{"venue": "WISA", "names": ["WISA"]}
+{"venue": "Journal of Cryptology", "names": ["Journal of Cryptology"]}
+{"venue": "Journal of Cryptographic Engineering", "names": ["Journal of Cryptographic Engineering"]}
+{"venue": "IEEE S&P", "names": ["IEEE Security & Privacy", "IEEE Symposium on Security and Privacy"]}
+{"venue": "TRUSTBUS", "names": ["TRUSTBUS"]}
+{"venue": "CT-RSA", "names": ["CT-RSA"]}
+{"venue": "PQCRYPTO", "names": ["PQCRYPTO"]}
+{"venue": "ICITS", "names": ["ICITS"]}
+{"venue": "VIETCRYPT", "names": ["VIETCRYPT"]}
+{"venue": "ACNS", "names": ["ACNS"]}
+{"venue": "JACM", "names": ["JACM"]}
+{"venue": "International Journal of Information Security", "names": ["International Journal of Information Security"]}
+{"venue": "Des. Codes Cryptogr.", "names": ["Des. Codes Cryptogr."]}
+{"venue": "IACR Cryptology ePrint Archive", "names": ["IACR Cryptology ePrint Archive"]}
+{"venue": "CCSW", "names": ["CCSW"]}
+{"venue": "WAHC", "names": ["WAHC"]}
+{"venue": "SOSP", "names": ["SOSP", "Symposium on Operating Systems Principles"]}
+{"venue": "IEEE Cluster Computing", "names": ["IEEE International Conference on Cluster Computing"]}
+{"venue": "ICCSA", "names": ["ICCSA", "International Conference on Computational Science and its Applications"]}
+{"venue": "IACR Cryptology ePrint Archive", "names": ["IACR Cryptology ePrint Archive"]}
+{"venue": "IEEE INFOCOM", "names": ["INFOCOM", "Proceedings IEEE INFOCOM"]}
+{"venue": "CNSM", "names": ["CNSM", "international conference on network and service management (cnsm) and 2012 workshop on systems virtualiztion management"]}
+{"venue": "CSF", "names": ["IEEE Computer Security Foundations Workshop"]}

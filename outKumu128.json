@@ -1602,7 +1602,7 @@
       "label": "PfitzmannWaidner00",
       "s2Url": "https://semanticscholar.org/paper/e8d2cafac32e80e02cd6990c0afd65506101359e",
       "title": "A model for asynchronous reactive systems and its application to secure message transmission",
-      "venue": "Proceedings 2001 IEEE Symposium on Security and Privacy. S&P 2001",
+      "venue": "IEEE S&P",
       "year": 2000,
       "tags": [
         "foundations",
@@ -2532,7 +2532,7 @@
       "label": "Canetti03",
       "s2Url": "https://semanticscholar.org/paper/396a7b3289504052e115d65cf7a20ccb4e2c52ca",
       "title": "Universally composable signature, certification, and authentication",
-      "venue": "Proceedings. 17th IEEE Computer Security Foundations Workshop, 2004.",
+      "venue": "CSF",
       "year": 2003,
       "numInCitations": 157
     },
@@ -4943,7 +4943,7 @@
       "label": "LWW+10",
       "s2Url": "https://semanticscholar.org/paper/e27d5122a0ee36d82d3d4b64647134d19e156189",
       "title": "Fuzzy Keyword Search over Encrypted Data in Cloud Computing",
-      "venue": "2010 Proceedings IEEE INFOCOM",
+      "venue": "IEEE INFOCOM",
       "year": 2010,
       "tags": [
         "private search",
@@ -5102,7 +5102,7 @@
       "label": "WWR+10",
       "s2Url": "https://semanticscholar.org/paper/7f415e318928fdad206b2984994a5a5ed58a2b35",
       "title": "Privacy-Preserving Public Auditing for Data Storage Security in Cloud Computing",
-      "venue": "2010 Proceedings IEEE INFOCOM",
+      "venue": "IEEE INFOCOM",
       "year": 2010,
       "numInCitations": 244
     },
@@ -5434,7 +5434,7 @@
       "label": "ZhouHuang11",
       "s2Url": "https://semanticscholar.org/paper/8d3db1336b6a13d798a8bcf673f872d01abe2714",
       "title": "Efficient and secure data storage operations for mobile cloud computing",
-      "venue": "2012 8th international conference on network and service management (cnsm) and 2012 workshop on systems virtualiztion management (svm)",
+      "venue": "CNSM",
       "year": 2011,
       "numInCitations": 142
     },
@@ -5961,7 +5961,7 @@
       "label": "KSS+12",
       "s2Url": "https://semanticscholar.org/paper/216b47f6875f952523a9c082e968df8618e77163",
       "title": "Billion-Gate Secure Computation with Malicious Adversaries",
-      "venue": "USENIX Security Symposium",
+      "venue": "USENIX",
       "year": 2012,
       "numInCitations": 154
     },
@@ -6449,7 +6449,7 @@
       "label": "KBR+13",
       "s2Url": "https://semanticscholar.org/paper/7b630784aea1b5bb2ba90063b78fe14e539aa85e",
       "title": "DupLESS: Server-Aided Encryption for Deduplicated Storage",
-      "venue": "USENIX Security Symposium",
+      "venue": "USENIX",
       "year": 2013,
       "numInCitations": 248
     },

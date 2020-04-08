@@ -143,6 +143,7 @@ so the number of citations might be slightly different than what you see on Goog
 
 We would like to thank Peter Sebastian Nordholt for posting the scripts used in https://guutboy.github.io/ 
 on GitHub.
+We would also like to thank the COSIC group for their helpful feedback on initial version of the map.
 
 
 
