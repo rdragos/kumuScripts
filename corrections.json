@@ -1,0 +1,12 @@
+[{
+    "title": "Universally composable security: a new paradigm for cryptographic protocols",
+    "id": "44dc896ec1d1abf65a88a8f076515d26b54c6047",
+    "venue": "FOCS",
+    "year": 2001
+ },
+ {
+     "title": "Practical Covertly Secure MPC for Dishonest Majority - Or: Breaking the SPDZ Limits",
+     "id": "e69e44f837662fdc5c49a7ba40666ba7bd5980c0",
+     "year": 2013
+ }
+]

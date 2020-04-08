@@ -97,6 +97,13 @@ python tag-adder.py --in crypto-semantics-data.json --out kumu_output.json
 
 after a re-run of `python kumucollector.py --output 0`
 
+# Modifying some semantic-scholar entries
+
+Perhaps there is some wrong information about a paper such as author names, conference name,
+year appeareance, etc. Add it to corrections.json with the fields you wish to correct
+along with its semantic scholar id. Then re-run `python kumucollector.py --output 0`
+    
+
 ## FAQ
 
 **Question:** Why is not paper X in there?

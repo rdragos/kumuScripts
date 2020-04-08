@@ -76,10 +76,22 @@ for paper in complete_entries:
             "authors": complete_authors,
             "title": paper['title'],
             "year": paper['year'],
-#            "assumption": "TBD",
-#            "security model": "TBD",
-#            "Number of parties": "TBD"
     })
+
+abbreviated_entries_by_id = dict()
+for paper in abbreviated_entries:
+    abbreviated_entries_by_id[paper['id']] = paper
+
+def add_corections():
+    corrections = None
+    with open("corrections.json", "r") as dataFile:
+          corrections = json.load(dataFile)
+    for paper in corrections:
+        paper_id = paper['id']
+        for field in paper.keys():
+            abbreviated_entries_by_id[paper_id][field] = paper[field]
+
+add_corections()
 
 def output_all():
     return ({'elements': abbreviated_entries},unlabelled_path)
@@ -129,6 +141,29 @@ def output_sparse(limit):
     print("Total papers: ", len(coed_papers))
     print("Total connections: ", NUM_CONNECTIONS)
     print("Total skipped: ", NUM_SKIPPED)
+
+    # now compress venues to avoid duplicates such as CCS, CCS '04, etc
+
+    venues = list()
+    f = open('venues.txt', 'r')
+    for line in f.readlines():
+        venues.append(json.loads(line))
+        
+    from difflib import SequenceMatcher
+
+    for paper in coed_papers:
+        best_venue = {'venue': paper['venue']}
+        best_score = 0
+
+        for venue in venues:
+            for possible_name in venue['names']:
+                match_score = SequenceMatcher(None, possible_name, paper['venue']).ratio()
+                if match_score > best_score and match_score > 0.5:
+                    best_score = match_score
+                    best_venue = venue
+
+        paper['venue'] = best_venue['venue']
+
 
     global kumu_path
     kumu_path += "outKumu" + str(limit) + ".json"
