@@ -50,7 +50,7 @@ if len(unpredicted) > 0:
     for i in range(0, len(unpredicted)):
         paper = unpredicted[i]
         # small hack, only works for MPC
-        if int(paper['year']) <= 1978:
+        if int(paper['year']) <= 1982:
             paper['pred'] = False
             continue
         if predicted[i] == 1:

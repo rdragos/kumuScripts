@@ -1,20 +1,6 @@
 {
   "elements": [
     {
-      "abstract": "A common tool for proving the termination of programs is the well-founded set, a set ordered in such a way as to admit no infinite descending sequences. The basic approach is to find a termination function that maps the values of the program variables into some well-founded set, such that the value of the termination function is continually reduced throughout the computation. All too often, the termination functions required are difficult to find and are of a complexity out of proportion to the program under consideration. However, by providing more sophisticated well-founded sets, the corresponding termination functions can be simplified.",
-      "authors": [
-        "Nachum Dershowitz",
-        "Zohar Manna"
-      ],
-      "id": "b025fbd8a0c44d421bb379a93c8dad935856def2",
-      "label": "DershowitzManna79",
-      "s2Url": "https://semanticscholar.org/paper/b025fbd8a0c44d421bb379a93c8dad935856def2",
-      "title": "Proving termination with Multiset Orderings",
-      "venue": "ICALP",
-      "year": 1979,
-      "numInCitations": 384
-    },
-    {
       "abstract": "In a distributed system, one strategy for achieving mutual exclusion of groups of nodes without communication is to assign to each node a number of votes. Only a group with a majority of votes can execute the critical operations, and mutual exclusion is achieved because at any given time there is at most one such group. A second strategy, which appears to be similar to votes, is to define a priori a set of groups that intersect each other. Any group of nodes that finds itself in this set can perform the restricted operations. In this paper, both of these strategies are studied in detail and it is shown that they are not equivalent in general (although they are in some cases). In doing so, a number of other interesting properties are proved. These properties will be of use to a system designer who is selecting a vote assignment or a set of groups for a specific application.",
       "authors": [
         "Hector Garcia-Molina",
