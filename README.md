@@ -106,7 +106,7 @@ from `kumu_output` and will output the kumu graph in `outKumu128.json`.
 In order to avoid losing the tag information we recommend running
 
 ```
-python tag-adder.py --in crypto-semantics-data.json --out kumu_output.json
+python tag-adder.py --in crypto-semantics-data.json --out predicted_output.json
 ```
 
 after a re-run of `python kumucollector.py --output 0`

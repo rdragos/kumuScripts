@@ -92,6 +92,10 @@ def add_corections():
             abbreviated_entries_by_id[paper_id][field] = paper[field]
 
 add_corections()
+abbreviated_entries = list()
+for key in abbreviated_entries_by_id.keys():
+    paper = abbreviated_entries_by_id[key]
+    abbreviated_entries.append(paper)
 
 def output_all():
     return ({'elements': abbreviated_entries},unlabelled_path)

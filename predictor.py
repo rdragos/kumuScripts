@@ -29,11 +29,20 @@ config.read('config.cfg')
 unlabelled_path =  config.get('Data', 'unlabelled')
 model_path =  config.get('Model', 'model')
 predictions_path = config.get('Data', 'predictions')
+labelled_path = config.get('Data', 'labelled')
 
 with open(unlabelled_path) as dataFile:
   papers = json.load(dataFile)['elements']
 
-unpredicted = [p for p in papers]
+with open(labelled_path) as dataFile:
+  labelled_papers = json.load(dataFile)['elements']
+
+already_labeled = dict()
+for item in labelled_papers:
+  already_labeled[item['id']] = item['isMPC']
+
+
+unpredicted = [p for p in papers if p['id'] not in already_labeled.keys()]
 mpc_count = 0
 coed_papers = list()
 if len(unpredicted) > 0:
@@ -41,7 +50,7 @@ if len(unpredicted) > 0:
     for i in range(0, len(unpredicted)):
         paper = unpredicted[i]
         # small hack, only works for MPC
-        if int(paper['year']) <= 1980:
+        if int(paper['year']) <= 1978:
             paper['pred'] = False
             continue
         if predicted[i] == 1:
@@ -50,8 +59,13 @@ if len(unpredicted) > 0:
         else:
             paper['pred'] = False
 
+manually_labeled = [p for p in papers if p['id'] in already_labeled.keys()]
+for paper in manually_labeled:
+    paper['pred'] = (already_labeled[paper['id']] == 1)
+    
+allpapers = unpredicted + manually_labeled
 # careful here      
-papers = dict({'elements': unpredicted})
+papers = dict({'elements': allpapers})
 with open(predictions_path, 'w') as dataFile:
     json.dump(papers, dataFile, separators=(',', ':'), indent=2, sort_keys=True)
 print(str(mpc_count))

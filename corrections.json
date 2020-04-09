@@ -8,5 +8,29 @@
      "title": "Practical Covertly Secure MPC for Dishonest Majority - Or: Breaking the SPDZ Limits",
      "id": "e69e44f837662fdc5c49a7ba40666ba7bd5980c0",
      "year": 2013
+ },
+ {
+    "title": "How to share a secret",
+    "id": "a0902b633fa31cef9a8e7878b3c7e188dbeec1b8",
+    "abstract": "In this paper we show how to divide data D into n pieces in such a way that D is easily reconstructable from any k pieces, but even complete knowledge of k - 1 pieces reveals absolutely no information about D. This technique enables the construction of robust key management schemes for cryptographic systems that can function securely and reliably even when misfortunes destroy half the pieces and security breaches expose all but one of the remaining pieces.",
+    "label": "Shamir79",
+    "authors": [
+        "Adi Shamir"
+    ],
+    "venue": "Communications of the ACM"
+ },
+ {
+     "title": "Unconditionally secure constant-rounds multi-party computation for equality, comparison, bits and exponentiation",
+     "id": "9a6df1dd4825e04b5673c5f15b93ba301d11927a",
+     "abstract":"We show that if a set of players hold shares of a value $a \\in \\mathbb{F}_p $ for some prime p (where the set of shares is written [a]p), it is possible to compute, in constant rounds and with unconditional security, sharings of the bits of a, i.e., compute sharings [a0]p, ..., [al−−1]p such that l = ⌈ log2p ⌉, a0,...,al−1∈{0,1} and a = ∑i=0l−−1ai 2i. Our protocol is secure against active adversaries and works for any linear secret sharing scheme with a multiplication protocol. The complexity of our protocol is $\\mathcal{O}(l {\\rm log} l)$ invocations of the multiplication protocol for the underlying secret sharing scheme, carried out in $\\mathcal{O}(1)$ rounds. \n \nThis result immediately implies solutions to other long-standing open problems such as constant-rounds and unconditionally secure protocols for deciding whether a shared number is zero, comparing shared numbers, raising a shared number to a shared exponent and reducing a shared number modulo a shared modulus.",
+     "authors": [
+        "Ivan Damgård",
+        "Matthias Fitzi",
+        "Eike Kiltz",
+        "Jesper Buus Nielsen",
+        "Tomas Toft"
+      ],
+      "label": "DFK+16",
+      "venue": "CRYPTO"
  }
 ]

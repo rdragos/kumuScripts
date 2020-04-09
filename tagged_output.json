@@ -21918,6 +21918,226 @@
       "title": "Encryption Modes with Almost Free Message Integrity",
       "year": 2000,
       "isMPC": 0
+    },
+    {
+      "label": "TiriVerbauwhede03",
+      "abstract": "This paper describes a design method to secure encryption algorithms against Differential Power Analysis at the logic level. The method employs logic gates with a power consumption, which is independent of the data signals, and therefore the technique removes the foundation for DPA. In a design ex- periment, a fundamental component of the DES algorithm has been imple- mented. Detailed transistor level simulations show a perfect security whenever the layout parasitics are not taken into account.",
+      "id": "d6198b2bfa9dd3965a54da226056daf613fe5509",
+      "venue": "CHES",
+      "s2Url": "https://semanticscholar.org/paper/d6198b2bfa9dd3965a54da226056daf613fe5509",
+      "authors": [
+        "Kris Tiri",
+        "Ingrid Verbauwhede"
+      ],
+      "title": "Securing Encryption Algorithms against DPA at the Logic Level: Next Generation Smart Card Technology",
+      "year": 2003,
+      "isMPC": 0
+    },
+    {
+      "label": "Vardi98",
+      "abstract": "The Μ-calculus can be viewed as essentially the “ultimate” program logic, as it expressively subsumes all propositional program logics, including dynamic logics, process logics, and temporal logics. It is known that the satisfiability problem for the Μ-calculus is EXPTIME-complete. This upper bound, however, is known for a version of the logic that has only forward modalities, which express weakest preconditions, but not backward modalities, which express strongest postconditions. Our main result in this paper is an exponential time upper bound for the satisfiability problem of the Μ-calculus with both forward and backward modalities. To get this result we develop a theory of two-way alternating automata on infinite trees.",
+      "id": "58d7f8709fadf50525608a1616f6608f7dace807",
+      "venue": "ICALP",
+      "s2Url": "https://semanticscholar.org/paper/58d7f8709fadf50525608a1616f6608f7dace807",
+      "authors": [
+        "Moshe Y. Vardi"
+      ],
+      "title": "Reasoning about The Past with Two-Way Automata",
+      "year": 1998,
+      "isMPC": 0
+    },
+    {
+      "label": "FPS+98",
+      "abstract": "This paper examines numerical issues in computing solutions to networks of stochastic automata. It is well-known that when the matrices that represent the automata contain only constant values, the cost of performing the operation basic to all iterative solution methods, that of matrix-vector multiply, is given by  <display-equation> <fd> <fl><g>r</g><inf>N</inf>=<pr align=\"c\"><ll>i=1</ll><ul>N</ul></pr> n<inf>i</inf>×<sum align=\"c\"><ll>i=1</ll><ul>N</ul></sum> n<inf>i</inf></fl> </fd> </display-equation>  where <?Pub Fmt italic>n<subscrpt>i</subscrpt><?Pub Fmt /italic> is the number of states in  the <italic>i</italic>th automaton and <italic>N</italic> is the number of automata in the network. We introduce the concept of a generalized tensor product and prove a number of  lemmas concerning this product. The result of these lemmas allows us to show that this relatively small number of operations is sufficient in many practical cases of interest in which the automata contain functional and not simply constant transitions. Furthermore, we show how the automata should be ordered to achieve this.",
+      "id": "c2998a75340db6c3adf915853439ca621cd77789",
+      "venue": "JACM",
+      "s2Url": "https://semanticscholar.org/paper/c2998a75340db6c3adf915853439ca621cd77789",
+      "authors": [
+        "Paulo Fernandes",
+        "Brigitte Plateau",
+        "William J. Stewart"
+      ],
+      "title": "Efficient descriptor-vector multiplications in stochastic automata networks",
+      "year": 1998,
+      "isMPC": 0
+    },
+    {
+      "label": "Rogaway04",
+      "abstract": "Symmetric encryption schemes are usually formalized so as to make the encryption operation a probabilistic or state-dependent function e of the message M and the key K: the user supplies M and K and the encryption process does the rest, flipping coins or modifying internal state in order to produce a ciphertext C. Here we investigate an alternative syntax for an encryption scheme, where the encryption process e is a deterministic function that surfaces an initialization vector (IV). The user supplies a message M, key K, and initialization vector N, getting back the (one and only) associated ciphertext C = e N K(M). We concentrate on the case where the IV is guaranteed to be a nonce-something that takes on a new value with every message one encrypts. We explore definitions, constructions, and properties for nonce-based encryption. Symmetric encryption with a surfaced IV more directly captures real-word constructions like CBC mode, and encryption schemes constructed to be secure under nonce-based security notions may be less prone to misuse.",
+      "id": "f12368f74d287baa56e7d8d65561d42746d91724",
+      "venue": "FSE",
+      "s2Url": "https://semanticscholar.org/paper/f12368f74d287baa56e7d8d65561d42746d91724",
+      "authors": [
+        "Phillip Rogaway"
+      ],
+      "title": "Nonce-Based Symmetric Encryption",
+      "year": 2004,
+      "isMPC": 0
+    },
+    {
+      "label": "Tarjan81",
+      "abstract": "We describe a general method for solving path problems on directed graphs. Such path problems include finding shortest paths, solving sparse systems of linear equations, and carrying out global flow analysis of computer programs. Our method consists of two steps. First, we construct a collection of regular expressions representing sets of paths in the graph. This can be done by using any standard algorithm, such as Gaussian or Gauss-Jordan elimination. Next, we apply a natural mapping from regular expressions into the given problem domain. We exhibit the mappings required to find shortest paths, solve sparse systems of linear equations, and carry out global flow analysis. Our results provide a general-purpose algorithm for solving any path problem, and show that the problem of constructing path expressions is in some sense the most general path problem.",
+      "id": "13d310c1420342ff6216d1631cc82051624bfab4",
+      "venue": "JACM",
+      "s2Url": "https://semanticscholar.org/paper/13d310c1420342ff6216d1631cc82051624bfab4",
+      "authors": [
+        "Robert E. Tarjan"
+      ],
+      "title": "A Unified Approach to Path Problems",
+      "year": 1981,
+      "isMPC": 0
+    },
+    {
+      "label": "FrickGrohe00",
+      "abstract": "We introduce the concept of a class of graphs, or more generally, relational structures, being locally tree-decomposable. There are numerous examples of locally tree-decomposable classes, among them the class of planar graphs and all classes of bounded valence or of bounded tree-width. We also consider a slightly more general concept of a class of structures having bounded local tree-width.We show that for each property φ of structures that is definable in first-order logic and for each locally tree-decomposable class C of structures, there is a linear time algorithm deciding whether a given structure A ∈ C has property φ. For classes C of bounded local tree-width, we show that for every k ≥ 1 there is an algorithm solving the same problem in time O(n1+(1/k)) (where n is the cardinality of the input structure).",
+      "id": "eaf6e599b2a513cf21b43b78efce7b1e6dab0c27",
+      "venue": "JACM",
+      "s2Url": "https://semanticscholar.org/paper/eaf6e599b2a513cf21b43b78efce7b1e6dab0c27",
+      "authors": [
+        "Markus Frick",
+        "Martin Grohe"
+      ],
+      "title": "Deciding first-order properties of locally tree-decomposable structures",
+      "year": 2000,
+      "isMPC": 0
+    },
+    {
+      "label": "Chazelle83",
+      "abstract": "We introduce a new technique for solving problems of the following form: preprocess a set of objects so that those satisfying a given property with respect to a query object can be listed very effectively. Among well-known problems to fall into this category we find range query, point enclosure, intersection, near-neighbor problems, etc. The approach which we take is very general and rests on a new concept called fitering search. We show on a number of examples how it can be used to improve the complexity of known algorithms and simplify their implementations as well. In particular, filtering search allows us to improve on the worst-case complexity of the best algorithms known so far for solving the problems mentioned above.",
+      "id": "a34e8a21bdb1de074c39e5a59444937173f20409",
+      "venue": "FOCS",
+      "s2Url": "https://semanticscholar.org/paper/a34e8a21bdb1de074c39e5a59444937173f20409",
+      "authors": [
+        "Bernard Chazelle"
+      ],
+      "title": "Filtering Search: A New Approach to Query-Answering",
+      "year": 1983,
+      "isMPC": 0
+    },
+    {
+      "label": "AlurMadhusudan06",
+      "abstract": "We propose the model of nested words for representation of data with both a linear ordering and a hierarchically nested matching of items. Examples of data with such dual linear-hierarchical structure include executions of structured programs, annotated linguistic data, and HTML/XML documents. Nested words generalize both words and ordered trees, and allow both word and tree operations. We define nested word automata—finite-state acceptors for nested words, and show that the resulting class of regular languages of nested words has all the appealing theoretical properties that the classical regular word languages enjoys: deterministic nested word automata are as expressive as their nondeterministic counterparts; the class is closed under union, intersection, complementation, concatenation, Kleene-*, prefixes, and language homomorphisms; membership, emptiness, language inclusion, and language equivalence are all decidable; and definability in monadic second order logic corresponds exactly to finite-state recognizability. We also consider regular languages of infinite nested words and show that the closure properties, MSO-characterization, and decidability of decision problems carry over.\n The linear encodings of nested words give the class of visibly pushdown languages of words, and this class lies between balanced languages and deterministic context-free languages. We argue that for algorithmic verification of structured programs, instead of viewing the program as a context-free language over words, one should view it as a regular language of nested words (or equivalently, a visibly pushdown language), and this would allow model checking of many properties (such as stack inspection, pre-post conditions) that are not expressible in existing specification logics.\n We also study the relationship between ordered trees and nested words, and the corresponding automata: while the analysis complexity of nested word automata is the same as that of classical tree automata, they combine both bottom-up and top-down traversals, and enjoy expressiveness and succinctness benefits over tree automata.",
+      "id": "d4f394598e11824a354bebfaca5275817856183e",
+      "venue": "JACM",
+      "s2Url": "https://semanticscholar.org/paper/d4f394598e11824a354bebfaca5275817856183e",
+      "authors": [
+        "Rajeev Alur",
+        "P. Madhusudan"
+      ],
+      "title": "Adding nesting structure to words",
+      "year": 2006,
+      "isMPC": 0
+    },
+    {
+      "label": "FerraginaGrossi99",
+      "abstract": "We introduce a new text-indexing data structure, the String B-Tree, that can be seen as a link between some traditional external-memory and string-matching data structures. In a short phrase, it is a combination of B-trees and Patricia tries for internal-node indices that is made more effective by adding extra pointers to speed up search and update operations. Consequently, the String B-Tree overcomes the theoretical limitations of inverted files, B-trees, prefix B-trees, suffix arrays, compacted tries and suffix trees. String B-trees have the same worst-case performance as B-trees but they manage unbounded-length strings and perform much more powerful search operations such as the ones supported by suffix trees. String B-trees are also effective in main memory (RAM model) because they improve the online suffix tree search on a dynamic set of strings. They also can be successfully applied to database indexing and software duplication.",
+      "id": "1b90942a7661d956115716f33bd23deb4632266e",
+      "venue": "JACM",
+      "s2Url": "https://semanticscholar.org/paper/1b90942a7661d956115716f33bd23deb4632266e",
+      "authors": [
+        "Paolo Ferragina",
+        "Roberto Grossi"
+      ],
+      "title": "The string B-tree: a new data structure for string search in external memory and its applications",
+      "year": 1999,
+      "isMPC": 0
+    },
+    {
+      "label": "CJR+99",
+      "abstract": "Side channel cryptanalysis techniques, such as the analysis of instantaneous power consumption, have been extremely effective in attacking implementations on simple hardware platforms. There are several proposed solutions to resist these attacks, most of which are ad-hoc and can easily be rendered ineffective. A scientific approach is to create a model for the physical characteristics of the device, and then design implementations provably secure in that model, i.e, they resist generic attacks with an a priori bound on the number of experiments. We propose an abstract model which approximates power consumption in most devices and in particular small single-chip devices. Using this, we propose a generic technique to create provably resistant implementations for devices where the power model has reasonable properties, and a source of randomness exists. We prove a lower bound on the number of experiments required to mount statistical attacks on devices whose physical characteristics satisfy reasonable properties.",
+      "id": "4fb1900092a86d1cdd6996cd95acfa339456dbf2",
+      "venue": "CRYPTO",
+      "s2Url": "https://semanticscholar.org/paper/4fb1900092a86d1cdd6996cd95acfa339456dbf2",
+      "authors": [
+        "Suresh Chari",
+        "Charanjit S. Jutla",
+        "Josyula R. Rao",
+        "Pankaj Rohatgi"
+      ],
+      "title": "Towards Sound Approaches to Counteract Power-Analysis Attacks",
+      "year": 1999,
+      "isMPC": 0
+    },
+    {
+      "label": "Rabin89",
+      "abstract": "An Information Dispersal Algorithm (IDA) is developed that breaks a file <italic>F</italic> of length <italic>L</italic> = ↿ <italic>F</italic>↾ into <italic>n</italic> pieces <italic>F<subscrpt>i</subscrpt></italic>, l ≤ <italic>i</italic> ≤ <italic>n</italic>, each of length ↿<italic>F<subscrpt>i</subscrpt></italic>↾ = <italic>L</italic>/<italic>m</italic>, so that every <italic>m</italic> pieces suffice for reconstructing <italic>F</italic>. Dispersal and reconstruction are computationally efficient. The sum of the lengths ↿<italic>F</italic><subscrpt>i</subscrpt>↾ is (<italic>n</italic>/<italic>m</italic>) · <italic>L</italic>. Since <italic>n</italic>/<italic>m</italic> can be chosen to be close to l, the IDA is space efficient.  IDA has numerous applications to secure and reliable storage of information in computer networks and even on single disks, to fault-tolerant and efficient transmission of information in networks, and to communications between processors in parallel computers. For the latter problem provably time-efficient and highly fault-tolerant routing on the <italic>n</italic>-cube is achieved, using just constant size buffers.",
+      "id": "4e2213cd5a9e66ec9f73ecacc97a89a2f941a97c",
+      "venue": "JACM",
+      "s2Url": "https://semanticscholar.org/paper/4e2213cd5a9e66ec9f73ecacc97a89a2f941a97c",
+      "authors": [
+        "Michael O. Rabin"
+      ],
+      "title": "Efficient dispersal of information for security, load balancing, and fault tolerance",
+      "year": 1989,
+      "isMPC": 0
+    },
+    {
+      "abstract": "We consider the following problem. \n \n \nLet S be some secret. A collection of n people Ej share this secret in such a way that \n \n \neach Ej knows some information xj, \n \n \nfor a certain fixed integer k, 2≤k≤n, the knowledge of any k of th x’s enables to find S easily, \n \n \nthe knowlegde of less than k of the x’s leaves S undetermined.",
+      "authors": [
+        "Adi Shamir"
+      ],
+      "id": "a0902b633fa31cef9a8e7878b3c7e188dbeec1b8",
+      "label": "Shamir79",
+      "pred": false,
+      "s2Url": "https://semanticscholar.org/paper/a0902b633fa31cef9a8e7878b3c7e188dbeec1b8",
+      "title": "How to share a secret",
+      "venue": "",
+      "year": 1979,
+      "isMPC": 1
+    },
+    {
+      "abstract": "A sequence of interleaved user transactions in a database system may not be ser:ahzable, t e, equivalent to some sequential execution of the individual transactions Using a simple transaction model, it ~s shown that recognizing the transaction histories that are serlahzable is an NP-complete problem. Several efficiently recognizable subclasses of the class of senahzable histories are therefore introduced; most of these subclasses correspond to senahzabdity principles existing in the hterature and used in practice Two new principles that subsume all previously known ones are also proposed Necessary and sufficient conditions are given for a class of histories to be the output of an efficient history scheduler, these conditions imply that there can be no efficient scheduler that outputs all of senahzable histories, and also that all subclasses of senalizable histories studied above have an efficient scheduler Finally, it is shown how these results can be extended to far more general transaction models, to transactions with partly interpreted functions, and to distributed database systems",
+      "authors": [
+        "Christos H. Papadimitriou"
+      ],
+      "id": "e7ab23d011e5183db78cfea48e303210f6e57e2e",
+      "label": "Papadimitriou79",
+      "s2Url": "https://semanticscholar.org/paper/e7ab23d011e5183db78cfea48e303210f6e57e2e",
+      "title": "The serializability of concurrent database updates",
+      "venue": "JACM",
+      "year": 1979,
+      "isMPC": 0
+    },
+    {
+      "abstract": "The prefix problem is to compute all the products x t o x2 . . . . o xk for i ~ k .~ n, where o is an associative operation A recurstve construction IS used to obtain a product circuit for solving the prefix problem which has depth exactly [log:n] and size bounded by 4n An application yields fast, small Boolean ctrcmts to simulate fimte-state transducers. By simulating a sequentml adder, a Boolean clrcmt which has depth 2[Iog2n] + 2 and size bounded by 14n Is obtained for n-bit binary addmon The size can be decreased significantly by permitting the depth to increase by an addmve constant",
+      "authors": [
+        "Richard E. Ladner",
+        "Michael J. Fischer"
+      ],
+      "id": "1291dc27b5e569bfeae7c9d114eed350b31cb8b7",
+      "label": "LadnerFischer80",
+      "s2Url": "https://semanticscholar.org/paper/1291dc27b5e569bfeae7c9d114eed350b31cb8b7",
+      "title": "Parallel Prefix Computation",
+      "venue": "JACM",
+      "year": 1980,
+      "isMPC": 0
+    },
+    {
+      "abstract": "We discuss the following problem: given <italic>n</italic> points in the plane (the “sites”), and an arbitrary query point <italic>q</italic>, find the site that is closest to <italic>q</italic>. This problem can be solved by constructing the Voronoi diagram of the given sites, and then locating the query point in one of its regions. We give two algorithms, one that constructs the Voronoi diagram in <italic>O</italic>(<italic>n</italic> lg <italic>n</italic>) time, and another that inserts a new site in <italic>O</italic>(<italic>n</italic>) time. Both are based on the use of the Voronoi dual, the Delaunay triangulation, and are simple enough to be of practical value. The simplicity of both algorithms can be attributed to the separation of the geometrical and topological aspects of the problem, and to the use of two simple but powerful primitives, a geometric predicate and an operator for manipulating the topology of the diagram. The topology is represented by a new data structure for generalized diagrams, that is embeddings of graphs in two-dimensional manifolds. This structure represents simultaneously an embedding, its dual, and its mirror-image. Furthermore, just two operators are sufficient for building and modifying arbitrary diagrams.",
+      "authors": [
+        "Leonidas J. Guibas",
+        "Jorge Stolfi"
+      ],
+      "id": "3b3aa3c5601f26fb7b56451c3cea2da5cd1e9509",
+      "label": "GuibasStolfi83",
+      "s2Url": "https://semanticscholar.org/paper/3b3aa3c5601f26fb7b56451c3cea2da5cd1e9509",
+      "title": "Primitives for the manipulation of general subdivisions and the computation of Voronoi diagrams",
+      "venue": "STOC",
+      "year": 1983,
+      "isMPC": 0
+    },
+    {
+      "abstract": "The theory of reversible computing is based on invertib|e primitives and composition rules that preserve invertibility. With these constraints, one can still satisfactorily deal with both functional and structural aspects of computing processes; at the same time, one attains a closer correspondence between the behavior of abstract computing systems and the microscopic physical laws (which are presumed to be strictly reversible) that underly any concrete implementation of such systems. According to a physical interpretation, the central result of this paper is that i¢ is ideally possible to build sequential c/rcuits with zero internal power dissipation.",
+      "authors": [
+        "Tommaso Toffoli"
+      ],
+      "id": "6a90fd4bdac479e53eb2b673524c35d04f979650",
+      "label": "Toffoli80",
+      "s2Url": "https://semanticscholar.org/paper/6a90fd4bdac479e53eb2b673524c35d04f979650",
+      "title": "Reversible Computing",
+      "venue": "ICALP",
+      "year": 1980,
+      "isMPC": 0
     }
   ]
 }
